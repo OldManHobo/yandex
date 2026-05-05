@@ -311,11 +311,7 @@ Function108201:
 
 Function108219: ; unreferenced
 	ld [wCurPartySpecies], a
-	hlcoord 7, 2
-	ld d, $0
-	ld e, ANIM_MON_TRADE
-	predef AnimateFrontpic
-	ret
+	jp PlayMonCry
 
 Function108229:
 	ld [wCurPartySpecies], a
