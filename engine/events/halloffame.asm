@@ -597,6 +597,9 @@ HOF_AnimatePlayerPic:
 	farcall ProfOaksPCRating
 	ret
 
+.PlayTime:
+	db "PLAY TIME@"
+
 HOF_PlayCry::
 	ld a, [wCurPartySpecies]
 	cp EGG
@@ -611,6 +614,3 @@ HOF_PlayCry::
 	ld a, 1
 	ld [wCurPartySpecies], a
 	ret
-
-.PlayTime:
-	db "PLAY TIME@"
