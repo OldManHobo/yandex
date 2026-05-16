@@ -10,8 +10,10 @@ TypeNames:
 	dw Rock
 	dw Bird
 	dw Bug
-	dw Ghost
+	dw Dark
 	dw Steel
+	dw Ice
+	dw Dragon
 	assert_table_length UNUSED_TYPES
 
 rept UNUSED_TYPES_END - UNUSED_TYPES - 1 ; discount CURSE_TYPE
@@ -25,9 +27,7 @@ endr
 	dw Grass
 	dw Electric
 	dw Psychic
-	dw Ice
-	dw Dragon
-	dw Dark
+	dw Ghost
 	dw Fairy
 	assert_table_length TYPES_END
 
