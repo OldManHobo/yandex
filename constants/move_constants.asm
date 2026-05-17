@@ -54,7 +54,7 @@
 	const ROAR         ; 2e
 	const SING         ; 2f
 	const SUPERSONIC   ; 30
-	const SONICBOOM    ; 31
+	const MOONBLAST    ; 31
 	const DISABLE      ; 32
 	const ACID         ; 33
 	const EMBER        ; 34
@@ -139,7 +139,7 @@
 	const SPIKE_CANNON ; 83
 	const CONSTRICT    ; 84
 	const AMNESIA      ; 85
-	const KINESIS      ; 86
+	const PLAY_ROUGH   ; 86
 	const SOFTBOILED   ; 87
 	const HI_JUMP_KICK ; 88
 	const GLARE        ; 89

@@ -49,7 +49,7 @@ MoveDescriptions::
 	dw RoarDescription
 	dw SingDescription
 	dw SupersonicDescription
-	dw SonicboomDescription
+	dw MoonblastDescription
 	dw DisableDescription
 	dw AcidDescription
 	dw EmberDescription
@@ -134,7 +134,7 @@ MoveDescriptions::
 	dw SpikeCannonDescription
 	dw ConstrictDescription
 	dw AmnesiaDescription
-	dw KinesisDescription
+	dw PlayRoughDescription
 	dw SoftboiledDescription
 	dw HiJumpKickDescription
 	dw GlareDescription
@@ -459,9 +459,9 @@ SupersonicDescription:
 	db   "Sound waves that"
 	next "cause confusion.@"
 
-SonicboomDescription:
-	db   "Always inflicts"
-	next "20HP damage.@"
+MoonblastDescription:
+	db   "An attack that may"
+	next "lower SPCL.ATK.@"
 
 DisableDescription:
 	db   "Disables the foe's"
@@ -799,9 +799,9 @@ AmnesiaDescription:
 	db   "Sharply raises the"
 	next "user's SPCL.DEF.@"
 
-KinesisDescription:
-	db   "Reduces the foe's"
-	next "accuracy.@"
+PlayRoughDescription:
+	db   "An attack that may"
+	next "lower ATTACK.@"
 
 SoftboiledDescription:
 	db   "Restores HP by 1/2"

@@ -62,7 +62,7 @@ Moves:
 	move ROAR,         EFFECT_FORCE_SWITCH,        0, NORMAL,       100, 20,   0
 	move SING,         EFFECT_SLEEP,               0, NORMAL,        55, 15,   0
 	move SUPERSONIC,   EFFECT_CONFUSE,             0, NORMAL,        55, 20,   0
-	move SONICBOOM,    EFFECT_STATIC_DAMAGE,      20, NORMAL,        90, 20,   0
+	move MOONBLAST,    EFFECT_SP_ATK_DOWN_HIT,    85, FAIRY,        100, 15,  30
 	move DISABLE,      EFFECT_DISABLE,             0, NORMAL,        55, 20,   0
 	move ACID,         EFFECT_DEFENSE_DOWN_HIT,   40, POISON,       100, 30,  10
 	move EMBER,        EFFECT_BURN_HIT,           40, FIRE,         100, 25,  10
@@ -147,7 +147,7 @@ Moves:
 	move SPIKE_CANNON, EFFECT_MULTI_HIT,          20, NORMAL,       100, 15,   0
 	move CONSTRICT,    EFFECT_SPEED_DOWN_HIT,     10, NORMAL,       100, 35,  10
 	move AMNESIA,      EFFECT_SP_DEF_UP_2,         0, PSYCHIC_TYPE, 100, 20,   0
-	move KINESIS,      EFFECT_ACCURACY_DOWN,       0, PSYCHIC_TYPE,  80, 15,   0
+	move PLAY_ROUGH,   EFFECT_ATTACK_DOWN_HIT,    90, FAIRY,	     90, 10,  10
 	move SOFTBOILED,   EFFECT_HEAL,                0, NORMAL,       100, 10,   0
 	move HI_JUMP_KICK, EFFECT_JUMP_KICK,          85, FIGHTING,      90, 20,   0
 	move GLARE,        EFFECT_PARALYZE,            0, NORMAL,        75, 30,   0

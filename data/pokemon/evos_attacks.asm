@@ -837,7 +837,7 @@ KadabraEvosAttacks:
 	db EVOLVE_TRADE, -1, ALAKAZAM
 	db 0 ; no more evolutions
 	db 1, TELEPORT
-	db 1, KINESIS
+	db 1, PLAY_ROUGH
 	db 1, CONFUSION
 	db 16, CONFUSION
 	db 18, DISABLE
@@ -851,7 +851,7 @@ KadabraEvosAttacks:
 AlakazamEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TELEPORT
-	db 1, KINESIS
+	db 1, PLAY_ROUGH
 	db 1, CONFUSION
 	db 16, CONFUSION
 	db 18, DISABLE
@@ -1091,7 +1091,7 @@ MagnemiteEvosAttacks:
 	db 1, TACKLE
 	db 6, THUNDERSHOCK
 	db 11, SUPERSONIC
-	db 16, SONICBOOM
+	db 16, MOONBLAST
 	db 21, THUNDER_WAVE
 	db 27, LOCK_ON
 	db 33, SWIFT
@@ -1104,10 +1104,10 @@ MagnetonEvosAttacks:
 	db 1, TACKLE
 	db 1, THUNDERSHOCK
 	db 1, SUPERSONIC
-	db 1, SONICBOOM
+	db 1, MOONBLAST
 	db 6, THUNDERSHOCK
 	db 11, SUPERSONIC
-	db 16, SONICBOOM
+	db 16, MOONBLAST
 	db 21, THUNDER_WAVE
 	db 27, LOCK_ON
 	db 35, TRI_ATTACK
@@ -1350,7 +1350,7 @@ VoltorbEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 9, SCREECH
-	db 17, SONICBOOM
+	db 17, MOONBLAST
 	db 23, SELFDESTRUCT
 	db 29, ROLLOUT
 	db 33, LIGHT_SCREEN
@@ -1363,10 +1363,10 @@ ElectrodeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SCREECH
-	db 1, SONICBOOM
+	db 1, MOONBLAST
 	db 1, SELFDESTRUCT
 	db 9, SCREECH
-	db 17, SONICBOOM
+	db 17, MOONBLAST
 	db 23, SELFDESTRUCT
 	db 29, ROLLOUT
 	db 34, LIGHT_SCREEN
@@ -2608,7 +2608,7 @@ YanmaEvosAttacks:
 	db 1, FORESIGHT
 	db 7, QUICK_ATTACK
 	db 13, DOUBLE_TEAM
-	db 19, SONICBOOM
+	db 19, MOONBLAST
 	db 25, DETECT
 	db 31, SUPERSONIC
 	db 37, WING_ATTACK

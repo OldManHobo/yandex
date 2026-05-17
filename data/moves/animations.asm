@@ -50,7 +50,7 @@ BattleAnimations::
 	dw BattleAnim_Roar
 	dw BattleAnim_Sing
 	dw BattleAnim_Supersonic
-	dw BattleAnim_Sonicboom
+	dw BattleAnim_Moonblast
 	dw BattleAnim_Disable
 	dw BattleAnim_Acid
 	dw BattleAnim_Ember
@@ -135,7 +135,7 @@ BattleAnimations::
 	dw BattleAnim_SpikeCannon
 	dw BattleAnim_Constrict
 	dw BattleAnim_Amnesia
-	dw BattleAnim_Kinesis
+	dw BattleAnim_PlayRough
 	dw BattleAnim_Softboiled
 	dw BattleAnim_HiJumpKick
 	dw BattleAnim_Glare
@@ -1340,7 +1340,6 @@ BattleAnim_Sonicboom_JP: ; unreferenced
 	anim_ret
 
 BattleAnim_Gust:
-BattleAnim_Sonicboom:
 	anim_2gfx BATTLE_ANIM_GFX_WIND, BATTLE_ANIM_GFX_HIT
 .loop
 	anim_sound 0, 1, SFX_RAZOR_WIND
@@ -1351,6 +1350,22 @@ BattleAnim_Sonicboom:
 	anim_wait 8
 	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 128, 32, $18
 	anim_wait 16
+	anim_ret
+
+BattleAnim_Moonblast:
+	anim_2gfx BATTLE_ANIM_GFX_SHINE, BATTLE_ANIM_GFX_BEAM
+	anim_bgp $1b
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $0, $0
+	anim_obj BATTLE_ANIM_OBJ_MOONLIGHT, 0, 40, $0
+	anim_obj BATTLE_ANIM_OBJ_MOONLIGHT, 16, 56, $0
+	anim_obj BATTLE_ANIM_OBJ_MOONLIGHT, 32, 72, $0
+	anim_obj BATTLE_ANIM_OBJ_MOONLIGHT, 48, 88, $0
+	anim_obj BATTLE_ANIM_OBJ_MOONLIGHT, 64, 104, $0
+	anim_wait 1
+	anim_sound 0, 0, SFX_MOONLIGHT
+	anim_wait 63
+	anim_call BattleAnimSub_Beam
+	anim_wait 48
 	anim_ret
 
 BattleAnim_Selfdestruct:
@@ -2466,19 +2481,29 @@ BattleAnim_SkullBash:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_Kinesis:
-	anim_2gfx BATTLE_ANIM_GFX_MISC, BATTLE_ANIM_GFX_NOISE
-	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
-	anim_obj BATTLE_ANIM_OBJ_KINESIS, 80, 76, $0
+BattleAnim_PlayRough:
+	anim_1gfx BATTLE_ANIM_GFX_HIT
+	anim_call BattleAnim_TargetObj_2Row
+	anim_bgeffect BATTLE_BG_EFFECT_BOUNCE_DOWN, $0, BG_EFFECT_USER, $0
+	anim_sound 0, 0, SFX_RETURN
+	anim_wait 64
+	anim_incbgeffect BATTLE_BG_EFFECT_BOUNCE_DOWN
 	anim_wait 32
-.loop
-	anim_sound 0, 0, SFX_KINESIS
-	anim_obj BATTLE_ANIM_OBJ_SOUND, 64, 88, $0
-	anim_wait 32
-	anim_loop 3, .loop
-	anim_wait 32
-	anim_sound 0, 0, SFX_KINESIS_2
-	anim_wait 32
+	anim_bgeffect BATTLE_BG_EFFECT_BODY_SLAM, $0, BG_EFFECT_USER, $0
+	anim_wait 4
+	anim_sound 0, 1, SFX_POUND
+	anim_obj BATTLE_ANIM_OBJ_PALM, 120, 72, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 120, 72, $0
+	anim_wait 6
+	anim_sound 0, 1, SFX_MOVE_PUZZLE_PIECE
+	anim_obj BATTLE_ANIM_OBJ_PUNCH, 136, 56, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 136, 56, $0
+	anim_wait 6
+	anim_sound 0, 1, SFX_DOUBLE_KICK
+	anim_obj BATTLE_ANIM_OBJ_KICK, 152, 40, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 152, 40, $0
+	anim_wait 16
+	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
 BattleAnim_Peck:
