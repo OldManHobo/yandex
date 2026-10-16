@@ -6,9 +6,8 @@ EXPORT SCREEN_HEIGHT_PX
 ; [print forbid 2]
 EXPORT PAD_A
 ; [print forbid 3]
-; TODO: Replace GROUP_NONE and MAP_NONE with the map that has the 'special PhotoStudio' NPC.
-EXPORT GROUP_NONE
-EXPORT MAP_NONE
+EXPORT MAPGROUP_CIANWOOD
+EXPORT MAP_CIANWOOD_PHOTO_STUDIO
 ; [print forbid 5]
 EXPORT NO_INPUT
 EXPORT PAD_B

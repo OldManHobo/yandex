@@ -47,8 +47,7 @@ GinaPhoneCallerScript:
 .GaveLeafStone:
 	farscall PhoneScript_Random11
 	ifequal 0, GinaHasLeafStone
-; TODO: Change this flypoint to a midgame one like Goldenrod.
-	checkflag ENGINE_FLYPOINT_NEW_BARK
+	checkflag ENGINE_FLYPOINT_GOLDENROD
 	iffalse .Generic
 	farscall PhoneScript_Random3
 	ifequal 0, GinaWantsBattle

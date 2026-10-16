@@ -1,12 +1,11 @@
 _CardKey:
 ; Are we even in the right map to use this?
-; TODO: Replace GROUP_NONE and MAP_NONE with the map of the Card Key door, as well as the facing coordinates.
 	ld a, [wMapGroup]
-	cp GROUP_NONE
+	cp GROUP_RADIO_TOWER_3F
 	jr nz, .nope
 
 	ld a, [wMapNumber]
-	cp MAP_NONE
+	cp MAP_RADIO_TOWER_3F
 	jr nz, .nope
 ; Are we facing the slot?
 	ld a, [wPlayerDirection]
@@ -35,5 +34,4 @@ _CardKey:
 
 .CardKeyScript:
 	closetext
-; TODO: Define CardKeySlotScript on the map of the Card Key door.
-	farsjump ObjectEvent ; CardKeySlotScript
+	farsjump CardKeySlotScript

@@ -57,8 +57,7 @@ WadePhoneCallerScript:
 	iftrue .next
 	farscall PhoneScript_Random2
 	ifequal 0, WadeHasItem2
-; TODO: Change this flypoint to a midgame one like Goldenrod.
-	checkflag ENGINE_FLYPOINT_NEW_BARK
+	checkflag ENGINE_FLYPOINT_GOLDENROD
 	iffalse .next
 	farscall PhoneScript_Random2
 	ifequal 0, WadeWantsBattle2

@@ -25,8 +25,7 @@ RalphPhoneCalleeScript:
 RalphPhoneCallerScript:
 	gettrainername STRING_BUFFER_3, FISHER, RALPH1
 	farscall PhoneScript_GreetPhone_Male
-; TODO: Change this flypoint to a midgame one like Goldenrod.
-	checkflag ENGINE_FLYPOINT_NEW_BARK
+	checkflag ENGINE_FLYPOINT_GOLDENROD
 	iffalse .CheckSwarm
 	checkflag ENGINE_RALPH_READY_FOR_REMATCH
 	iftrue .CheckSwarm

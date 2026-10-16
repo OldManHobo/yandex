@@ -87,14 +87,13 @@ InitMapNameSign::
 	ret
 
 .CheckNationalParkGate:
-; TODO: Uncomment this if you restore the Bug-Catching Contest.
 	ld a, [wMapGroup]
-	cp GROUP_NONE ; GROUP_ROUTE_35_NATIONAL_PARK_GATE
+	cp GROUP_ROUTE_35_NATIONAL_PARK_GATE
 	ret nz
 	ld a, [wMapNumber]
-	cp MAP_NONE ; MAP_ROUTE_35_NATIONAL_PARK_GATE
+	cp MAP_ROUTE_35_NATIONAL_PARK_GATE
 	ret z
-	cp MAP_NONE ; MAP_ROUTE_36_NATIONAL_PARK_GATE
+	cp MAP_ROUTE_36_NATIONAL_PARK_GATE
 	ret
 
 PlaceMapNameSign::

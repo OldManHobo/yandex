@@ -6193,13 +6193,12 @@ LoadEnemyMon:
 	jr nc, .GenerateDVs
 
 .CheckMagikarpArea:
-; TODO: Replace GROUP_NONE and MAP_NONE with the map you want for large Magikarp.
 ; BUG: Magikarp in Lake of Rage are shorter, not longer (see docs/bugs_and_glitches.md)
 	ld a, [wMapGroup]
-	cp GROUP_NONE
+	cp GROUP_LAKE_OF_RAGE
 	jr z, .Happiness
 	ld a, [wMapNumber]
-	cp MAP_NONE
+	cp MAP_LAKE_OF_RAGE
 	jr z, .Happiness
 ; 40% chance of not flooring
 	call Random

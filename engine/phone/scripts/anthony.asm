@@ -26,8 +26,7 @@ AnthonyPhoneCalleeScript:
 AnthonyPhoneCallerScript:
 	gettrainername STRING_BUFFER_3, HIKER, ANTHONY2
 	farscall PhoneScript_GreetPhone_Male
-; TODO: Change this flypoint to a midgame one like Goldenrod.
-	checkflag ENGINE_FLYPOINT_NEW_BARK
+	checkflag ENGINE_FLYPOINT_GOLDENROD
 	iffalse .TriesSwarm
 	checkflag ENGINE_ANTHONY_READY_FOR_REMATCH
 	iftrue .TriesSwarm
@@ -54,8 +53,7 @@ AnthonyTriesDunsparceSwarm:
 	iftrue .Generic
 	setflag ENGINE_DUNSPARCE_SWARM
 	getmonname STRING_BUFFER_4, DUNSPARCE
-; TODO: Pick a map for the Dunsparce swarm, and add its wild data to the appropriate data/wild/ file.
-;	swarm SWARM_DUNSPARCE, NONE
+	swarm SWARM_DUNSPARCE, DARK_CAVE_VIOLET_ENTRANCE
 	getlandmarkname STRING_BUFFER_5, LANDMARK_DARK_CAVE
 	farsjump AnthonySwarmScript
 
