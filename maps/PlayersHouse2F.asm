@@ -125,19 +125,6 @@ if DEF(_DEBUG)
 	setflag ENGINE_FLYPOINT_CINNABAR
 	; post-e4
 	setflag ENGINE_CREDITS_SKIP
-	; good party
-	givepoke MEWTWO, 100, BRIGHTPOWDER
-	; hm slaves
-	givepoke MEW, 100, LEFTOVERS
-	givepoke MEW, 100, LEFTOVERS
-	loadmem wPartyMon2Moves0, FLY
-	loadmem wPartyMon2Moves1, SURF
-	loadmem wPartyMon2Moves2, STRENGTH
-	loadmem wPartyMon2Moves3, CUT
-	loadmem wPartyMon3Moves0, FLASH
-	loadmem wPartyMon3Moves1, ROCK_SMASH
-	loadmem wPartyMon3Moves2, HEADBUTT
-	loadmem wPartyMon3Moves3, WATERFALL
 	; intro events
 	addcellnum PHONE_MOM
 	setmapscene PLAYERS_HOUSE_1F, $1
