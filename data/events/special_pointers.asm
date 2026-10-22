@@ -186,3 +186,4 @@ if DEF(_DEBUG)
 	add_special FillPokedex
 else
 	add_special UnusedDummySpecial ; unused
+endc
