@@ -125,6 +125,8 @@ if DEF(_DEBUG)
 	setflag ENGINE_FLYPOINT_CINNABAR
 	; post-e4
 	setflag ENGINE_CREDITS_SKIP
+	; free mon on the house
+	givepoke BULBASAUR, 5
 	; intro events
 	addcellnum PHONE_MOM
 	setmapscene PLAYERS_HOUSE_1F, $1
