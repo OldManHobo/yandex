@@ -511,16 +511,7 @@ EspeonBackpic:       INCBIN "gfx/pokemon/espeon/back.2bpp.lz"
 WeedleFrontpic:      INCBIN "gfx/pokemon/weedle/front.animated.2bpp.lz"
 TotodileBackpic:     INCBIN "gfx/pokemon/totodile/back.2bpp.lz"
 SnubbullBackpic:     INCBIN "gfx/pokemon/snubbull/back.2bpp.lz"
-KinglerBackpic:      INCBIN "gfx/pokemon/kingler/back.2bpp.lz"
-GengarBackpic:       INCBIN "gfx/pokemon/gengar/back.2bpp.lz"
-RattataBackpic:      INCBIN "gfx/pokemon/rattata/back.2bpp.lz"
-YoungsterPic:        INCBIN "gfx/trainers/youngster.2bpp.lz"
-WillPic:             INCBIN "gfx/trainers/will.2bpp.lz"
-SchoolboyPic:        INCBIN "gfx/trainers/schoolboy.2bpp.lz"
-MagnemiteFrontpic:   INCBIN "gfx/pokemon/magnemite/front.animated.2bpp.lz"
-ErikaPic:            INCBIN "gfx/trainers/erika.2bpp.lz"
-JaninePic:           INCBIN "gfx/trainers/janine.2bpp.lz"
-MagnemiteBackpic:    INCBIN "gfx/pokemon/magnemite/back.2bpp.lz"
+
 
 
 SECTION "Pics 16", ROMX
@@ -566,18 +557,7 @@ ChinchouBackpic:     INCBIN "gfx/pokemon/chinchou/back.2bpp.lz"
 ChanseyBackpic:      INCBIN "gfx/pokemon/chansey/back.2bpp.lz"
 SkiploomBackpic:     INCBIN "gfx/pokemon/skiploom/back.2bpp.lz"
 SpinarakFrontpic:    INCBIN "gfx/pokemon/spinarak/front.animated.2bpp.lz"
-Rival2Pic:           INCBIN "gfx/trainers/rival2.2bpp.lz"
-UnownWFrontpic:      INCBIN "gfx/pokemon/unown_w/front.animated.2bpp.lz"
-CharmanderBackpic:   INCBIN "gfx/pokemon/charmander/back.2bpp.lz"
-RhyhornBackpic:      INCBIN "gfx/pokemon/rhyhorn/back.2bpp.lz"
-UnownCFrontpic:      INCBIN "gfx/pokemon/unown_c/front.animated.2bpp.lz"
-MistyPic:            INCBIN "gfx/trainers/misty.2bpp.lz"
-BlainePic:           INCBIN "gfx/trainers/blaine.2bpp.lz"
-UnownZFrontpic:      INCBIN "gfx/pokemon/unown_z/front.animated.2bpp.lz"
-SwinubFrontpic:      INCBIN "gfx/pokemon/swinub/front.animated.2bpp.lz"
-LarvitarBackpic:     INCBIN "gfx/pokemon/larvitar/back.2bpp.lz"
-PorygonBackpic:      INCBIN "gfx/pokemon/porygon/back.2bpp.lz"
-UnownHBackpic:       INCBIN "gfx/pokemon/unown_h/back.2bpp.lz"
+
 
 
 SECTION "Pics 17", ROMX
@@ -779,6 +759,29 @@ INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
 ; but entries for their banks exist in FixPicBank (see engine/gfx/load_pics.asm).
 
 SECTION "Pics 20", ROMX
+
+KinglerBackpic:      INCBIN "gfx/pokemon/kingler/back.2bpp.lz"
+GengarBackpic:       INCBIN "gfx/pokemon/gengar/back.2bpp.lz"
+RattataBackpic:      INCBIN "gfx/pokemon/rattata/back.2bpp.lz"
+YoungsterPic:        INCBIN "gfx/trainers/youngster.2bpp.lz"
+WillPic:             INCBIN "gfx/trainers/will.2bpp.lz"
+SchoolboyPic:        INCBIN "gfx/trainers/schoolboy.2bpp.lz"
+MagnemiteFrontpic:   INCBIN "gfx/pokemon/magnemite/front.animated.2bpp.lz"
+ErikaPic:            INCBIN "gfx/trainers/erika.2bpp.lz"
+JaninePic:           INCBIN "gfx/trainers/janine.2bpp.lz"
+MagnemiteBackpic:    INCBIN "gfx/pokemon/magnemite/back.2bpp.lz"
+Rival2Pic:           INCBIN "gfx/trainers/rival2.2bpp.lz"
+UnownWFrontpic:      INCBIN "gfx/pokemon/unown_w/front.animated.2bpp.lz"
+CharmanderBackpic:   INCBIN "gfx/pokemon/charmander/back.2bpp.lz"
+RhyhornBackpic:      INCBIN "gfx/pokemon/rhyhorn/back.2bpp.lz"
+UnownCFrontpic:      INCBIN "gfx/pokemon/unown_c/front.animated.2bpp.lz"
+MistyPic:            INCBIN "gfx/trainers/misty.2bpp.lz"
+BlainePic:           INCBIN "gfx/trainers/blaine.2bpp.lz"
+UnownZFrontpic:      INCBIN "gfx/pokemon/unown_z/front.animated.2bpp.lz"
+SwinubFrontpic:      INCBIN "gfx/pokemon/swinub/front.animated.2bpp.lz"
+LarvitarBackpic:     INCBIN "gfx/pokemon/larvitar/back.2bpp.lz"
+PorygonBackpic:      INCBIN "gfx/pokemon/porygon/back.2bpp.lz"
+UnownHBackpic:       INCBIN "gfx/pokemon/unown_h/back.2bpp.lz"
 
 SECTION "Pics 21", ROMX
 
