@@ -15,8 +15,25 @@ Special::
 
 INCLUDE "data/events/special_pointers.asm"
 
+if DEF(_DEBUG)
+FillPokedex:
+	ld a, 1
+	ld [wFirstUnownSeen], a
+	ld [wScriptVar], a
+.loop
+	ld a, [wScriptVar]
+	dec a
+	call SetSeenAndCaughtMon
+	ld a, [wScriptVar]
+	cp NUM_POKEMON
+	ret z
+	inc a
+	ld [wScriptVar], a
+	jr .loop
+else
 UnusedDummySpecial:
 	ret
+endc
 
 SetPlayerPalette:
 	ld a, [wScriptVar]

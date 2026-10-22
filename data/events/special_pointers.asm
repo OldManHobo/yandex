@@ -182,4 +182,7 @@ SpecialsPointers::
 
 	add_special InitialSetDSTFlag
 	add_special InitialClearDSTFlag
+if DEF(_DEBUG)
+	add_special FillPokedex
+else
 	add_special UnusedDummySpecial ; unused
