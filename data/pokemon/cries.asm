@@ -6,15 +6,15 @@ ENDM
 PokemonCries::
 ; entries correspond to constants/pokemon_constants.asm
 	table_width MON_CRY_LENGTH
-	mon_cry CRY_BULBASAUR,   128,  129 ; BULBASAUR
-	mon_cry CRY_BULBASAUR,    32,  256 ; IVYSAUR
-	mon_cry CRY_BULBASAUR,     0,  320 ; VENUSAUR
-	mon_cry CRY_CHARMANDER,   96,  192 ; CHARMANDER
-	mon_cry CRY_CHARMANDER,   32,  192 ; CHARMELEON
-	mon_cry CRY_CHARMANDER,    0,  256 ; CHARIZARD
-	mon_cry CRY_SQUIRTLE,     96,  192 ; SQUIRTLE
-	mon_cry CRY_SQUIRTLE,     32,  192 ; WARTORTLE
-	mon_cry CRY_BLASTOISE,     0,  256 ; BLASTOISE
+	mon_cry CRY_ODDISH,      413,  160 ; SAUROBUD
+	mon_cry CRY_GOLEM,       512,  192 ; FOESETTE
+	mon_cry CRY_GOLEM,	       0,  304 ; GOREMELIAD
+	mon_cry CRY_TEDDIURSA,  1920,   62 ; CUBTAR
+	mon_cry CRY_TEDDIURSA,  1640,  112 ; LINGASTRO
+	mon_cry CRY_TYPHLOSION, 3488,  256 ; URSOL
+	mon_cry CRY_CHIKORITA,   -16,  304 ; FWIB
+	mon_cry CRY_CHIKORITA,   -256, 384 ; FWOPPER
+	mon_cry CRY_CLEFFA, 	 -448, 368 ; FWAGNARCH
 	mon_cry CRY_CATERPIE,    128,  160 ; CATERPIE
 	mon_cry CRY_METAPOD,     204,  129 ; METAPOD
 	mon_cry CRY_CATERPIE,    119,  192 ; BUTTERFREE
