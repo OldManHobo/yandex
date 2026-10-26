@@ -799,7 +799,7 @@ ChooseMoveToDelete:
 	ld a, [hl]
 	push af
 	set NO_TEXT_SCROLL, [hl]
-	call LoadFontsBattleExtra
+	call LoadPartyMenuGFX
 	call .ChooseMoveToDelete
 	pop bc
 	ld a, b
