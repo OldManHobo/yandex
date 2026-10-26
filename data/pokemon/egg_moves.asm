@@ -10,7 +10,7 @@ SECTION "Egg Moves", ROMX
 
 INCLUDE "data/pokemon/egg_move_pointers.asm"
 
-BulbasaurEggMoves:
+SaurobudEggMoves:
 	db LIGHT_SCREEN
 	db SKULL_BASH
 	db SAFEGUARD
@@ -18,7 +18,7 @@ BulbasaurEggMoves:
 	db PETAL_DANCE
 	db -1 ; end
 
-CharmanderEggMoves:
+CubtarEggMoves:
 	db BELLY_DRUM
 	db ANCIENTPOWER
 	db ROCK_SLIDE
@@ -27,7 +27,7 @@ CharmanderEggMoves:
 	db BEAT_UP
 	db -1 ; end
 
-SquirtleEggMoves:
+FwibEggMoves:
 	db MIRROR_COAT
 	db HAZE
 	db MIST
@@ -36,13 +36,13 @@ SquirtleEggMoves:
 	db FLAIL
 	db -1 ; end
 
-PidgeyEggMoves:
+StrynxEggMoves:
 	db PURSUIT
 	db FAINT_ATTACK
 	db FORESIGHT
 	db -1 ; end
 
-RattataEggMoves:
+BeetykeEggMoves:
 	db SCREECH
 	db FLAME_WHEEL
 	db FURY_SWIPES
@@ -51,7 +51,7 @@ RattataEggMoves:
 	db REVERSAL
 	db -1 ; end
 
-SpearowEggMoves:
+GrubastionEggMoves:
 	db FAINT_ATTACK
 	db FALSE_SWIPE
 	db SCARY_FACE
@@ -59,7 +59,7 @@ SpearowEggMoves:
 	db TRI_ATTACK
 	db -1 ; end
 
-EkansEggMoves:
+YokokoonEggMoves:
 	db PURSUIT
 	db SLAM
 	db SPITE

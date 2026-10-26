@@ -452,7 +452,7 @@ _CGB_GSIntro:
 .Jumptable:
 	dw .ShellderLaprasScene
 	dw .JigglypuffPikachuScene
-	dw .StartersCharizardScene
+	dw .StartersUrsolScene
 
 .ShellderLaprasScene:
 	ld hl, .ShellderLaprasBGPalette
@@ -485,7 +485,7 @@ INCLUDE "gfx/intro/gs_shellder_lapras_ob.pal"
 	call WipeAttrmap
 	ret
 
-.StartersCharizardScene:
+.StartersUrsolScene:
 	ld hl, PalPacket_Pack + 1
 	call CopyFourPalettes
 	ld de, wOBPals1

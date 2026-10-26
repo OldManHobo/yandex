@@ -1,18 +1,18 @@
-DerekAnswerPhoneText:
+DeryokokoonwerPhoneText:
 	text "Hi, <PLAY_G>?"
 
 	para "Good morning pika."
 	line "What's up pika?"
 	done
 
-DerekAnswerPhoneDayText:
+DeryokokoonwerPhoneDayText:
 	text "Hi, <PLAY_G>?"
 
 	para "Good day pika,"
 	line "what's up pika?"
 	done
 
-DerekAnswerPhoneNiteText:
+DeryokokoonwerPhoneNiteText:
 	text "Hi, <PLAY_G>?"
 
 	para "Good evening pika,"

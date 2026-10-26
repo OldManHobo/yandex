@@ -5,30 +5,30 @@ ENDM
 MonMenuIconPals:
 	table_width 1, MonMenuIconPals
 	;         normal, shiny
-	icon_pals TEAL, GREEN   ; BULBASAUR
-	icon_pals TEAL, GREEN   ; IVYSAUR
-	icon_pals TEAL, GREEN   ; VENUSAUR
-	icon_pals RED, BROWN    ; CHARMANDER
-	icon_pals RED, PINK     ; CHARMELEON
-	icon_pals RED, PURPLE   ; CHARIZARD
-	icon_pals BLUE, GREEN   ; SQUIRTLE
-	icon_pals BLUE, GREEN   ; WARTORTLE
-	icon_pals BLUE, TEAL    ; BLASTOISE
-	icon_pals GREEN, BROWN  ; CATERPIE
-	icon_pals GREEN, BROWN  ; METAPOD
-	icon_pals BLUE, PINK    ; BUTTERFREE
-	icon_pals RED, PINK     ; WEEDLE
-	icon_pals BROWN, GREEN  ; KAKUNA
-	icon_pals RED, TEAL     ; BEEDRILL
-	icon_pals BROWN, GREEN  ; PIDGEY
-	icon_pals BROWN, GREEN  ; PIDGEOTTO
-	icon_pals BROWN, GREEN  ; PIDGEOT
-	icon_pals PURPLE, GREEN ; RATTATA
-	icon_pals BROWN, RED    ; RATICATE
-	icon_pals BROWN, BROWN  ; SPEAROW
-	icon_pals BROWN, GREEN  ; FEAROW
-	icon_pals PURPLE, GREEN ; EKANS
-	icon_pals PURPLE, GREEN ; ARBOK
+	icon_pals TEAL, GREEN   ; SAUROBUD
+	icon_pals TEAL, GREEN   ; FOESETTE
+	icon_pals TEAL, GREEN   ; GOREMELIAD
+	icon_pals RED, BROWN    ; CUBTAR
+	icon_pals RED, PINK     ; LINGASTRO
+	icon_pals RED, PURPLE   ; URSOL
+	icon_pals BLUE, GREEN   ; FWIB
+	icon_pals BLUE, GREEN   ; FWOPPER
+	icon_pals BLUE, TEAL    ; FWAGNARCH
+	icon_pals GREEN, BROWN  ; THUMWARD
+	icon_pals GREEN, BROWN  ; LIMBLUMP
+	icon_pals BLUE, PINK    ; NUGGLET
+	icon_pals RED, PINK     ; CHICKEEN
+	icon_pals BROWN, GREEN  ; CARNEBRANC
+	icon_pals RED, TEAL     ; FRANGOLIAD
+	icon_pals BROWN, GREEN  ; STRYNX
+	icon_pals BROWN, GREEN  ; CATHENA
+	icon_pals BROWN, GREEN  ; LARVANT
+	icon_pals PURPLE, GREEN ; BEETYKE
+	icon_pals BROWN, RED    ; RHINOCEREX
+	icon_pals BROWN, BROWN  ; GRUBASTION
+	icon_pals BROWN, GREEN  ; PINGGLER
+	icon_pals PURPLE, GREEN ; YOKOKOON
+	icon_pals PURPLE, GREEN ; TENGU
 	icon_pals RED, PINK     ; PIKACHU
 	icon_pals RED, BROWN    ; RAICHU
 	icon_pals BROWN, TEAL   ; SANDSHREW

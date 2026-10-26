@@ -1,14 +1,14 @@
 ; Used by CheckSleepingTreeMon
 
 AsleepTreeMonsNite:
-	db CATERPIE
-	db METAPOD
-	db BUTTERFREE
-	db WEEDLE
-	db KAKUNA
-	db BEEDRILL
-	db SPEAROW
-	db EKANS
+	db THUMWARD
+	db LIMBLUMP
+	db NUGGLET
+	db CHICKEEN
+	db CARNEBRANC
+	db FRANGOLIAD
+	db GRUBASTION
+	db YOKOKOON
 	db EXEGGCUTE
 	db LEDYBA
 	db AIPOM

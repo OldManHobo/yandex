@@ -1693,11 +1693,11 @@ DebugMobileTrade: ; unreferenced
 	ret
 
 .DebugTradeData:
-	db VENUSAUR
+	db GOREMELIAD
 	dname "ゲーフり", NAME_LENGTH_JAPANESE ; "GEEFURI" (Game Freak)
 	dw $0123
 	dname "かびーん", NAME_LENGTH_JAPANESE ; "KABIIN"
-	db CHARIZARD
+	db URSOL
 	dname "クりーチャ", NAME_LENGTH_JAPANESE ; "CREATURE"
 	dw $0456
 	dname "マツミヤ", NAME_LENGTH_JAPANESE ; "MATSUMIYA"

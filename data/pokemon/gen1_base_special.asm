@@ -2,30 +2,30 @@
 
 KantoMonSpecials:
 	table_width 1
-	db  65 ; BULBASAUR
-	db  80 ; IVYSAUR
-	db 100 ; VENUSAUR
-	db  50 ; CHARMANDER
-	db  65 ; CHARMELEON
-	db  85 ; CHARIZARD
-	db  50 ; SQUIRTLE
-	db  65 ; WARTORTLE
-	db  85 ; BLASTOISE
-	db  20 ; CATERPIE
-	db  25 ; METAPOD
-	db  80 ; BUTTERFREE
-	db  20 ; WEEDLE
-	db  25 ; KAKUNA
-	db  45 ; BEEDRILL
-	db  35 ; PIDGEY
-	db  50 ; PIDGEOTTO
-	db  70 ; PIDGEOT
-	db  25 ; RATTATA
-	db  50 ; RATICATE
-	db  31 ; SPEAROW
-	db  61 ; FEAROW
-	db  40 ; EKANS
-	db  65 ; ARBOK
+	db  65 ; SAUROBUD
+	db  80 ; FOESETTE
+	db 100 ; GOREMELIAD
+	db  50 ; CUBTAR
+	db  65 ; LINGASTRO
+	db  85 ; URSOL
+	db  50 ; FWIB
+	db  65 ; FWOPPER
+	db  85 ; FWAGNARCH
+	db  20 ; THUMWARD
+	db  25 ; LIMBLUMP
+	db  80 ; NUGGLET
+	db  20 ; CHICKEEN
+	db  25 ; CARNEBRANC
+	db  45 ; FRANGOLIAD
+	db  35 ; STRYNX
+	db  50 ; CATHENA
+	db  70 ; LARVANT
+	db  25 ; BEETYKE
+	db  50 ; RHINOCEREX
+	db  31 ; GRUBASTION
+	db  61 ; PINGGLER
+	db  40 ; YOKOKOON
+	db  65 ; TENGU
 	db  50 ; PIKACHU
 	db  90 ; RAICHU
 	db  30 ; SANDSHREW

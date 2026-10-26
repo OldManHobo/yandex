@@ -6,7 +6,7 @@ ENDM
 PokemonCries::
 ; entries correspond to constants/pokemon_constants.asm
 	table_width MON_CRY_LENGTH
-	mon_cry CRY_ODDISH,      413,  160 ; SAUROBUD
+	mon_cry CRY_ODDISH,      413,  160 ; BULBASAUR
 	mon_cry CRY_GOLEM,       512,  192 ; FOESETTE
 	mon_cry CRY_GOLEM,	       0,  304 ; GOREMELIAD
 	mon_cry CRY_TEDDIURSA,  1920,   62 ; CUBTAR
@@ -15,21 +15,21 @@ PokemonCries::
 	mon_cry CRY_CHIKORITA,   -16,  304 ; FWIB
 	mon_cry CRY_CHIKORITA,   -256, 384 ; FWOPPER
 	mon_cry CRY_CLEFFA, 	 -448, 368 ; FWAGNARCH
-	mon_cry CRY_CATERPIE,    128,  160 ; CATERPIE
-	mon_cry CRY_METAPOD,     204,  129 ; METAPOD
-	mon_cry CRY_CATERPIE,    119,  192 ; BUTTERFREE
-	mon_cry CRY_WEEDLE,      238,  129 ; WEEDLE
-	mon_cry CRY_BLASTOISE,   255,  129 ; KAKUNA
-	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL
-	mon_cry CRY_PIDGEY,      223,  132 ; PIDGEY
-	mon_cry CRY_PIDGEOTTO,    40,  320 ; PIDGEOTTO
-	mon_cry CRY_PIDGEOTTO,    17,  383 ; PIDGEOT
-	mon_cry CRY_RATTATA,       0,  256 ; RATTATA
-	mon_cry CRY_RATTATA,      32,  383 ; RATICATE
-	mon_cry CRY_SPEAROW,       0,  256 ; SPEAROW
-	mon_cry CRY_FEAROW,       64,  288 ; FEAROW
-	mon_cry CRY_EKANS,        18,  192 ; EKANS
-	mon_cry CRY_EKANS,       224,  144 ; ARBOK
+	mon_cry CRY_CATERPIE,    128,  160 ; THUMWARD
+	mon_cry CRY_METAPOD,     204,  129 ; LIMBLUMP
+	mon_cry CRY_CATERPIE,    119,  192 ; NUGGLET
+	mon_cry CRY_WEEDLE,      238,  129 ; CHICKEEN
+	mon_cry CRY_BLASTOISE,   255,  129 ; CARNEBRANC
+	mon_cry CRY_BLASTOISE,    96,  256 ; FRANGOLIAD
+	mon_cry CRY_PIDGEY,      223,  132 ; STRYNX
+	mon_cry CRY_PIDGEOTTO,    40,  320 ; CATHENA
+	mon_cry CRY_PIDGEOTTO,    17,  383 ; LARVANT
+	mon_cry CRY_RATTATA,       0,  256 ; BEETYKE
+	mon_cry CRY_RATTATA,      32,  383 ; RHINOCEREX
+	mon_cry CRY_SPEAROW,       0,  256 ; GRUBASTION
+	mon_cry CRY_FEAROW,       64,  288 ; PINGGLER
+	mon_cry CRY_EKANS,        18,  192 ; YOKOKOON
+	mon_cry CRY_EKANS,       224,  144 ; TENGU
 	mon_cry CRY_BULBASAUR,   238,  129 ; PIKACHU
 	mon_cry CRY_RAICHU,      238,  136 ; RAICHU
 	mon_cry CRY_NIDORAN_M,    32,  192 ; SANDSHREW

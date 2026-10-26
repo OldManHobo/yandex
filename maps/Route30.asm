@@ -24,7 +24,7 @@ YoungsterJoey_ImportantBattleScript:
 	pause 30
 	closetext
 	playsound SFX_TACKLE
-	applymovement ROUTE30_MONSTER2, Route30_JoeysRattataAttacksMovement
+	applymovement ROUTE30_MONSTER2, Route30_JoeysBeetykeAttacksMovement
 	opentext
 	faceplayer
 	writetext Text_ThisIsABigBattle
@@ -32,7 +32,7 @@ YoungsterJoey_ImportantBattleScript:
 	turnobject ROUTE30_YOUNGSTER1, UP
 	closetext
 	playsound SFX_TACKLE
-	applymovement ROUTE30_MONSTER1, Route30_MikeysRattataAttacksMovement
+	applymovement ROUTE30_MONSTER1, Route30_MikeysBeetykeAttacksMovement
 	special RestartMapMusic
 	end
 
@@ -248,20 +248,20 @@ Route30FruitTree2:
 Route30HiddenPotion:
 	hiddenitem POTION, EVENT_ROUTE_30_HIDDEN_POTION
 
-Route30_JoeysRattataAttacksMovement:
+Route30_JoeysBeetykeAttacksMovement:
 	fix_facing
 	big_step UP
 	big_step DOWN
 	step_end
 
-Route30_MikeysRattataAttacksMovement:
+Route30_MikeysBeetykeAttacksMovement:
 	fix_facing
 	big_step DOWN
 	big_step UP
 	step_end
 
 Text_UseTackle:
-	text "Go, RATTATA!"
+	text "Go, BEETYKE!"
 
 	para "TACKLE!"
 	done

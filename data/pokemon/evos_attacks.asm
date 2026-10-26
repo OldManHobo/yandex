@@ -14,8 +14,8 @@ SECTION "Evolutions and Attacks", ROMX
 
 INCLUDE "data/pokemon/evos_attacks_pointers.asm"
 
-BulbasaurEvosAttacks:
-	db EVOLVE_LEVEL, 16, IVYSAUR
+SaurobudEvosAttacks:
+	db EVOLVE_LEVEL, 16, FOESETTE
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 4, GROWL
@@ -30,8 +30,8 @@ BulbasaurEvosAttacks:
 	db 46, SOLARBEAM
 	db 0 ; no more level-up moves
 
-IvysaurEvosAttacks:
-	db EVOLVE_LEVEL, 32, VENUSAUR
+FoesetteEvosAttacks:
+	db EVOLVE_LEVEL, 32, GOREMELIAD
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -48,7 +48,7 @@ IvysaurEvosAttacks:
 	db 56, SOLARBEAM
 	db 0 ; no more level-up moves
 
-VenusaurEvosAttacks:
+GoremeliadEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -66,8 +66,8 @@ VenusaurEvosAttacks:
 	db 65, SOLARBEAM
 	db 0 ; no more level-up moves
 
-CharmanderEvosAttacks:
-	db EVOLVE_LEVEL, 16, CHARMELEON
+CubtarEvosAttacks:
+	db EVOLVE_LEVEL, 16, LINGASTRO
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
@@ -81,8 +81,8 @@ CharmanderEvosAttacks:
 	db 49, FIRE_SPIN
 	db 0 ; no more level-up moves
 
-CharmeleonEvosAttacks:
-	db EVOLVE_LEVEL, 36, CHARIZARD
+LingastroEvosAttacks:
+	db EVOLVE_LEVEL, 36, URSOL
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
@@ -97,7 +97,7 @@ CharmeleonEvosAttacks:
 	db 55, FIRE_SPIN
 	db 0 ; no more level-up moves
 
-CharizardEvosAttacks:
+UrsolEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
@@ -114,8 +114,8 @@ CharizardEvosAttacks:
 	db 64, FIRE_SPIN
 	db 0 ; no more level-up moves
 
-SquirtleEvosAttacks:
-	db EVOLVE_LEVEL, 16, WARTORTLE
+FwibEvosAttacks:
+	db EVOLVE_LEVEL, 16, FWOPPER
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 4, TAIL_WHIP
@@ -130,8 +130,8 @@ SquirtleEvosAttacks:
 	db 47, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-WartortleEvosAttacks:
-	db EVOLVE_LEVEL, 36, BLASTOISE
+FwopperEvosAttacks:
+	db EVOLVE_LEVEL, 36, FWAGNARCH
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
@@ -148,7 +148,7 @@ WartortleEvosAttacks:
 	db 53, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-BlastoiseEvosAttacks:
+FwagnarchEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
@@ -166,21 +166,21 @@ BlastoiseEvosAttacks:
 	db 68, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-CaterpieEvosAttacks:
-	db EVOLVE_LEVEL, 7, METAPOD
+ThumwardEvosAttacks:
+	db EVOLVE_LEVEL, 7, LIMBLUMP
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, STRING_SHOT
 	db 0 ; no more level-up moves
 
-MetapodEvosAttacks:
-	db EVOLVE_LEVEL, 10, BUTTERFREE
+LimblumpEvosAttacks:
+	db EVOLVE_LEVEL, 10, NUGGLET
 	db 0 ; no more evolutions
 	db 1, HARDEN
 	db 7, HARDEN
 	db 0 ; no more level-up moves
 
-ButterfreeEvosAttacks:
+NuggletEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CONFUSION
 	db 10, CONFUSION
@@ -194,21 +194,21 @@ ButterfreeEvosAttacks:
 	db 40, SAFEGUARD
 	db 0 ; no more level-up moves
 
-WeedleEvosAttacks:
-	db EVOLVE_LEVEL, 7, KAKUNA
+ChickeenEvosAttacks:
+	db EVOLVE_LEVEL, 7, CARNEBRANC
 	db 0 ; no more evolutions
 	db 1, POISON_STING
 	db 1, STRING_SHOT
 	db 0 ; no more level-up moves
 
-KakunaEvosAttacks:
-	db EVOLVE_LEVEL, 10, BEEDRILL
+CarnebrancEvosAttacks:
+	db EVOLVE_LEVEL, 10, FRANGOLIAD
 	db 0 ; no more evolutions
 	db 1, HARDEN
 	db 7, HARDEN
 	db 0 ; no more level-up moves
 
-BeedrillEvosAttacks:
+FrangoliadEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, FURY_ATTACK
 	db 10, FURY_ATTACK
@@ -220,8 +220,8 @@ BeedrillEvosAttacks:
 	db 40, AGILITY
 	db 0 ; no more level-up moves
 
-PidgeyEvosAttacks:
-	db EVOLVE_LEVEL, 18, PIDGEOTTO
+StrynxEvosAttacks:
+	db EVOLVE_LEVEL, 18, CATHENA
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 5, SAND_ATTACK
@@ -233,8 +233,8 @@ PidgeyEvosAttacks:
 	db 47, MIRROR_MOVE
 	db 0 ; no more level-up moves
 
-PidgeottoEvosAttacks:
-	db EVOLVE_LEVEL, 36, PIDGEOT
+CathenaEvosAttacks:
+	db EVOLVE_LEVEL, 36, LARVANT
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SAND_ATTACK
@@ -248,7 +248,7 @@ PidgeottoEvosAttacks:
 	db 55, MIRROR_MOVE
 	db 0 ; no more level-up moves
 
-PidgeotEvosAttacks:
+LarvantEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SAND_ATTACK
@@ -263,8 +263,8 @@ PidgeotEvosAttacks:
 	db 61, MIRROR_MOVE
 	db 0 ; no more level-up moves
 
-RattataEvosAttacks:
-	db EVOLVE_LEVEL, 20, RATICATE
+BeetykeEvosAttacks:
+	db EVOLVE_LEVEL, 20, RHINOCEREX
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
@@ -275,7 +275,7 @@ RattataEvosAttacks:
 	db 34, SUPER_FANG
 	db 0 ; no more level-up moves
 
-RaticateEvosAttacks:
+RhinocerexEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
@@ -287,8 +287,8 @@ RaticateEvosAttacks:
 	db 40, SUPER_FANG
 	db 0 ; no more level-up moves
 
-SpearowEvosAttacks:
-	db EVOLVE_LEVEL, 20, FEAROW
+GrubastionEvosAttacks:
+	db EVOLVE_LEVEL, 20, PINGGLER
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, GROWL
@@ -300,7 +300,7 @@ SpearowEvosAttacks:
 	db 43, AGILITY
 	db 0 ; no more level-up moves
 
-FearowEvosAttacks:
+PingglerEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, GROWL
@@ -314,8 +314,8 @@ FearowEvosAttacks:
 	db 47, AGILITY
 	db 0 ; no more level-up moves
 
-EkansEvosAttacks:
-	db EVOLVE_LEVEL, 22, ARBOK
+YokokoonEvosAttacks:
+	db EVOLVE_LEVEL, 22, TENGU
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
@@ -327,7 +327,7 @@ EkansEvosAttacks:
 	db 43, HAZE
 	db 0 ; no more level-up moves
 
-ArbokEvosAttacks:
+TenguEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER

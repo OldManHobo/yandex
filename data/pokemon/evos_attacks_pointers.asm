@@ -2,30 +2,30 @@
 
 EvosAttacksPointers::
 	table_width 2
-	dw BulbasaurEvosAttacks
-	dw IvysaurEvosAttacks
-	dw VenusaurEvosAttacks
-	dw CharmanderEvosAttacks
-	dw CharmeleonEvosAttacks
-	dw CharizardEvosAttacks
-	dw SquirtleEvosAttacks
-	dw WartortleEvosAttacks
-	dw BlastoiseEvosAttacks
-	dw CaterpieEvosAttacks
-	dw MetapodEvosAttacks
-	dw ButterfreeEvosAttacks
-	dw WeedleEvosAttacks
-	dw KakunaEvosAttacks
-	dw BeedrillEvosAttacks
-	dw PidgeyEvosAttacks
-	dw PidgeottoEvosAttacks
-	dw PidgeotEvosAttacks
-	dw RattataEvosAttacks
-	dw RaticateEvosAttacks
-	dw SpearowEvosAttacks
-	dw FearowEvosAttacks
-	dw EkansEvosAttacks
-	dw ArbokEvosAttacks
+	dw SaurobudEvosAttacks
+	dw FoesetteEvosAttacks
+	dw GoremeliadEvosAttacks
+	dw CubtarEvosAttacks
+	dw LingastroEvosAttacks
+	dw UrsolEvosAttacks
+	dw FwibEvosAttacks
+	dw FwopperEvosAttacks
+	dw FwagnarchEvosAttacks
+	dw ThumwardEvosAttacks
+	dw LimblumpEvosAttacks
+	dw NuggletEvosAttacks
+	dw ChickeenEvosAttacks
+	dw CarnebrancEvosAttacks
+	dw FrangoliadEvosAttacks
+	dw StrynxEvosAttacks
+	dw CathenaEvosAttacks
+	dw LarvantEvosAttacks
+	dw BeetykeEvosAttacks
+	dw RhinocerexEvosAttacks
+	dw GrubastionEvosAttacks
+	dw PingglerEvosAttacks
+	dw YokokoonEvosAttacks
+	dw TenguEvosAttacks
 	dw PikachuEvosAttacks
 	dw RaichuEvosAttacks
 	dw SandshrewEvosAttacks

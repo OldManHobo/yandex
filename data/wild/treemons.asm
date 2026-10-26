@@ -21,15 +21,15 @@ TreeMonSet_None:
 
 TreeMonSet_Canyon:
 ; common
-	db 50, SPEAROW,    10
-	db 15, SPEAROW,    10
-	db 15, SPEAROW,    10
+	db 50, GRUBASTION,    10
+	db 15, GRUBASTION,    10
+	db 15, GRUBASTION,    10
 	db 10, AIPOM,      10
 	db  5, AIPOM,      10
 	db  5, AIPOM,      10
 	db -1
 ; rare
-	db 50, SPEAROW,    10
+	db 50, GRUBASTION,    10
 	db 15, HERACROSS,  10
 	db 15, HERACROSS,  10
 	db 10, AIPOM,      10
@@ -39,15 +39,15 @@ TreeMonSet_Canyon:
 
 TreeMonSet_Town:
 ; common
-	db 50, SPEAROW,    10
-	db 15, EKANS,      10
-	db 15, SPEAROW,    10
+	db 50, GRUBASTION,    10
+	db 15, YOKOKOON,      10
+	db 15, GRUBASTION,    10
 	db 10, AIPOM,      10
 	db  5, AIPOM,      10
 	db  5, AIPOM,      10
 	db -1
 ; rare
-	db 50, SPEAROW,    10
+	db 50, GRUBASTION,    10
 	db 15, HERACROSS,  10
 	db 15, HERACROSS,  10
 	db 10, AIPOM,      10
@@ -76,7 +76,7 @@ TreeMonSet_Route:
 TreeMonSet_Kanto:
 ; common
 	db 50, HOOTHOOT,   10
-	db 15, EKANS,      10
+	db 15, YOKOKOON,      10
 	db 15, HOOTHOOT,   10
 	db 10, EXEGGCUTE,  10
 	db  5, EXEGGCUTE,  10
@@ -115,16 +115,16 @@ TreeMonSet_Forest:
 	db 15, PINECO,     10
 	db 15, PINECO,     10
 	db 10, NOCTOWL,    10
-	db  5, BUTTERFREE, 10
-	db  5, BEEDRILL,   10
+	db  5, NUGGLET, 10
+	db  5, FRANGOLIAD,   10
 	db -1
 ; rare
 	db 50, HOOTHOOT,   10
-	db 15, CATERPIE,   10
-	db 15, WEEDLE,     10
+	db 15, THUMWARD,   10
+	db 15, CHICKEEN,     10
 	db 10, HOOTHOOT,   10
-	db  5, METAPOD,    10
-	db  5, KAKUNA,     10
+	db  5, LIMBLUMP,    10
+	db  5, CARNEBRANC,     10
 	db -1
 
 TreeMonSet_Rock:

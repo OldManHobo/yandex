@@ -1596,7 +1596,7 @@ BattleTowerMons:
 	bigdw 65 ; SDef
 	dname "RINGUMA", MON_NAME_LENGTH
 
-	db FEAROW
+	db PINGGLER
 	db BRIGHTPOWDER
 	db MIRROR_MOVE, PURSUIT, PECK, SWIFT
 	dw 0 ; OT ID
@@ -2067,7 +2067,7 @@ BattleTowerMons:
 	bigdw 88 ; SDef
 	dname "OMUSUTA-", MON_NAME_LENGTH
 
-	db CHARIZARD
+	db URSOL
 	db KINGS_ROCK
 	db FIRE_SPIN, DRAGON_RAGE, FLY, SLASH
 	dw 0 ; OT ID
@@ -3165,7 +3165,7 @@ BattleTowerMons:
 	bigdw 165 ; SDef
 	dname "RU-ZIyuRA", MON_NAME_LENGTH
 
-	db BLASTOISE
+	db FWAGNARCH
 	db GOLD_BERRY
 	db SURF, EARTHQUAKE, RAPID_SPIN, BLIZZARD
 	dw 0 ; OT ID
@@ -3766,7 +3766,7 @@ BattleTowerMons:
 	bigdw 186 ; SDef
 	dname "HERAKUROSU", MON_NAME_LENGTH
 
-	db VENUSAUR
+	db GOREMELIAD
 	db BRIGHTPOWDER
 	db SUNNY_DAY, SOLARBEAM, SYNTHESIS, HYPER_BEAM
 	dw 0 ; OT ID
@@ -3792,7 +3792,7 @@ BattleTowerMons:
 	bigdw 180 ; SDef
 	dname "HUSIGIBANA", MON_NAME_LENGTH
 
-	db CHARIZARD
+	db URSOL
 	db SCOPE_LENS
 	db SLASH, EARTHQUAKE, HYPER_BEAM, FLAMETHROWER
 	dw 0 ; OT ID
@@ -3818,7 +3818,7 @@ BattleTowerMons:
 	bigdw 159 ; SDef
 	dname "RIZA-DON", MON_NAME_LENGTH
 
-	db BLASTOISE
+	db FWAGNARCH
 	db QUICK_CLAW
 	db HYDRO_PUMP, ICE_PUNCH, HYPER_BEAM, IRON_TAIL
 	dw 0 ; OT ID
@@ -5101,7 +5101,7 @@ BattleTowerMons:
 	bigdw 250 ; SDef
 	dname "UINDEi", MON_NAME_LENGTH
 
-	db CHARIZARD
+	db URSOL
 	db SCOPE_LENS
 	db FLAMETHROWER, EARTHQUAKE, SLASH, FLY
 	dw 0 ; OT ID
@@ -5205,7 +5205,7 @@ BattleTowerMons:
 	bigdw 218 ; SDef
 	dname "HAGANE-RU", MON_NAME_LENGTH
 
-	db FEAROW
+	db PINGGLER
 	db KINGS_ROCK
 	db DRILL_PECK, STEEL_WING, HYPER_BEAM, MUD_SLAP
 	dw 0 ; OT ID

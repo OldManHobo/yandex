@@ -19,30 +19,30 @@
 ; - FramesPointers (see gfx/pokemon/frame_pointers.asm)
 ; - EZChat_SortedPokemon (see data/pokemon/ezchat_order.asm)
 	const_def 1
-	const BULBASAUR  ; 01
-	const IVYSAUR    ; 02
-	const VENUSAUR   ; 03
-	const CHARMANDER ; 04
-	const CHARMELEON ; 05
-	const CHARIZARD  ; 06
-	const SQUIRTLE   ; 07
-	const WARTORTLE  ; 08
-	const BLASTOISE  ; 09
-	const CATERPIE   ; 0a
-	const METAPOD    ; 0b
-	const BUTTERFREE ; 0c
-	const WEEDLE     ; 0d
-	const KAKUNA     ; 0e
-	const BEEDRILL   ; 0f
-	const PIDGEY     ; 10
-	const PIDGEOTTO  ; 11
-	const PIDGEOT    ; 12
-	const RATTATA    ; 13
-	const RATICATE   ; 14
-	const SPEAROW    ; 15
-	const FEAROW     ; 16
-	const EKANS      ; 17
-	const ARBOK      ; 18
+	const SAUROBUD  ; 01
+	const FOESETTE    ; 02
+	const GOREMELIAD   ; 03
+	const CUBTAR ; 04
+	const LINGASTRO ; 05
+	const URSOL  ; 06
+	const FWIB   ; 07
+	const FWOPPER  ; 08
+	const FWAGNARCH  ; 09
+	const THUMWARD   ; 0a
+	const LIMBLUMP    ; 0b
+	const NUGGLET ; 0c
+	const CHICKEEN     ; 0d
+	const CARNEBRANC     ; 0e
+	const FRANGOLIAD   ; 0f
+	const STRYNX     ; 10
+	const CATHENA  ; 11
+	const LARVANT    ; 12
+	const BEETYKE    ; 13
+	const RHINOCEREX   ; 14
+	const GRUBASTION    ; 15
+	const PINGGLER     ; 16
+	const YOKOKOON      ; 17
+	const TENGU      ; 18
 	const PIKACHU    ; 19
 	const RAICHU     ; 1a
 	const SANDSHREW  ; 1b

@@ -157,23 +157,23 @@ Footprints:
 	table_width TILE_1BPP_SIZE * 4
 
 ; 001-008 top halves
-INCBIN "gfx/footprints/bulbasaur.1bpp",  footprint_top
-INCBIN "gfx/footprints/ivysaur.1bpp",    footprint_top
-INCBIN "gfx/footprints/venusaur.1bpp",   footprint_top
-INCBIN "gfx/footprints/charmander.1bpp", footprint_top
-INCBIN "gfx/footprints/charmeleon.1bpp", footprint_top
-INCBIN "gfx/footprints/charizard.1bpp",  footprint_top
-INCBIN "gfx/footprints/squirtle.1bpp",   footprint_top
-INCBIN "gfx/footprints/wartortle.1bpp",  footprint_top
+INCBIN "gfx/footprints/saurobud.1bpp",  footprint_top
+INCBIN "gfx/footprints/foesette.1bpp",    footprint_top
+INCBIN "gfx/footprints/goremeliad.1bpp",   footprint_top
+INCBIN "gfx/footprints/cubtar.1bpp", footprint_top
+INCBIN "gfx/footprints/lingastro.1bpp", footprint_top
+INCBIN "gfx/footprints/ursol.1bpp",  footprint_top
+INCBIN "gfx/footprints/fwib.1bpp",   footprint_top
+INCBIN "gfx/footprints/fwopper.1bpp",  footprint_top
 ; 001-008 bottom halves
-INCBIN "gfx/footprints/bulbasaur.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/ivysaur.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/venusaur.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/charmander.1bpp", footprint_bottom
-INCBIN "gfx/footprints/charmeleon.1bpp", footprint_bottom
-INCBIN "gfx/footprints/charizard.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/squirtle.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/wartortle.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/saurobud.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/foesette.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/goremeliad.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/cubtar.1bpp", footprint_bottom
+INCBIN "gfx/footprints/lingastro.1bpp", footprint_bottom
+INCBIN "gfx/footprints/ursol.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/fwib.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/fwopper.1bpp",  footprint_bottom
 ...
 ```
 
@@ -188,14 +188,14 @@ Store footprints contiguously:
 Footprints:
 	table_width TILE_1BPP_SIZE * 4
 
-INCBIN "gfx/footprints/bulbasaur.1bpp"
-INCBIN "gfx/footprints/ivysaur.1bpp"
-INCBIN "gfx/footprints/venusaur.1bpp"
-INCBIN "gfx/footprints/charmander.1bpp"
-INCBIN "gfx/footprints/charmeleon.1bpp"
-INCBIN "gfx/footprints/charizard.1bpp"
-INCBIN "gfx/footprints/squirtle.1bpp"
-INCBIN "gfx/footprints/wartortle.1bpp"
+INCBIN "gfx/footprints/saurobud.1bpp"
+INCBIN "gfx/footprints/foesette.1bpp"
+INCBIN "gfx/footprints/goremeliad.1bpp"
+INCBIN "gfx/footprints/cubtar.1bpp"
+INCBIN "gfx/footprints/lingastro.1bpp"
+INCBIN "gfx/footprints/ursol.1bpp"
+INCBIN "gfx/footprints/fwib.1bpp"
+INCBIN "gfx/footprints/fwopper.1bpp"
 ...
 ```
 

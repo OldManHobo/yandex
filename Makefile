@@ -253,8 +253,8 @@ gfx/pokemon/unown/normal.gbcpal: $(subst .png,.gbcpal,$(unown_pngs))
 
 gfx/pokemon/egg/unused_front.2bpp: RGBGFXFLAGS += --columns
 
-gfx/pokemon/spearow/normal.gbcpal: tools/gbcpal += --reverse
-gfx/pokemon/fearow/normal.gbcpal: tools/gbcpal += --reverse
+gfx/pokemon/grubastion/normal.gbcpal: tools/gbcpal += --reverse
+gfx/pokemon/pinggler/normal.gbcpal: tools/gbcpal += --reverse
 gfx/pokemon/farfetch_d/normal.gbcpal: tools/gbcpal += --reverse
 gfx/pokemon/hitmonlee/normal.gbcpal: tools/gbcpal += --reverse
 gfx/pokemon/scyther/normal.gbcpal: tools/gbcpal += --reverse

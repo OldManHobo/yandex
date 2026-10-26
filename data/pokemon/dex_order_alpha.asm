@@ -7,25 +7,25 @@ AlphabeticalPokedexOrder:
 	db AIPOM
 	db ALAKAZAM
 	db AMPHAROS
-	db ARBOK
+	db TENGU
 	db ARCANINE
 	db ARIADOS
 	db ARTICUNO
 	db AZUMARILL
 	db BAYLEEF
-	db BEEDRILL
+	db FRANGOLIAD
 	db BELLOSSOM
 	db BELLSPROUT
-	db BLASTOISE
+	db FWAGNARCH
 	db BLISSEY
-	db BULBASAUR
-	db BUTTERFREE
-	db CATERPIE
+	db SAUROBUD
+	db NUGGLET
+	db THUMWARD
 	db CELEBI
 	db CHANSEY
-	db CHARIZARD
-	db CHARMANDER
-	db CHARMELEON
+	db URSOL
+	db CUBTAR
+	db LINGASTRO
 	db CHIKORITA
 	db CHINCHOU
 	db CLEFABLE
@@ -51,7 +51,7 @@ AlphabeticalPokedexOrder:
 	db DUGTRIO
 	db DUNSPARCE
 	db EEVEE
-	db EKANS
+	db YOKOKOON
 	db ELECTABUZZ
 	db ELECTRODE
 	db ELEKID
@@ -60,7 +60,7 @@ AlphabeticalPokedexOrder:
 	db EXEGGCUTE
 	db EXEGGUTOR
 	db FARFETCH_D
-	db FEAROW
+	db PINGGLER
 	db FERALIGATR
 	db FLAAFFY
 	db FLAREON
@@ -94,7 +94,7 @@ AlphabeticalPokedexOrder:
 	db HOUNDOUR
 	db HYPNO
 	db IGGLYBUFF
-	db IVYSAUR
+	db FOESETTE
 	db JIGGLYPUFF
 	db JOLTEON
 	db JUMPLUFF
@@ -102,7 +102,7 @@ AlphabeticalPokedexOrder:
 	db KABUTO
 	db KABUTOPS
 	db KADABRA
-	db KAKUNA
+	db CARNEBRANC
 	db KANGASKHAN
 	db KINGDRA
 	db KINGLER
@@ -131,7 +131,7 @@ AlphabeticalPokedexOrder:
 	db MAROWAK
 	db MEGANIUM
 	db MEOWTH
-	db METAPOD
+	db LIMBLUMP
 	db MEW
 	db MEWTWO
 	db MILTANK
@@ -159,9 +159,9 @@ AlphabeticalPokedexOrder:
 	db PERSIAN
 	db PHANPY
 	db PICHU
-	db PIDGEOT
-	db PIDGEOTTO
-	db PIDGEY
+	db LARVANT
+	db CATHENA
+	db STRYNX
 	db PIKACHU
 	db PILOSWINE
 	db PINECO
@@ -182,8 +182,8 @@ AlphabeticalPokedexOrder:
 	db RAICHU
 	db RAIKOU
 	db RAPIDASH
-	db RATICATE
-	db RATTATA
+	db RHINOCEREX
+	db BEETYKE
 	db REMORAID
 	db RHYDON
 	db RHYHORN
@@ -208,9 +208,9 @@ AlphabeticalPokedexOrder:
 	db SNEASEL
 	db SNORLAX
 	db SNUBBULL
-	db SPEAROW
+	db GRUBASTION
 	db SPINARAK
-	db SQUIRTLE
+	db FWIB
 	db STANTLER
 	db STARMIE
 	db STARYU
@@ -237,13 +237,13 @@ AlphabeticalPokedexOrder:
 	db VAPOREON
 	db VENOMOTH
 	db VENONAT
-	db VENUSAUR
+	db GOREMELIAD
 	db VICTREEBEL
 	db VILEPLUME
 	db VOLTORB
 	db VULPIX
-	db WARTORTLE
-	db WEEDLE
+	db FWOPPER
+	db CHICKEEN
 	db WEEPINBELL
 	db WEEZING
 	db WIGGLYTUFF

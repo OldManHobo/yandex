@@ -1,6 +1,6 @@
 	object_const_def
 	const ROUTE28STEELWINGHOUSE_CELEBRITY
-	const ROUTE28STEELWINGHOUSE_FEAROW
+	const ROUTE28STEELWINGHOUSE_PINGGLER
 
 Route28SteelWingHouse_MapScripts:
 	def_scene_scripts
@@ -30,10 +30,10 @@ Celebrity:
 	closetext
 	end
 
-CelebritysFearow:
+CelebritysPinggler:
 	opentext
-	writetext CelebritysFearowText
-	cry FEAROW
+	writetext CelebritysPingglerText
+	cry PINGGLER
 	waitbutton
 	closetext
 	end
@@ -64,8 +64,8 @@ CelebrityText2:
 	line "left alone…"
 	done
 
-CelebritysFearowText:
-	text "FEAROW: Feero!"
+CelebritysPingglerText:
+	text "PINGGLER: Feero!"
 	done
 
 Route28SteelWingHouse_MapEvents:
@@ -83,4 +83,4 @@ Route28SteelWingHouse_MapEvents:
 
 	def_object_events
 	object_event  2,  3, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Celebrity, -1
-	object_event  6,  5, SPRITE_MOLTRES, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CelebritysFearow, -1
+	object_event  6,  5, SPRITE_MOLTRES, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CelebritysPinggler, -1

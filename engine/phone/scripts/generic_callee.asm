@@ -111,7 +111,7 @@ PhoneScript_AnswerPhone_Male:
 	end
 
 .Derek:
-	farwritetext DerekAnswerPhoneText
+	farwritetext DeryokokoonwerPhoneText
 	promptbutton
 	end
 
@@ -234,7 +234,7 @@ PhoneScript_AnswerPhone_Male_Day:
 	end
 
 .Derek:
-	farwritetext DerekAnswerPhoneDayText
+	farwritetext DeryokokoonwerPhoneDayText
 	promptbutton
 	end
 
@@ -357,7 +357,7 @@ PhoneScript_AnswerPhone_Male_Nite:
 	end
 
 .Derek:
-	farwritetext DerekAnswerPhoneNiteText
+	farwritetext DeryokokoonwerPhoneNiteText
 	promptbutton
 	end
 
