@@ -26,8 +26,8 @@ IconPointers:
 	dw PingglerIcon
 	dw YokokoonIcon
 	dw TenguIcon
-	dw PikachuIcon
-	dw RaichuIcon
+	dw PekachoIcon
+	dw RaychoIcon
 	dw SandshrewIcon
 	dw SandslashIcon
 	dw Nidoran_FIcon

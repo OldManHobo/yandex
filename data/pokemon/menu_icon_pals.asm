@@ -29,8 +29,8 @@ MonMenuIconPals:
 	icon_pals BROWN, GREEN  ; PINGGLER
 	icon_pals PURPLE, GREEN ; YOKOKOON
 	icon_pals PURPLE, GREEN ; TENGU
-	icon_pals RED, PINK     ; PIKACHU
-	icon_pals RED, BROWN    ; RAICHU
+	icon_pals RED, PINK     ; PEKACHO
+	icon_pals RED, BROWN    ; RAYCHO
 	icon_pals BROWN, TEAL   ; SANDSHREW
 	icon_pals BROWN, RED    ; SANDSLASH
 	icon_pals BLUE, PINK    ; NIDORAN_F

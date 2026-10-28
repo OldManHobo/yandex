@@ -25,8 +25,8 @@ PokedexDataPointerTable:
 	dw PingglerPokedexEntry
 	dw YokokoonPokedexEntry
 	dw TenguPokedexEntry
-	dw PikachuPokedexEntry
-	dw RaichuPokedexEntry
+	dw PekachoPokedexEntry
+	dw RaychoPokedexEntry
 	dw SandshrewPokedexEntry
 	dw SandslashPokedexEntry
 	dw NidoranFPokedexEntry

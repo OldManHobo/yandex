@@ -154,7 +154,7 @@ ScriptCommandTable:
 	dw Script_closepokepic               ; 57
 	dw Script__2dmenu                    ; 58
 	dw Script_verticalmenu               ; 59
-	dw Script_loadpikachudata            ; 5a
+	dw Script_loadpekachodata            ; 5a
 	dw Script_randomwildmon              ; 5b
 	dw Script_loadtemptrainer            ; 5c
 	dw Script_loadwildmon                ; 5d
@@ -1117,8 +1117,8 @@ EarthquakeMovement:
 	step_end
 .End
 
-Script_loadpikachudata:
-	ld a, PIKACHU
+Script_loadpekachodata:
+	ld a, PEKACHO
 	ld [wTempWildMonSpecies], a
 	ld a, 5
 	ld [wCurPartyLevel], a

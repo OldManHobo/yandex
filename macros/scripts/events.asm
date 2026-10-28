@@ -581,9 +581,9 @@ MACRO verticalmenu
 	db verticalmenu_command
 ENDM
 
-	const loadpikachudata_command ; $5a
-MACRO loadpikachudata
-	db loadpikachudata_command
+	const loadpekachodata_command ; $5a
+MACRO loadpekachodata
+	db loadpekachodata_command
 ENDM
 
 	const randomwildmon_command ; $5b

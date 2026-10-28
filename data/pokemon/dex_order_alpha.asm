@@ -162,7 +162,7 @@ AlphabeticalPokedexOrder:
 	db LARVANT
 	db CATHENA
 	db STRYNX
-	db PIKACHU
+	db PEKACHO
 	db PILOSWINE
 	db PINECO
 	db PINSIR
@@ -179,7 +179,7 @@ AlphabeticalPokedexOrder:
 	db QUAGSIRE
 	db QUILAVA
 	db QWILFISH
-	db RAICHU
+	db RAYCHO
 	db RAIKOU
 	db RAPIDASH
 	db RHINOCEREX

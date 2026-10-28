@@ -322,9 +322,9 @@ _LookTownMapText::
 	text "It's the TOWN MAP."
 	done
 
-_LookPikachuPosterText::
+_LookPekachoPosterText::
 	text "It's a poster of a"
-	line "cute PIKACHU."
+	line "cute PEKACHO."
 	done
 
 _LookClefairyPosterText::

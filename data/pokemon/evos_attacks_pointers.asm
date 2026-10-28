@@ -26,8 +26,8 @@ EvosAttacksPointers::
 	dw PingglerEvosAttacks
 	dw YokokoonEvosAttacks
 	dw TenguEvosAttacks
-	dw PikachuEvosAttacks
-	dw RaichuEvosAttacks
+	dw PekachoEvosAttacks
+	dw RaychoEvosAttacks
 	dw SandshrewEvosAttacks
 	dw SandslashEvosAttacks
 	dw NidoranFEvosAttacks

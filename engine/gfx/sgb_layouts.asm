@@ -39,7 +39,7 @@ SGBLayoutJumptable:
 	dw .SGB_GSTitleScreen
 	dw .SGB_Unused0D
 	dw .SGB_MoveList
-	dw .SGB_BetaPikachuMinigame
+	dw .SGB_BetaPekachoMinigame
 	dw .SGB_PokedexSearchOption
 	dw .SGB_BetaPoker
 	dw .SGB_Pokepic
@@ -314,7 +314,7 @@ endr
 
 .BlkPacketTable_GSIntro:
 	dw BlkPacket_AllPal0, PalPacket_GSIntroShellderLapras
-	dw BlkPacket_GSIntroJigglypuffPikachu, PalPacket_GSIntroJigglypuffPikachu
+	dw BlkPacket_GSIntroJigglypuffPekacho, PalPacket_GSIntroJigglypuffPekacho
 	dw BlkPacket_AllPal0, PalPacket_GSIntroStartersTransition
 
 .SGB_GSTitleScreen:
@@ -329,8 +329,8 @@ endr
 	ld de, BlkPacket_MagnetTrain
 	ret
 
-.SGB_BetaPikachuMinigame:
-	ld hl, PalPacket_BetaPikachuMinigame
+.SGB_BetaPekachoMinigame:
+	ld hl, PalPacket_BetaPekachoMinigame
 	ld de, BlkPacket_AllPal0
 	ret
 

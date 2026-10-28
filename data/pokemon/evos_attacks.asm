@@ -341,8 +341,8 @@ TenguEvosAttacks:
 	db 51, HAZE
 	db 0 ; no more level-up moves
 
-PikachuEvosAttacks:
-	db EVOLVE_ITEM, THUNDERSTONE, RAICHU
+PekachoEvosAttacks:
+	db EVOLVE_ITEM, THUNDERSTONE, RAYCHO
 	db 0 ; no more evolutions
 	db 1, THUNDERSHOCK
 	db 1, GROWL
@@ -357,7 +357,7 @@ PikachuEvosAttacks:
 	db 50, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
-RaichuEvosAttacks:
+RaychoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THUNDERSHOCK
 	db 1, TAIL_WHIP
@@ -2345,7 +2345,7 @@ LanturnEvosAttacks:
 	db 0 ; no more level-up moves
 
 PichuEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, PIKACHU
+	db EVOLVE_HAPPINESS, TR_ANYTIME, PEKACHO
 	db 0 ; no more evolutions
 	db 1, THUNDERSHOCK
 	db 1, CHARM

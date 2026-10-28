@@ -15,7 +15,7 @@ SpriteMons:
 	db NUGGLET
 	db DIGLETT
 	db POLIWAG
-	db PIKACHU
+	db PEKACHO
 	db CLEFAIRY
 	db CUBTAR
 	db JYNX

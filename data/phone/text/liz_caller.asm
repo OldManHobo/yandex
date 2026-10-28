@@ -131,7 +131,7 @@ LizEarlGossipText:
 	line "was wildly funny!"
 	done
 
-LizSurfPikachuGossipText:
+LizSurfPekachoGossipText:
 	text "Listen, listen!"
 
 	para "I collect #MON"
@@ -140,7 +140,7 @@ LizSurfPikachuGossipText:
 	para "But I can't seem"
 	line "to get a hold of a"
 
-	para "SURF PIKACHU DOLL."
+	para "SURF PEKACHO DOLL."
 	line "None of my friends"
 
 	para "have it. It must"

@@ -352,7 +352,7 @@ DEF NUM_TMS EQU const_value - TM01 - 2 ; discount ITEM_C3 and ITEM_DC
 >
 > Yellow was also being developed then, and it did the reverse, altering some Pokémon's data after they're caught to correspond to appropriate Gen 2 items:
 >
-> - Starter Pikachu's catch rate byte is overwritten with 163 = $A3 for `LIGHT_BALL`
+> - Starter Pekacho's catch rate byte is overwritten with 163 = $A3 for `LIGHT_BALL`
 > - Wild-caught Kadabra's catch rate byte is overwritten with 96 = $60 for `TWISTEDSPOON`
 >
 > (Yellow also directly changed Dragonair's catch rate to 27 and Dragonite's to 9, but this seems to have been only for adjusting their difficulty, since those meaninglessly correspond to `PROTEIN` and `ANTIDOTE`.)

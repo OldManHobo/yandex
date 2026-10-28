@@ -77,7 +77,7 @@ endc
 	cp MG_OKAY
 	jp nz, .CommunicationError
 	ld a, [wMysteryGiftPartnerGameVersion]
-	cp POKEMON_PIKACHU_2_VERSION
+	cp POKEMON_PEKACHO_2_VERSION
 	jr z, .skip_checks
 	call .CheckAlreadyGotFiveGiftsToday
 	ld hl, .MysteryGiftFiveADayText ; Only 5 gifts a day
@@ -93,7 +93,7 @@ endc
 	and a
 	jp nz, .FriendNotReady
 	ld a, [wMysteryGiftPartnerGameVersion]
-	cp POKEMON_PIKACHU_2_VERSION
+	cp POKEMON_PEKACHO_2_VERSION
 	jr z, .skip_append_save
 	call .AddMysteryGiftPartnerID
 	ld a, [wMysteryGiftPartnerGameVersion]
@@ -504,13 +504,13 @@ EndOrContinueMysteryGiftIRCommunication:
 	ld hl, wMysteryGiftMessageCount
 	dec [hl]
 	jr z, .quit
-	; Quit if communicating with Pokémon Pikachu 2 device
+	; Quit if communicating with Pokémon Pekacho 2 device
 	ld hl, wMysteryGiftTrainer
 	ld de, wMysteryGiftPartnerData
 	ld bc, wMysteryGiftPartnerDataEnd - wMysteryGiftPartnerData
 	call CopyBytes
 	ld a, [wMysteryGiftTrainer] ; first byte is the version
-	cp POKEMON_PIKACHU_2_VERSION
+	cp POKEMON_PEKACHO_2_VERSION
 	jr nc, .quit
 
 	; Prepare the second message for wMysteryGiftTrainer

@@ -37,8 +37,8 @@ PalPacket_GSIntroShellderLapras:
 PalPacket_BetaIntroLapras: ; unreferenced
 	sgb_pal_set BETA_INTRO_LAPRAS, ROUTES, ROUTES, ROUTES
 
-PalPacket_GSIntroJigglypuffPikachu:
-	sgb_pal_set GS_INTRO_JIGGLYPUFF_PIKACHU_BG, GS_INTRO_JIGGLYPUFF_PIKACHU_OB, ROUTES, ROUTES
+PalPacket_GSIntroJigglypuffPekacho:
+	sgb_pal_set GS_INTRO_JIGGLYPUFF_PEKACHO_BG, GS_INTRO_JIGGLYPUFF_PEKACHO_OB, ROUTES, ROUTES
 
 PalPacket_GSIntroStartersTransition:
 	sgb_pal_set GS_INTRO_STARTERS_TRANSITION, ROUTES, ROUTES, ROUTES
@@ -49,8 +49,8 @@ PalPacket_BetaIntroGoremeliad:
 PalPacket_Pack:
 	sgb_pal_set PACK, ROUTES, ROUTES, ROUTES
 
-PalPacket_BetaPikachuMinigame:
-	sgb_pal_set GS_INTRO_JIGGLYPUFF_PIKACHU_OB, ROUTES, ROUTES, ROUTES
+PalPacket_BetaPekachoMinigame:
+	sgb_pal_set GS_INTRO_JIGGLYPUFF_PEKACHO_OB, ROUTES, ROUTES, ROUTES
 
 PalPacket_PartyMenu:
 	sgb_pal_set PARTY_ICON, HP_GREEN, HP_YELLOW, HP_RED

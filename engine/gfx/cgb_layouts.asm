@@ -46,7 +46,7 @@ CGBLayoutJumptable:
 	dw _CGB_GSTitleScreen
 	dw _CGB_Unused0D
 	dw _CGB_MoveList
-	dw _CGB_BetaPikachuMinigame
+	dw _CGB_BetaPekachoMinigame
 	dw _CGB_PokedexSearchOption
 	dw _CGB_BetaPoker
 	dw _CGB_Pokepic
@@ -451,7 +451,7 @@ _CGB_GSIntro:
 
 .Jumptable:
 	dw .ShellderLaprasScene
-	dw .JigglypuffPikachuScene
+	dw .JigglypuffPekachoScene
 	dw .StartersUrsolScene
 
 .ShellderLaprasScene:
@@ -472,14 +472,14 @@ INCLUDE "gfx/intro/gs_shellder_lapras_bg.pal"
 .ShellderLaprasOBPals:
 INCLUDE "gfx/intro/gs_shellder_lapras_ob.pal"
 
-.JigglypuffPikachuScene:
+.JigglypuffPekachoScene:
 	ld de, wBGPals1
-	ld a, PREDEFPAL_GS_INTRO_JIGGLYPUFF_PIKACHU_BG
+	ld a, PREDEFPAL_GS_INTRO_JIGGLYPUFF_PEKACHO_BG
 	call GetPredefPal
 	call LoadHLPaletteIntoDE
 
 	ld de, wOBPals1
-	ld a, PREDEFPAL_GS_INTRO_JIGGLYPUFF_PIKACHU_OB
+	ld a, PREDEFPAL_GS_INTRO_JIGGLYPUFF_PEKACHO_OB
 	call GetPredefPal
 	call LoadHLPaletteIntoDE
 	call WipeAttrmap
@@ -745,8 +745,8 @@ _CGB_MoveList:
 	ldh [hCGBPalUpdate], a
 	ret
 
-_CGB_BetaPikachuMinigame:
-	ld hl, PalPacket_BetaPikachuMinigame + 1
+_CGB_BetaPekachoMinigame:
+	ld hl, PalPacket_BetaPekachoMinigame + 1
 	call CopyFourPalettes
 	call WipeAttrmap
 	call ApplyAttrmap

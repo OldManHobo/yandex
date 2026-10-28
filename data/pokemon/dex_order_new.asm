@@ -23,8 +23,8 @@ NewPokedexOrder:
 	db SENTRET
 	db FURRET
 	db PICHU
-	db PIKACHU
-	db RAICHU
+	db PEKACHO
+	db RAYCHO
 	db THUMWARD
 	db LIMBLUMP
 	db NUGGLET

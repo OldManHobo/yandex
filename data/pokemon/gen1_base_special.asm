@@ -26,8 +26,8 @@ KantoMonSpecials:
 	db  61 ; PINGGLER
 	db  40 ; YOKOKOON
 	db  65 ; TENGU
-	db  50 ; PIKACHU
-	db  90 ; RAICHU
+	db  50 ; PEKACHO
+	db  90 ; RAYCHO
 	db  30 ; SANDSHREW
 	db  55 ; SANDSLASH
 	db  40 ; NIDORAN_F

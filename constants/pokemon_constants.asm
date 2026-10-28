@@ -43,8 +43,8 @@
 	const PINGGLER     ; 16
 	const YOKOKOON      ; 17
 	const TENGU      ; 18
-	const PIKACHU    ; 19
-	const RAICHU     ; 1a
+	const PEKACHO    ; 19
+	const RAYCHO     ; 1a
 	const SANDSHREW  ; 1b
 	const SANDSLASH  ; 1c
 	const NIDORAN_F  ; 1d

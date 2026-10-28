@@ -839,7 +839,7 @@ BattleTowerMons:
 	bigdw 54 ; SDef
 	dname "RAPURASU", MON_NAME_LENGTH
 
-	db PIKACHU
+	db PEKACHO
 	db LIGHT_BALL
 	db THUNDERBOLT, THUNDER_WAVE, STRENGTH, TOXIC
 	dw 0 ; OT ID

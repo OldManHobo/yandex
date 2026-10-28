@@ -313,7 +313,7 @@ If <code><i>item_id</i></code> = `USE_SCRIPT_VAR`, then it uses `[wScriptVar]` i
 ## `$59`: `verticalmenu`
 
 
-## `$5A`: `loadpikachudata`
+## `$5A`: `loadpekachodata`
 
 
 ## `$5B`: `randomwildmon`

@@ -206,16 +206,16 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 5, STRYNX
 	db 7, NUGGLET
 	db 7, LEDIAN
-	db 4, PIKACHU
-	db 4, PIKACHU
+	db 4, PEKACHO
+	db 4, PEKACHO
 	; day
 	db 3, THUMWARD
 	db 3, STRYNX
 	db 5, STRYNX
 	db 7, NUGGLET
 	db 7, CATHENA
-	db 4, PIKACHU
-	db 4, PIKACHU
+	db 4, PEKACHO
+	db 4, PEKACHO
 	; nite
 	db 3, HOOTHOOT
 	db 3, SPINARAK

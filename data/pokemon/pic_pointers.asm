@@ -27,8 +27,8 @@ PokemonPicPointers::
 	dba_pics PingglerFrontpic, PingglerBackpic
 	dba_pics YokokoonFrontpic, YokokoonBackpic
 	dba_pics TenguFrontpic, TenguBackpic
-	dba_pics PikachuFrontpic, PikachuBackpic
-	dba_pics RaichuFrontpic, RaichuBackpic
+	dba_pics PekachoFrontpic, PekachoBackpic
+	dba_pics RaychoFrontpic, RaychoBackpic
 	dba_pics SandshrewFrontpic, SandshrewBackpic
 	dba_pics SandslashFrontpic, SandslashBackpic
 	dba_pics NidoranFFrontpic, NidoranFBackpic
