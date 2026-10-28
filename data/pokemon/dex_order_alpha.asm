@@ -187,8 +187,8 @@ AlphabeticalPokedexOrder:
 	db REMORAID
 	db RHYDON
 	db RHYHORN
-	db SANDSHREW
-	db SANDSLASH
+	db RUNSTALK
+	db FUNFLOWER
 	db SCIZOR
 	db SCYTHER
 	db SEADRA

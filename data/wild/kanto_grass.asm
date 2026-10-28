@@ -35,7 +35,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	; morn
 	db 6, ZUBAT
 	db 8, GEODUDE
-	db 8, SANDSHREW
+	db 8, RUNSTALK
 	db 12, PARAS
 	db 10, GEODUDE
 	db 8, CLEFAIRY
@@ -43,7 +43,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	; day
 	db 6, ZUBAT
 	db 8, GEODUDE
-	db 8, SANDSHREW
+	db 8, RUNSTALK
 	db 12, PARAS
 	db 10, GEODUDE
 	db 8, CLEFAIRY
@@ -121,7 +121,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 32, RHYHORN
 	db 33, ONIX
 	db 34, GOLBAT
-	db 35, SANDSLASH
+	db 35, FUNFLOWER
 	db 35, RHYDON
 	db 35, RHYDON
 	; day
@@ -129,7 +129,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 32, RHYHORN
 	db 33, ONIX
 	db 34, GOLBAT
-	db 35, SANDSLASH
+	db 35, FUNFLOWER
 	db 35, RHYDON
 	db 35, RHYDON
 	; nite
@@ -234,16 +234,16 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 8, YOKOKOON
 	db 10, RHINOCEREX
 	db 10, TENGU
-	db 10, SANDSHREW
-	db 10, SANDSHREW
+	db 10, RUNSTALK
+	db 10, RUNSTALK
 	; day
 	db 5, GRUBASTION
 	db 5, BEETYKE
 	db 8, YOKOKOON
 	db 10, RHINOCEREX
 	db 10, TENGU
-	db 10, SANDSHREW
-	db 10, SANDSHREW
+	db 10, RUNSTALK
+	db 10, RUNSTALK
 	; nite
 	db 5, BEETYKE
 	db 10, BEETYKE
@@ -262,16 +262,16 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 8, YOKOKOON
 	db 10, RHINOCEREX
 	db 10, TENGU
-	db 10, SANDSHREW
-	db 10, SANDSHREW
+	db 10, RUNSTALK
+	db 10, RUNSTALK
 	; day
 	db 5, GRUBASTION
 	db 5, BEETYKE
 	db 8, YOKOKOON
 	db 10, RHINOCEREX
 	db 10, TENGU
-	db 10, SANDSHREW
-	db 10, SANDSHREW
+	db 10, RUNSTALK
+	db 10, RUNSTALK
 	; nite
 	db 5, BEETYKE
 	db 10, BEETYKE
@@ -762,7 +762,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 28, DODUO
-	db 28, SANDSLASH
+	db 28, FUNFLOWER
 	db 32, PONYTA
 	db 30, RHINOCEREX
 	db 30, DODUO
@@ -770,7 +770,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 30, TENGU
 	; day
 	db 28, DODUO
-	db 28, SANDSLASH
+	db 28, FUNFLOWER
 	db 32, PONYTA
 	db 30, RHINOCEREX
 	db 30, DODUO

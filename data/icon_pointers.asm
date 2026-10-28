@@ -28,8 +28,8 @@ IconPointers:
 	dw TenguIcon
 	dw PekachoIcon
 	dw RaychoIcon
-	dw SandshrewIcon
-	dw SandslashIcon
+	dw RunstalkIcon
+	dw FunflowerIcon
 	dw Nidoran_FIcon
 	dw NidorinaIcon
 	dw NidoqueenIcon

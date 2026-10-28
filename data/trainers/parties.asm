@@ -361,7 +361,7 @@ YoungsterGroup:
 	; YOUNGSTER (5)
 	db "SAMUEL@", TRAINERTYPE_NORMAL
 	db  7, BEETYKE
-	db 10, SANDSHREW
+	db 10, RUNSTALK
 	db  8, GRUBASTION
 	db  8, GRUBASTION
 	db -1 ; end
@@ -400,7 +400,7 @@ YoungsterGroup:
 
 	; YOUNGSTER (12)
 	db "JASON@", TRAINERTYPE_NORMAL
-	db 33, SANDSLASH
+	db 33, FUNFLOWER
 	db 33, CROBAT
 	db -1 ; end
 
@@ -876,7 +876,7 @@ CooltrainerMGroup:
 
 	; COOLTRAINERM (12)
 	db "BRIAN@", TRAINERTYPE_MOVES
-	db 35, SANDSLASH,  SAND_ATTACK, POISON_STING, SLASH, SWIFT
+	db 35, FUNFLOWER,  SAND_ATTACK, POISON_STING, SLASH, SWIFT
 	db -1 ; end
 
 	; COOLTRAINERM (13)
@@ -2358,7 +2358,7 @@ HikerGroup:
 
 	; HIKER (14)
 	db "NOLAND@", TRAINERTYPE_NORMAL
-	db 31, SANDSLASH
+	db 31, FUNFLOWER
 	db 33, GOLEM
 	db -1 ; end
 
@@ -2370,7 +2370,7 @@ HikerGroup:
 
 	; HIKER (16)
 	db "KENNY@", TRAINERTYPE_NORMAL
-	db 27, SANDSLASH
+	db 27, FUNFLOWER
 	db 29, GRAVELER
 	db 31, GOLEM
 	db 29, GRAVELER
@@ -2934,7 +2934,7 @@ CamperGroup:
 
 	; CAMPER (4)
 	db "ELLIOT@", TRAINERTYPE_NORMAL
-	db 13, SANDSHREW
+	db 13, RUNSTALK
 	db 15, MARILL
 	db -1 ; end
 
@@ -2951,7 +2951,7 @@ CamperGroup:
 	; CAMPER (7)
 	db "DEAN@", TRAINERTYPE_NORMAL
 	db 33, GOLDUCK
-	db 31, SANDSLASH
+	db 31, FUNFLOWER
 	db -1 ; end
 
 	; CAMPER (8)
@@ -3024,13 +3024,13 @@ CamperGroup:
 
 	; CAMPER (18)
 	db "JERRY@", TRAINERTYPE_NORMAL
-	db 37, SANDSLASH
+	db 37, FUNFLOWER
 	db -1 ; end
 
 	; CAMPER (19)
 	db "SPENCER@", TRAINERTYPE_NORMAL
-	db 17, SANDSHREW
-	db 17, SANDSLASH
+	db 17, RUNSTALK
+	db 17, FUNFLOWER
 	db 19, ZUBAT
 	db -1 ; end
 

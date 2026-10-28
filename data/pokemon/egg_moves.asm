@@ -67,7 +67,7 @@ YokokoonEggMoves:
 	db CRUNCH
 	db -1 ; end
 
-SandshrewEggMoves:
+RunstalkEggMoves:
 	db FLAIL
 	db SAFEGUARD
 	db COUNTER

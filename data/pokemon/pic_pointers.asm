@@ -29,8 +29,8 @@ PokemonPicPointers::
 	dba_pics TenguFrontpic, TenguBackpic
 	dba_pics PekachoFrontpic, PekachoBackpic
 	dba_pics RaychoFrontpic, RaychoBackpic
-	dba_pics SandshrewFrontpic, SandshrewBackpic
-	dba_pics SandslashFrontpic, SandslashBackpic
+	dba_pics RunstalkFrontpic, RunstalkBackpic
+	dba_pics FunflowerFrontpic, FunflowerBackpic
 	dba_pics NidoranFFrontpic, NidoranFBackpic
 	dba_pics NidorinaFrontpic, NidorinaBackpic
 	dba_pics NidoqueenFrontpic, NidoqueenBackpic

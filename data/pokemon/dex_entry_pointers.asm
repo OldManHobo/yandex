@@ -27,8 +27,8 @@ PokedexDataPointerTable:
 	dw TenguPokedexEntry
 	dw PekachoPokedexEntry
 	dw RaychoPokedexEntry
-	dw SandshrewPokedexEntry
-	dw SandslashPokedexEntry
+	dw RunstalkPokedexEntry
+	dw FunflowerPokedexEntry
 	dw NidoranFPokedexEntry
 	dw NidorinaPokedexEntry
 	dw NidoqueenPokedexEntry

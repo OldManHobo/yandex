@@ -31,8 +31,8 @@ MonMenuIconPals:
 	icon_pals PURPLE, GREEN ; TENGU
 	icon_pals RED, PINK     ; PEKACHO
 	icon_pals RED, BROWN    ; RAYCHO
-	icon_pals BROWN, TEAL   ; SANDSHREW
-	icon_pals BROWN, RED    ; SANDSLASH
+	icon_pals BROWN, TEAL   ; RUNSTALK
+	icon_pals BROWN, RED    ; FUNFLOWER
 	icon_pals BLUE, PINK    ; NIDORAN_F
 	icon_pals BLUE, PINK    ; NIDORINA
 	icon_pals BLUE, GREEN   ; NIDOQUEEN

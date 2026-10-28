@@ -28,8 +28,8 @@ EvosAttacksPointers::
 	dw TenguEvosAttacks
 	dw PekachoEvosAttacks
 	dw RaychoEvosAttacks
-	dw SandshrewEvosAttacks
-	dw SandslashEvosAttacks
+	dw RunstalkEvosAttacks
+	dw FunflowerEvosAttacks
 	dw NidoranFEvosAttacks
 	dw NidorinaEvosAttacks
 	dw NidoqueenEvosAttacks

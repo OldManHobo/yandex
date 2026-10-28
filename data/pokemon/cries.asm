@@ -32,8 +32,8 @@ PokemonCries::
 	mon_cry CRY_EKANS,      --17,  160 ; TENGU
 	mon_cry CRY_BULBASAUR,   200,  200 ; PEKACHO
 	mon_cry CRY_RAICHU,      200,  200 ; RAYCHO
-	mon_cry CRY_NIDORAN_M,    32,  192 ; SANDSHREW
-	mon_cry CRY_NIDORAN_M,   255,  383 ; SANDSLASH
+	mon_cry CRY_PSYDUCK,     432,  256 ; RUNSTALK
+	mon_cry CRY_PSYDUCK,     624,  368 ; SANDSLASH
 	mon_cry CRY_NIDORAN_F,     0,  256 ; NIDORAN_F
 	mon_cry CRY_NIDORAN_F,    44,  352 ; NIDORINA
 	mon_cry CRY_NIDOQUEEN,     0,  256 ; NIDOQUEEN

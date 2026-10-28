@@ -45,8 +45,8 @@
 	const TENGU      ; 18
 	const PEKACHO    ; 19
 	const RAYCHO     ; 1a
-	const SANDSHREW  ; 1b
-	const SANDSLASH  ; 1c
+	const RUNSTALK  ; 1b
+	const FUNFLOWER  ; 1c
 	const NIDORAN_F  ; 1d
 	const NIDORINA   ; 1e
 	const NIDOQUEEN  ; 1f
