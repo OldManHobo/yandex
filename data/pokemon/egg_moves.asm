@@ -75,7 +75,7 @@ RunstalkEggMoves:
 	db METAL_CLAW
 	db -1 ; end
 
-NidoranFEggMoves:
+EeheehEggMoves:
 	db SUPERSONIC
 	db DISABLE
 	db TAKE_DOWN

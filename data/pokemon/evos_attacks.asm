@@ -392,8 +392,8 @@ FunflowerEvosAttacks:
 	db 52, SANDSTORM
 	db 0 ; no more level-up moves
 
-NidoranFEvosAttacks:
-	db EVOLVE_LEVEL, 16, NIDORINA
+EeheehEvosAttacks:
+	db EVOLVE_LEVEL, 16, OOHOOHOOH
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, TACKLE
@@ -405,7 +405,7 @@ NidoranFEvosAttacks:
 	db 38, FURY_SWIPES
 	db 0 ; no more level-up moves
 
-NidorinaEvosAttacks:
+OohoohoohEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, NIDOQUEEN
 	db 0 ; no more evolutions
 	db 1, GROWL

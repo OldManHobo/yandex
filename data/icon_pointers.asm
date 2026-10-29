@@ -30,8 +30,8 @@ IconPointers:
 	dw RaychoIcon
 	dw RunstalkIcon
 	dw FunflowerIcon
-	dw Nidoran_FIcon
-	dw NidorinaIcon
+	dw EeheehIcon
+	dw OohoohoohIcon
 	dw NidoqueenIcon
 	dw Nidoran_MIcon
 	dw NidorinoIcon

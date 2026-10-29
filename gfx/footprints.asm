@@ -70,8 +70,8 @@ INCBIN "gfx/footprints/pekacho.1bpp",    footprint_top
 INCBIN "gfx/footprints/raycho.1bpp",     footprint_top
 INCBIN "gfx/footprints/runstalk.1bpp",  footprint_top
 INCBIN "gfx/footprints/funflower.1bpp",  footprint_top
-INCBIN "gfx/footprints/nidoran_f.1bpp",  footprint_top
-INCBIN "gfx/footprints/nidorina.1bpp",   footprint_top
+INCBIN "gfx/footprints/eeheeh.1bpp",  footprint_top
+INCBIN "gfx/footprints/oohoohooh.1bpp",   footprint_top
 INCBIN "gfx/footprints/nidoqueen.1bpp",  footprint_top
 INCBIN "gfx/footprints/nidoran_m.1bpp",  footprint_top
 ; 025-032 bottom halves
@@ -79,8 +79,8 @@ INCBIN "gfx/footprints/pekacho.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/raycho.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/runstalk.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/funflower.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/nidoran_f.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/nidorina.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/eeheeh.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/oohoohooh.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/nidoqueen.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/nidoran_m.1bpp",  footprint_bottom
 ; 033-040 top halves

@@ -30,8 +30,8 @@ KantoMonSpecials:
 	db  90 ; RAYCHO
 	db  30 ; RUNSTALK
 	db  55 ; FUNFLOWER
-	db  40 ; NIDORAN_F
-	db  55 ; NIDORINA
+	db  40 ; EEHEEH
+	db  55 ; OOHOOHOOH
 	db  75 ; NIDOQUEEN
 	db  40 ; NIDORAN_M
 	db  55 ; NIDORINO

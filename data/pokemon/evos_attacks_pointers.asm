@@ -30,8 +30,8 @@ EvosAttacksPointers::
 	dw RaychoEvosAttacks
 	dw RunstalkEvosAttacks
 	dw FunflowerEvosAttacks
-	dw NidoranFEvosAttacks
-	dw NidorinaEvosAttacks
+	dw EeheehEvosAttacks
+	dw OohoohoohEvosAttacks
 	dw NidoqueenEvosAttacks
 	dw NidoranMEvosAttacks
 	dw NidorinoEvosAttacks

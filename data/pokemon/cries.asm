@@ -29,13 +29,13 @@ PokemonCries::
 	mon_cry CRY_DUNSPARCE,   256,  312 ; GRUBASTION
 	mon_cry CRY_RATTATA,       0,  160 ; PINGGLER
 	mon_cry CRY_EKANS,       432,  256 ; YOKOKOON
-	mon_cry CRY_EKANS,      --17,  160 ; TENGU
+	mon_cry CRY_EKANS,       -17,  160 ; TENGU
 	mon_cry CRY_BULBASAUR,   200,  200 ; PEKACHO
 	mon_cry CRY_RAICHU,      200,  200 ; RAYCHO
 	mon_cry CRY_PSYDUCK,     432,  256 ; RUNSTALK
-	mon_cry CRY_PSYDUCK,     624,  368 ; SANDSLASH
-	mon_cry CRY_NIDORAN_F,     0,  256 ; NIDORAN_F
-	mon_cry CRY_NIDORAN_F,    44,  352 ; NIDORINA
+	mon_cry CRY_PSYDUCK,     624,  368 ; FUNFLOWER
+	mon_cry CRY_DIGLETT,     112,  224 ; EEHEEH
+	mon_cry CRY_NIDORAN_F,  -656,  223 ; OOHOOHOOH
 	mon_cry CRY_NIDOQUEEN,     0,  256 ; NIDOQUEEN
 	mon_cry CRY_NIDORAN_M,     0,  256 ; NIDORAN_M
 	mon_cry CRY_NIDORAN_M,    44,  320 ; NIDORINO

@@ -35,7 +35,7 @@ gfx/pokegear/town_map.2bpp.lz: LZFLAGS += --literal-only --align 1
 
 gfx/pokemon/corsola/front.animated.2bpp.lz: LZFLAGS += --no-lookback-3
 gfx/pokemon/hitmontop/back.2bpp.lz: LZFLAGS += --no-lookback-3
-gfx/pokemon/nidoran_f/front.animated.2bpp.lz: LZFLAGS += --no-lookback-3
+gfx/pokemon/eeheeh/front.animated.2bpp.lz: LZFLAGS += --no-lookback-3
 gfx/pokemon/primeape/front.animated.2bpp.lz: LZFLAGS += --no-lookback-3
 gfx/pokemon/scyther/front.animated.2bpp.lz: LZFLAGS += --no-lookback-3
 gfx/pokemon/unown_g/front.animated.2bpp.lz: LZFLAGS += --no-lookback-3

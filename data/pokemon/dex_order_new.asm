@@ -96,8 +96,8 @@ NewPokedexOrder:
 	db DITTO
 	db PINECO
 	db FORRETRESS
-	db NIDORAN_F
-	db NIDORINA
+	db EEHEEH
+	db OOHOOHOOH
 	db NIDOQUEEN
 	db NIDORAN_M
 	db NIDORINO

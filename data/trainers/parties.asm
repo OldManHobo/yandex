@@ -1176,7 +1176,7 @@ PokemaniacGroup:
 
 	; POKEMANIAC (4)
 	db "SHANE@", TRAINERTYPE_NORMAL
-	db 16, NIDORINA
+	db 16, OOHOOHOOH
 	db 16, NIDORINO
 	db -1 ; end
 
@@ -2762,7 +2762,7 @@ PsychicGroup:
 PicnickerGroup:
 	; PICNICKER (1)
 	db "LIZ@", TRAINERTYPE_NORMAL
-	db  9, NIDORAN_F
+	db  9, EEHEEH
 	db -1 ; end
 
 	; PICNICKER (2)
@@ -2819,7 +2819,7 @@ PicnickerGroup:
 	; PICNICKER (11)
 	db "LIZ@", TRAINERTYPE_NORMAL
 	db 15, WEEPINBELL
-	db 15, NIDORINA
+	db 15, OOHOOHOOH
 	db -1 ; end
 
 	; PICNICKER (12)
@@ -2837,7 +2837,7 @@ PicnickerGroup:
 
 	; PICNICKER (14)
 	db "EDNA@", TRAINERTYPE_NORMAL
-	db 30, NIDORINA
+	db 30, OOHOOHOOH
 	db 34, RAYCHO
 	db -1 ; end
 

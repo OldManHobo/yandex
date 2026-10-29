@@ -31,8 +31,8 @@ PokemonPicPointers::
 	dba_pics RaychoFrontpic, RaychoBackpic
 	dba_pics RunstalkFrontpic, RunstalkBackpic
 	dba_pics FunflowerFrontpic, FunflowerBackpic
-	dba_pics NidoranFFrontpic, NidoranFBackpic
-	dba_pics NidorinaFrontpic, NidorinaBackpic
+	dba_pics EeheehFrontpic, EeheehBackpic
+	dba_pics OohoohoohFrontpic, OohoohoohBackpic
 	dba_pics NidoqueenFrontpic, NidoqueenBackpic
 	dba_pics NidoranMFrontpic, NidoranMBackpic
 	dba_pics NidorinoFrontpic, NidorinoBackpic

@@ -28,7 +28,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw RunstalkEggMoves
 	dw NoEggMoves
-	dw NidoranFEggMoves
+	dw EeheehEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NidoranMEggMoves

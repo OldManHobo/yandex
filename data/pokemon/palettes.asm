@@ -71,10 +71,10 @@ INCBIN "gfx/pokemon/runstalk/normal.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/runstalk/shiny.pal"
 INCBIN "gfx/pokemon/funflower/normal.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/funflower/shiny.pal"
-INCBIN "gfx/pokemon/nidoran_f/normal.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/nidoran_f/shiny.pal"
-INCBIN "gfx/pokemon/nidorina/normal.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/nidorina/shiny.pal"
+INCBIN "gfx/pokemon/eeheeh/normal.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/eeheeh/shiny.pal"
+INCBIN "gfx/pokemon/oohoohooh/normal.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/oohoohooh/shiny.pal"
 INCBIN "gfx/pokemon/nidoqueen/normal.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/nidoqueen/shiny.pal"
 INCBIN "gfx/pokemon/nidoran_m/normal.gbcpal", middle_colors

@@ -143,9 +143,9 @@ AlphabeticalPokedexOrder:
 	db NATU
 	db NIDOKING
 	db NIDOQUEEN
-	db NIDORAN_F
+	db EEHEEH
 	db NIDORAN_M
-	db NIDORINA
+	db OOHOOHOOH
 	db NIDORINO
 	db NINETALES
 	db NOCTOWL

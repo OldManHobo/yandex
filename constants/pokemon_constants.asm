@@ -47,8 +47,8 @@
 	const RAYCHO     ; 1a
 	const RUNSTALK  ; 1b
 	const FUNFLOWER  ; 1c
-	const NIDORAN_F  ; 1d
-	const NIDORINA   ; 1e
+	const EEHEEH  ; 1d
+	const OOHOOHOOH   ; 1e
 	const NIDOQUEEN  ; 1f
 	const NIDORAN_M  ; 20
 	const NIDORINO   ; 21

@@ -342,14 +342,14 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 12, NIDORAN_M
-	db 12, NIDORAN_F
+	db 12, EEHEEH
 	db 14, LEDYBA
 	db 13, STRYNX
 	db 10, THUMWARD
 	db 10, CHICKEEN
 	db 10, CHICKEEN
 	; day
-	db 12, NIDORAN_F
+	db 12, EEHEEH
 	db 12, NIDORAN_M
 	db 14, SUNKERN
 	db 13, STRYNX

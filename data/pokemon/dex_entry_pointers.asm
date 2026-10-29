@@ -29,8 +29,8 @@ PokedexDataPointerTable:
 	dw RaychoPokedexEntry
 	dw RunstalkPokedexEntry
 	dw FunflowerPokedexEntry
-	dw NidoranFPokedexEntry
-	dw NidorinaPokedexEntry
+	dw EeheehPokedexEntry
+	dw OohoohoohPokedexEntry
 	dw NidoqueenPokedexEntry
 	dw NidoranMPokedexEntry
 	dw NidorinoPokedexEntry

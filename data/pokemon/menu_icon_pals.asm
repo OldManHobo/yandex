@@ -33,8 +33,8 @@ MonMenuIconPals:
 	icon_pals RED, BROWN    ; RAYCHO
 	icon_pals BROWN, TEAL   ; RUNSTALK
 	icon_pals BROWN, RED    ; FUNFLOWER
-	icon_pals BLUE, PINK    ; NIDORAN_F
-	icon_pals BLUE, PINK    ; NIDORINA
+	icon_pals BLUE, PINK    ; EEHEEH
+	icon_pals BLUE, PINK    ; OOHOOHOOH
 	icon_pals BLUE, GREEN   ; NIDOQUEEN
 	icon_pals PURPLE, BLUE  ; NIDORAN_M
 	icon_pals PURPLE, BLUE  ; NIDORINO
