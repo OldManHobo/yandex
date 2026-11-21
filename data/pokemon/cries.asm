@@ -36,9 +36,9 @@ PokemonCries::
 	mon_cry CRY_PSYDUCK,     624,  368 ; FUNFLOWER
 	mon_cry CRY_DIGLETT,     112,  224 ; EEHEEH
 	mon_cry CRY_NIDORAN_F,  -656,  223 ; OOHOOHOOH
-	mon_cry CRY_NIDOQUEEN,     0,  256 ; NIDOQUEEN
-	mon_cry CRY_NIDORAN_M,     0,  256 ; NIDORAN_M
-	mon_cry CRY_NIDORAN_M,    44,  320 ; NIDORINO
+	mon_cry CRY_TOGEPI,      -32,  160 ; FUNJINX
+	mon_cry CRY_TOGEPI,     -336,  384 ; ENOKUS
+	mon_cry CRY_METAPOD,   -1016,  314 ; SPORLOCK
 	mon_cry CRY_RAICHU,        0,  256 ; NIDOKING
 	mon_cry CRY_CLEFAIRY,    204,  129 ; CLEFAIRY
 	mon_cry CRY_CLEFAIRY,    170,  160 ; CLEFABLE

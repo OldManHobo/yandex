@@ -481,7 +481,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	def_grass_wildmons ROUTE_13
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, NIDORINO
+	db 23, SPORLOCK
 	db 23, OOHOOHOOH
 	db 25, CATHENA
 	db 25, HOPPIP
@@ -489,7 +489,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 27, HOPPIP
 	db 25, CHANSEY
 	; day
-	db 23, NIDORINO
+	db 23, SPORLOCK
 	db 23, OOHOOHOOH
 	db 25, CATHENA
 	db 25, HOPPIP
@@ -509,7 +509,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	def_grass_wildmons ROUTE_14
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 26, NIDORINO
+	db 26, SPORLOCK
 	db 26, OOHOOHOOH
 	db 28, CATHENA
 	db 28, HOPPIP
@@ -517,7 +517,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 30, SKIPLOOM
 	db 28, CHANSEY
 	; day
-	db 26, NIDORINO
+	db 26, SPORLOCK
 	db 26, OOHOOHOOH
 	db 28, CATHENA
 	db 28, HOPPIP
@@ -537,7 +537,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	def_grass_wildmons ROUTE_15
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, NIDORINO
+	db 23, SPORLOCK
 	db 23, OOHOOHOOH
 	db 25, CATHENA
 	db 25, HOPPIP
@@ -545,7 +545,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 27, HOPPIP
 	db 25, CHANSEY
 	; day
-	db 23, NIDORINO
+	db 23, SPORLOCK
 	db 23, OOHOOHOOH
 	db 25, CATHENA
 	db 25, HOPPIP

@@ -31,9 +31,9 @@ PokedexDataPointerTable:
 	dw FunflowerPokedexEntry
 	dw EeheehPokedexEntry
 	dw OohoohoohPokedexEntry
-	dw NidoqueenPokedexEntry
-	dw NidoranMPokedexEntry
-	dw NidorinoPokedexEntry
+	dw FunjinxPokedexEntry
+	dw EnokusPokedexEntry
+	dw SporlockPokedexEntry
 	dw NidokingPokedexEntry
 	dw ClefairyPokedexEntry
 	dw ClefablePokedexEntry

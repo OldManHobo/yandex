@@ -35,9 +35,9 @@ MonMenuIconPals:
 	icon_pals BROWN, RED    ; FUNFLOWER
 	icon_pals BLUE, PINK    ; EEHEEH
 	icon_pals BLUE, PINK    ; OOHOOHOOH
-	icon_pals BLUE, GREEN   ; NIDOQUEEN
-	icon_pals PURPLE, BLUE  ; NIDORAN_M
-	icon_pals PURPLE, BLUE  ; NIDORINO
+	icon_pals BLUE, GREEN   ; FUNJINX
+	icon_pals PURPLE, BLUE  ; ENOKUS
+	icon_pals PURPLE, BLUE  ; SPORLOCK
 	icon_pals PURPLE, BLUE  ; NIDOKING
 	icon_pals PINK, GREEN   ; CLEFAIRY
 	icon_pals PINK, GREEN   ; CLEFABLE

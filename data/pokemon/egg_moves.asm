@@ -85,7 +85,7 @@ EeheehEggMoves:
 	db BEAT_UP
 	db -1 ; end
 
-NidoranMEggMoves:
+EnokusEggMoves:
 	db SUPERSONIC
 	db DISABLE
 	db TAKE_DOWN

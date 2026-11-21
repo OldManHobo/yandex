@@ -33,9 +33,9 @@ PokemonPicPointers::
 	dba_pics FunflowerFrontpic, FunflowerBackpic
 	dba_pics EeheehFrontpic, EeheehBackpic
 	dba_pics OohoohoohFrontpic, OohoohoohBackpic
-	dba_pics NidoqueenFrontpic, NidoqueenBackpic
-	dba_pics NidoranMFrontpic, NidoranMBackpic
-	dba_pics NidorinoFrontpic, NidorinoBackpic
+	dba_pics FunjinxFrontpic, FunjinxBackpic
+	dba_pics EnokusFrontpic, EnokusBackpic
+	dba_pics SporlockFrontpic, SporlockBackpic
 	dba_pics NidokingFrontpic, NidokingBackpic
 	dba_pics ClefairyFrontpic, ClefairyBackpic
 	dba_pics ClefableFrontpic, ClefableBackpic

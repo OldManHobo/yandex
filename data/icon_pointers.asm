@@ -32,9 +32,9 @@ IconPointers:
 	dw FunflowerIcon
 	dw EeheehIcon
 	dw OohoohoohIcon
-	dw NidoqueenIcon
-	dw Nidoran_MIcon
-	dw NidorinoIcon
+	dw FunjinxIcon
+	dw EnokusIcon
+	dw SporlockIcon
 	dw NidokingIcon
 	dw ClefairyIcon
 	dw ClefableIcon

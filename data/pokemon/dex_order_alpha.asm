@@ -142,11 +142,11 @@ AlphabeticalPokedexOrder:
 	db MURKROW
 	db NATU
 	db NIDOKING
-	db NIDOQUEEN
+	db FUNJINX
 	db EEHEEH
-	db NIDORAN_M
+	db ENOKUS
 	db OOHOOHOOH
-	db NIDORINO
+	db SPORLOCK
 	db NINETALES
 	db NOCTOWL
 	db OCTILLERY

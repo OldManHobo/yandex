@@ -32,9 +32,9 @@ KantoMonSpecials:
 	db  55 ; FUNFLOWER
 	db  40 ; EEHEEH
 	db  55 ; OOHOOHOOH
-	db  75 ; NIDOQUEEN
-	db  40 ; NIDORAN_M
-	db  55 ; NIDORINO
+	db  75 ; FUNJINX
+	db  40 ; ENOKUS
+	db  55 ; SPORLOCK
 	db  75 ; NIDOKING
 	db  60 ; CLEFAIRY
 	db  85 ; CLEFABLE

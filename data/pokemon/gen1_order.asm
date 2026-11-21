@@ -2,7 +2,7 @@ Pokered_MonIndices:
 	table_width 1
 	db RHYDON
 	db KANGASKHAN
-	db NIDORAN_M
+	db ENOKUS
 	db CLEFAIRY
 	db GRUBASTION
 	db VOLTORB
@@ -15,7 +15,7 @@ Pokered_MonIndices:
 	db GRIMER
 	db GENGAR
 	db EEHEEH
-	db NIDOQUEEN
+	db FUNJINX
 	db CUBONE
 	db RHYHORN
 	db LAPRAS
@@ -166,7 +166,7 @@ Pokered_MonIndices:
 	db RAPIDASH
 	db BEETYKE
 	db RHINOCEREX
-	db NIDORINO
+	db SPORLOCK
 	db OOHOOHOOH
 	db GEODUDE
 	db PORYGON

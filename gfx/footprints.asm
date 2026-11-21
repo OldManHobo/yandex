@@ -72,8 +72,8 @@ INCBIN "gfx/footprints/runstalk.1bpp",  footprint_top
 INCBIN "gfx/footprints/funflower.1bpp",  footprint_top
 INCBIN "gfx/footprints/eeheeh.1bpp",  footprint_top
 INCBIN "gfx/footprints/oohoohooh.1bpp",   footprint_top
-INCBIN "gfx/footprints/nidoqueen.1bpp",  footprint_top
-INCBIN "gfx/footprints/nidoran_m.1bpp",  footprint_top
+INCBIN "gfx/footprints/funjinx.1bpp",  footprint_top
+INCBIN "gfx/footprints/enokus.1bpp",  footprint_top
 ; 025-032 bottom halves
 INCBIN "gfx/footprints/pekacho.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/raycho.1bpp",     footprint_bottom
@@ -81,10 +81,10 @@ INCBIN "gfx/footprints/runstalk.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/funflower.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/eeheeh.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/oohoohooh.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/nidoqueen.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/nidoran_m.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/funjinx.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/enokus.1bpp",  footprint_bottom
 ; 033-040 top halves
-INCBIN "gfx/footprints/nidorino.1bpp",   footprint_top
+INCBIN "gfx/footprints/sporlock.1bpp",   footprint_top
 INCBIN "gfx/footprints/nidoking.1bpp",   footprint_top
 INCBIN "gfx/footprints/clefairy.1bpp",   footprint_top
 INCBIN "gfx/footprints/clefable.1bpp",   footprint_top
@@ -93,7 +93,7 @@ INCBIN "gfx/footprints/ninetales.1bpp",  footprint_top
 INCBIN "gfx/footprints/jigglypuff.1bpp", footprint_top
 INCBIN "gfx/footprints/wigglytuff.1bpp", footprint_top
 ; 033-040 bottom halves
-INCBIN "gfx/footprints/nidorino.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/sporlock.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/nidoking.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/clefairy.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/clefable.1bpp",   footprint_bottom

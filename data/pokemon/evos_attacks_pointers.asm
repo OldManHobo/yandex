@@ -32,9 +32,9 @@ EvosAttacksPointers::
 	dw FunflowerEvosAttacks
 	dw EeheehEvosAttacks
 	dw OohoohoohEvosAttacks
-	dw NidoqueenEvosAttacks
-	dw NidoranMEvosAttacks
-	dw NidorinoEvosAttacks
+	dw FunjinxEvosAttacks
+	dw EnokusEvosAttacks
+	dw SporlockEvosAttacks
 	dw NidokingEvosAttacks
 	dw ClefairyEvosAttacks
 	dw ClefableEvosAttacks

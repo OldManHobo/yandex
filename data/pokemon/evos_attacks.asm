@@ -406,7 +406,7 @@ EeheehEvosAttacks:
 	db 0 ; no more level-up moves
 
 OohoohoohEvosAttacks:
-	db EVOLVE_ITEM, MOON_STONE, NIDOQUEEN
+	db EVOLVE_ITEM, MOON_STONE, FUNJINX
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, TACKLE
@@ -418,7 +418,7 @@ OohoohoohEvosAttacks:
 	db 46, FURY_SWIPES
 	db 0 ; no more level-up moves
 
-NidoqueenEvosAttacks:
+FunjinxEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SCRATCH
@@ -427,8 +427,8 @@ NidoqueenEvosAttacks:
 	db 23, BODY_SLAM
 	db 0 ; no more level-up moves
 
-NidoranMEvosAttacks:
-	db EVOLVE_LEVEL, 16, NIDORINO
+EnokusEvosAttacks:
+	db EVOLVE_LEVEL, 16, SPORLOCK
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, TACKLE
@@ -440,7 +440,7 @@ NidoranMEvosAttacks:
 	db 38, HORN_DRILL
 	db 0 ; no more level-up moves
 
-NidorinoEvosAttacks:
+SporlockEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, NIDOKING
 	db 0 ; no more evolutions
 	db 1, LEER
