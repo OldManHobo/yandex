@@ -260,7 +260,7 @@ FindOwnedPosters:
 .posters:
 	db DECO_TOWN_MAP ; 10
 	db DECO_PEKACHO_POSTER ; 11
-	db DECO_CLEFAIRY_POSTER ; 12
+	db DECO_LUNAROCK_POSTER ; 12
 	db DECO_JIGGLYPUFF_POSTER ; 13
 	db -1
 
@@ -296,7 +296,7 @@ FindOwnedOrnaments:
 .ornaments:
 	db DECO_PEKACHO_DOLL ; 1e
 	db DECO_SURF_PEKACHO_DOLL ; 1f
-	db DECO_CLEFAIRY_DOLL ; 20
+	db DECO_LUNAROCK_DOLL ; 20
 	db DECO_JIGGLYPUFF_DOLL ; 21
 	db DECO_SAUROBUD_DOLL ; 22
 	db DECO_CUBTAR_DOLL ; 23
@@ -1005,7 +1005,7 @@ DecorationDesc_Poster:
 DecorationDesc_PosterPointers:
 	dbw DECO_TOWN_MAP, DecorationDesc_TownMapPoster
 	dbw DECO_PEKACHO_POSTER, DecorationDesc_PekachoPoster
-	dbw DECO_CLEFAIRY_POSTER, DecorationDesc_ClefairyPoster
+	dbw DECO_LUNAROCK_POSTER, DecorationDesc_LunarockPoster
 	dbw DECO_JIGGLYPUFF_POSTER, DecorationDesc_JigglypuffPoster
 	db -1
 
@@ -1028,11 +1028,11 @@ DecorationDesc_PekachoPoster:
 	text_far _LookPekachoPosterText
 	text_end
 
-DecorationDesc_ClefairyPoster:
-	jumptext .LookClefairyPosterText
+DecorationDesc_LunarockPoster:
+	jumptext .LookLunarockPosterText
 
-.LookClefairyPosterText:
-	text_far _LookClefairyPosterText
+.LookLunarockPosterText:
+	text_far _LookLunarockPosterText
 	text_end
 
 DecorationDesc_JigglypuffPoster:

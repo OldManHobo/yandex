@@ -52,9 +52,9 @@
 	const FUNJINX; 1f
 	const ENOKUS  ; 20
 	const SPORLOCK   ; 21
-	const NIDOKING   ; 22
-	const CLEFAIRY   ; 23
-	const CLEFABLE   ; 24
+	const LEPEBB   ; 22
+	const LUNAROCK   ; 23
+	const SELENAUT   ; 24
 	const VULPIX     ; 25
 	const NINETALES  ; 26
 	const JIGGLYPUFF ; 27

@@ -35,9 +35,9 @@ EvosAttacksPointers::
 	dw FunjinxEvosAttacks
 	dw EnokusEvosAttacks
 	dw SporlockEvosAttacks
-	dw NidokingEvosAttacks
-	dw ClefairyEvosAttacks
-	dw ClefableEvosAttacks
+	dw LepebbEvosAttacks
+	dw LunarockEvosAttacks
+	dw SelenautEvosAttacks
 	dw VulpixEvosAttacks
 	dw NinetalesEvosAttacks
 	dw JigglypuffEvosAttacks

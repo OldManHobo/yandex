@@ -39,9 +39,9 @@ PokemonCries::
 	mon_cry CRY_TOGEPI,      -32,  160 ; FUNJINX
 	mon_cry CRY_TOGEPI,     -336,  384 ; ENOKUS
 	mon_cry CRY_METAPOD,   -1016,  314 ; SPORLOCK
-	mon_cry CRY_RAICHU,        0,  256 ; NIDOKING
-	mon_cry CRY_CLEFAIRY,    204,  129 ; CLEFAIRY
-	mon_cry CRY_CLEFAIRY,    170,  160 ; CLEFABLE
+	mon_cry CRY_VENONAT,     144,  112 ; LEPEBB
+	mon_cry CRY_PARAS,      -192,  160 ; LUNAROCK
+	mon_cry CRY_PARAS,       -48,  416 ; CLEFABLE
 	mon_cry CRY_VULPIX,       79,  144 ; VULPIX
 	mon_cry CRY_VULPIX,      136,  224 ; NINETALES
 	mon_cry CRY_PIDGEY,      255,  181 ; JIGGLYPUFF

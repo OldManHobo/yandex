@@ -35,9 +35,9 @@ KantoMonSpecials:
 	db  75 ; FUNJINX
 	db  40 ; ENOKUS
 	db  55 ; SPORLOCK
-	db  75 ; NIDOKING
-	db  60 ; CLEFAIRY
-	db  85 ; CLEFABLE
+	db  75 ; LEPEBB
+	db  60 ; LUNAROCK
+	db  85 ; SELENAUT
 	db  65 ; VULPIX
 	db 100 ; NINETALES
 	db  25 ; JIGGLYPUFF

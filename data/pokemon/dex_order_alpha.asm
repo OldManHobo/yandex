@@ -28,8 +28,8 @@ AlphabeticalPokedexOrder:
 	db LINGASTRO
 	db CHIKORITA
 	db CHINCHOU
-	db CLEFABLE
-	db CLEFAIRY
+	db SELENAUT
+	db LUNAROCK
 	db CLEFFA
 	db CLOYSTER
 	db CORSOLA
@@ -141,7 +141,7 @@ AlphabeticalPokedexOrder:
 	db MUK
 	db MURKROW
 	db NATU
-	db NIDOKING
+	db LEPEBB
 	db FUNJINX
 	db EEHEEH
 	db ENOKUS

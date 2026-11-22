@@ -42,8 +42,8 @@ NewPokedexOrder:
 	db GOLBAT
 	db CROBAT
 	db CLEFFA
-	db CLEFAIRY
-	db CLEFABLE
+	db LUNAROCK
+	db SELENAUT
 	db IGGLYBUFF
 	db JIGGLYPUFF
 	db WIGGLYTUFF
@@ -101,7 +101,7 @@ NewPokedexOrder:
 	db FUNJINX
 	db ENOKUS
 	db SPORLOCK
-	db NIDOKING
+	db LEPEBB
 	db YANMA
 	db SUNKERN
 	db SUNFLORA

@@ -186,8 +186,8 @@ TrainerPicnickerTiffany:
 	iftrue .HasPinkBow
 	checkcellnum PHONE_PICNICKER_TIFFANY
 	iftrue .NumberAccepted
-	checkpoke CLEFAIRY
-	iffalse .NoClefairy
+	checkpoke LUNAROCK
+	iffalse .NoLunarock
 	checkevent EVENT_TIFFANY_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskedAlready
 	writetext PicnickerTiffanyWantsPicnicText
@@ -265,8 +265,8 @@ TrainerPicnickerTiffany:
 .NoRoom:
 	sjump .PackFull
 
-.NoClefairy:
-	writetext PicnickerTiffanyClefairyText
+.NoLunarock:
+	writetext PicnickerTiffanyLunarockText
 	waitbutton
 	closetext
 	end
@@ -375,7 +375,7 @@ PokemaniacRonSeenText:
 	done
 
 PokemaniacRonBeatenText:
-	text "My NIDOKING did"
+	text "My LEPEBB did"
 	line "pretty right on!"
 	done
 
@@ -456,8 +456,8 @@ PicnickerTiffanyWantsPicnicText:
 	para "Won't you join us?"
 	done
 
-PicnickerTiffanyClefairyText:
-	text "Isn't my CLEFAIRY"
+PicnickerTiffanyLunarockText:
+	text "Isn't my LUNAROCK"
 	line "just the most"
 	cont "adorable thing?"
 	done

@@ -1047,7 +1047,7 @@ BattleTowerMons:
 	bigdw 36 ; SDef
 	dname "PUKURIN", MON_NAME_LENGTH
 
-	db NIDOKING
+	db LEPEBB
 	db BERRY
 	db BLIZZARD, EARTHQUAKE, SURF, THUNDERPUNCH
 	dw 0 ; OT ID
@@ -1071,7 +1071,7 @@ BattleTowerMons:
 	bigdw 49 ; Spd
 	bigdw 50 ; SAtk
 	bigdw 46 ; SDef
-	dname "NIDOKINGU", MON_NAME_LENGTH
+	dname "LEPEBBU", MON_NAME_LENGTH
 
 	db QUAGSIRE
 	db QUICK_CLAW

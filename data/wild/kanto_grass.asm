@@ -38,24 +38,24 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 8, RUNSTALK
 	db 12, PARAS
 	db 10, GEODUDE
-	db 8, CLEFAIRY
-	db 8, CLEFAIRY
+	db 8, LUNAROCK
+	db 8, LUNAROCK
 	; day
 	db 6, ZUBAT
 	db 8, GEODUDE
 	db 8, RUNSTALK
 	db 12, PARAS
 	db 10, GEODUDE
-	db 8, CLEFAIRY
-	db 8, CLEFAIRY
+	db 8, LUNAROCK
+	db 8, LUNAROCK
 	; nite
 	db 6, ZUBAT
 	db 8, GEODUDE
-	db 8, CLEFAIRY
+	db 8, LUNAROCK
 	db 12, PARAS
 	db 10, GEODUDE
-	db 12, CLEFAIRY
-	db 12, CLEFAIRY
+	db 12, LUNAROCK
+	db 12, LUNAROCK
 	end_grass_wildmons
 
 	def_grass_wildmons ROCK_TUNNEL_1F
@@ -250,8 +250,8 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 10, RHINOCEREX
 	db 6, ZUBAT
 	db 5, BEETYKE
-	db 6, CLEFAIRY
-	db 6, CLEFAIRY
+	db 6, LUNAROCK
+	db 6, LUNAROCK
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_4
@@ -278,8 +278,8 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 10, RHINOCEREX
 	db 6, ZUBAT
 	db 5, BEETYKE
-	db 6, CLEFAIRY
-	db 6, CLEFAIRY
+	db 6, LUNAROCK
+	db 6, LUNAROCK
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_5

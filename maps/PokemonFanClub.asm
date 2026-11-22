@@ -1,7 +1,7 @@
 	object_const_def
 	const POKEMONFANCLUB_CHAIRMAN
 	const POKEMONFANCLUB_RECEPTIONIST
-	const POKEMONFANCLUB_CLEFAIRY_GUY
+	const POKEMONFANCLUB_LUNAROCK_GUY
 	const POKEMONFANCLUB_TEACHER
 	const POKEMONFANCLUB_FAIRY
 	const POKEMONFANCLUB_ODDISH
@@ -50,20 +50,20 @@ PokemonFanClubChairmanScript:
 PokemonFanClubReceptionistScript:
 	jumptextfaceplayer PokemonFanClubReceptionistText
 
-PokemonFanClubClefairyGuyScript:
+PokemonFanClubLunarockGuyScript:
 	faceplayer
 	opentext
 	checkevent EVENT_GOT_LOST_ITEM_FROM_FAN_CLUB
 	iftrue .GotLostItem
 	checkevent EVENT_RETURNED_MACHINE_PART
-	iftrue .FoundClefairyDoll
-	writetext PokemonFanClubClefairyGuyClefairyIsSoAdorableText
+	iftrue .FoundLunarockDoll
+	writetext PokemonFanClubLunarockGuyLunarockIsSoAdorableText
 	waitbutton
 	closetext
 	end
 
-.FoundClefairyDoll:
-	writetext PokemonFanClubClefairyGuyMakingDoWithADollIFoundText
+.FoundLunarockDoll:
+	writetext PokemonFanClubLunarockGuyMakingDoWithADollIFoundText
 	checkevent EVENT_MET_COPYCAT_FOUND_OUT_ABOUT_LOST_ITEM
 	iftrue .MetCopycat
 	waitbutton
@@ -72,7 +72,7 @@ PokemonFanClubClefairyGuyScript:
 
 .MetCopycat:
 	promptbutton
-	writetext PokemonFanClubClefairyGuyTakeThisDollBackToGirlText
+	writetext PokemonFanClubLunarockGuyTakeThisDollBackToGirlText
 	promptbutton
 	waitsfx
 	giveitem LOST_ITEM
@@ -87,13 +87,13 @@ PokemonFanClubClefairyGuyScript:
 	end
 
 .GotLostItem:
-	writetext PokemonFanClubClefairyGuyGoingToGetARealClefairyText
+	writetext PokemonFanClubLunarockGuyGoingToGetARealLunarockText
 	waitbutton
 	closetext
 	end
 
 .NoRoom:
-	writetext PokemonFanClubClefairyGuyPackIsJammedFullText
+	writetext PokemonFanClubLunarockGuyPackIsJammedFullText
 	waitbutton
 	closetext
 	end
@@ -101,8 +101,8 @@ PokemonFanClubClefairyGuyScript:
 PokemonFanClubTeacherScript:
 	jumptextfaceplayer PokemonFanClubTeacherText
 
-PokemonFanClubClefairyDollScript:
-	jumptext PokemonFanClubClefairyDollText
+PokemonFanClubLunarockDollScript:
+	jumptext PokemonFanClubLunarockDollText
 
 PokemonFanClubBayleefScript:
 	opentext
@@ -203,9 +203,9 @@ PokemonFanClubReceptionistText:
 	cont "comes to #MON…"
 	done
 
-PokemonFanClubClefairyGuyClefairyIsSoAdorableText:
+PokemonFanClubLunarockGuyLunarockIsSoAdorableText:
 	text "I love the way"
-	line "CLEFAIRY waggles"
+	line "LUNAROCK waggles"
 
 	para "its finger when"
 	line "it's trying to use"
@@ -214,8 +214,8 @@ PokemonFanClubClefairyGuyClefairyIsSoAdorableText:
 	line "It's so adorable!"
 	done
 
-PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
-	text "I love CLEFAIRY,"
+PokemonFanClubLunarockGuyMakingDoWithADollIFoundText:
+	text "I love LUNAROCK,"
 	line "but I could never"
 
 	para "catch one. So I'm"
@@ -225,7 +225,7 @@ PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
 	line "found."
 	done
 
-PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
+PokemonFanClubLunarockGuyTakeThisDollBackToGirlText:
 	text "Oh, I see now. The"
 	line "girl who lost this"
 
@@ -238,7 +238,7 @@ PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
 	line "little girl?"
 
 	para "I'll befriend a"
-	line "real CLEFAIRY on"
+	line "real LUNAROCK on"
 
 	para "my own one day."
 	line "No worries!"
@@ -249,15 +249,15 @@ PokemonFanClubPlayerReceivedDollText:
 	line "# DOLL."
 	done
 
-PokemonFanClubClefairyGuyGoingToGetARealClefairyText:
+PokemonFanClubLunarockGuyGoingToGetARealLunarockText:
 	text "You watch. I'm"
 	line "going to get a"
 
-	para "real CLEFAIRY as"
+	para "real LUNAROCK as"
 	line "my friend."
 	done
 
-PokemonFanClubClefairyGuyPackIsJammedFullText:
+PokemonFanClubLunarockGuyPackIsJammedFullText:
 	text "Your PACK is"
 	line "jammed full."
 	done
@@ -270,12 +270,12 @@ PokemonFanClubTeacherText:
 	line "head is so cute!"
 	done
 
-PokemonFanClubClefairyDollText:
-	text "It's a CLEFAIRY!"
+PokemonFanClubLunarockDollText:
+	text "It's a LUNAROCK!"
 	line "Huh?"
 
 	para "Oh, right. It's a"
-	line "CLEFAIRY #"
+	line "LUNAROCK #"
 	cont "DOLL."
 	done
 
@@ -310,7 +310,7 @@ PokemonFanClub_MapEvents:
 	def_object_events
 	object_event  3,  1, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PokemonFanClubChairmanScript, -1
 	object_event  4,  1, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, PokemonFanClubReceptionistScript, -1
-	object_event  2,  3, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PokemonFanClubClefairyGuyScript, -1
+	object_event  2,  3, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PokemonFanClubLunarockGuyScript, -1
 	object_event  7,  2, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PokemonFanClubTeacherScript, -1
-	object_event  2,  4, SPRITE_FAIRY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PokemonFanClubClefairyDollScript, EVENT_VERMILION_FAN_CLUB_DOLL
+	object_event  2,  4, SPRITE_FAIRY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PokemonFanClubLunarockDollScript, EVENT_VERMILION_FAN_CLUB_DOLL
 	object_event  7,  3, SPRITE_ODDISH, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, PokemonFanClubBayleefScript, -1

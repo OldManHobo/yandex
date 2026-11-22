@@ -36,9 +36,9 @@ PokemonPicPointers::
 	dba_pics FunjinxFrontpic, FunjinxBackpic
 	dba_pics EnokusFrontpic, EnokusBackpic
 	dba_pics SporlockFrontpic, SporlockBackpic
-	dba_pics NidokingFrontpic, NidokingBackpic
-	dba_pics ClefairyFrontpic, ClefairyBackpic
-	dba_pics ClefableFrontpic, ClefableBackpic
+	dba_pics LepebbFrontpic, LepebbBackpic
+	dba_pics LunarockFrontpic, LunarockBackpic
+	dba_pics SelenautFrontpic, SelenautBackpic
 	dba_pics VulpixFrontpic, VulpixBackpic
 	dba_pics NinetalesFrontpic, NinetalesBackpic
 	dba_pics JigglypuffFrontpic, JigglypuffBackpic

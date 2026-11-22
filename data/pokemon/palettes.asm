@@ -81,12 +81,12 @@ INCBIN "gfx/pokemon/enokus/normal.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/enokus/shiny.pal"
 INCBIN "gfx/pokemon/sporlock/normal.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/sporlock/shiny.pal"
-INCBIN "gfx/pokemon/nidoking/normal.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/nidoking/shiny.pal"
-INCBIN "gfx/pokemon/clefairy/normal.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/clefairy/shiny.pal"
-INCBIN "gfx/pokemon/clefable/normal.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/clefable/shiny.pal"
+INCBIN "gfx/pokemon/lepebb/normal.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/lepebb/shiny.pal"
+INCBIN "gfx/pokemon/lunarock/normal.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/lunarock/shiny.pal"
+INCBIN "gfx/pokemon/selenaut/normal.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/selenaut/shiny.pal"
 INCBIN "gfx/pokemon/vulpix/normal.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/vulpix/shiny.pal"
 INCBIN "gfx/pokemon/ninetales/normal.gbcpal", middle_colors

@@ -75,7 +75,7 @@ PewterCityCooltrainerFText:
 	done
 
 PewterCityBugCatcherText:
-	text "At night, CLEFAIRY"
+	text "At night, LUNAROCK"
 	line "come out to play"
 	cont "at MT.MOON."
 

@@ -34,9 +34,9 @@ PokedexDataPointerTable:
 	dw FunjinxPokedexEntry
 	dw EnokusPokedexEntry
 	dw SporlockPokedexEntry
-	dw NidokingPokedexEntry
-	dw ClefairyPokedexEntry
-	dw ClefablePokedexEntry
+	dw LepebbPokedexEntry
+	dw LunarockPokedexEntry
+	dw SelenautPokedexEntry
 	dw VulpixPokedexEntry
 	dw NinetalesPokedexEntry
 	dw JigglypuffPokedexEntry

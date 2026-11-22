@@ -441,7 +441,7 @@ EnokusEvosAttacks:
 	db 0 ; no more level-up moves
 
 SporlockEvosAttacks:
-	db EVOLVE_ITEM, MOON_STONE, NIDOKING
+	db EVOLVE_ITEM, MOON_STONE, LEPEBB
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, TACKLE
@@ -453,7 +453,7 @@ SporlockEvosAttacks:
 	db 46, HORN_DRILL
 	db 0 ; no more level-up moves
 
-NidokingEvosAttacks:
+LepebbEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, HORN_ATTACK
@@ -462,8 +462,8 @@ NidokingEvosAttacks:
 	db 23, THRASH
 	db 0 ; no more level-up moves
 
-ClefairyEvosAttacks:
-	db EVOLVE_ITEM, MOON_STONE, CLEFABLE
+LunarockEvosAttacks:
+	db EVOLVE_ITEM, MOON_STONE, SELENAUT
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, GROWL
@@ -477,7 +477,7 @@ ClefairyEvosAttacks:
 	db 53, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
-ClefableEvosAttacks:
+SelenautEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SING
 	db 1, DOUBLESLAP
@@ -2355,7 +2355,7 @@ PichuEvosAttacks:
 	db 0 ; no more level-up moves
 
 CleffaEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, CLEFAIRY
+	db EVOLVE_HAPPINESS, TR_ANYTIME, LUNAROCK
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, CHARM

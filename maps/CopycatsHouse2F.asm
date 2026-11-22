@@ -250,7 +250,7 @@ CopycatText_Worried:
 
 CopycatText_GiveDoll:
 	text "COPYCAT: Yay!"
-	line "That's my CLEFAIRY"
+	line "That's my LUNAROCK"
 	cont "# DOLL!"
 
 	para "See the tear where"

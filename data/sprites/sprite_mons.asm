@@ -16,7 +16,7 @@ SpriteMons:
 	db DIGLETT
 	db POLIWAG
 	db PEKACHO
-	db CLEFAIRY
+	db LUNAROCK
 	db CUBTAR
 	db JYNX
 	db STARMIE

@@ -38,9 +38,9 @@ MonMenuIconPals:
 	icon_pals BLUE, GREEN   ; FUNJINX
 	icon_pals PURPLE, BLUE  ; ENOKUS
 	icon_pals PURPLE, BLUE  ; SPORLOCK
-	icon_pals PURPLE, BLUE  ; NIDOKING
-	icon_pals PINK, GREEN   ; CLEFAIRY
-	icon_pals PINK, GREEN   ; CLEFABLE
+	icon_pals PURPLE, BLUE  ; LEPEBB
+	icon_pals PINK, GREEN   ; LUNAROCK
+	icon_pals PINK, GREEN   ; SELENAUT
 	icon_pals RED, BROWN    ; VULPIX
 	icon_pals BROWN, GRAY   ; NINETALES
 	icon_pals PINK, GREEN   ; JIGGLYPUFF

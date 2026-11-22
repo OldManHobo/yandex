@@ -5,7 +5,7 @@
 
 MountMoonSquare_MapScripts:
 	def_scene_scripts
-	scene_script MountMoonSquareNoopScene, SCENE_MOUNTMOONSQUARE_CLEFAIRY_DANCE
+	scene_script MountMoonSquareNoopScene, SCENE_MOUNTMOONSQUARE_LUNAROCK_DANCE
 
 	def_callbacks
 	callback MAPCALLBACK_NEWMAP, MountMoonSquareDisappearMoonStoneCallback
@@ -22,8 +22,8 @@ MountMoonSquareDisappearRockCallback:
 	disappear MOUNTMOONSQUARE_ROCK
 	endcallback
 
-ClefairyDance:
-	checkflag ENGINE_MT_MOON_SQUARE_CLEFAIRY
+LunarockDance:
+	checkflag ENGINE_MT_MOON_SQUARE_LUNAROCK
 	iftrue .NoDancing
 	readvar VAR_WEEKDAY
 	ifnotequal MONDAY, .NoDancing
@@ -35,38 +35,38 @@ ClefairyDance:
 	pause 15
 	appear MOUNTMOONSQUARE_ROCK
 	turnobject MOUNTMOONSQUARE_FAIRY1, RIGHT
-	cry CLEFAIRY
+	cry LUNAROCK
 	waitsfx
 	pause 30
 	follow MOUNTMOONSQUARE_FAIRY1, MOUNTMOONSQUARE_FAIRY2
-	cry CLEFAIRY
-	applymovement MOUNTMOONSQUARE_FAIRY1, ClefairyDanceStep1
-	cry CLEFAIRY
-	applymovement MOUNTMOONSQUARE_FAIRY1, ClefairyDanceStep2
-	cry CLEFAIRY
-	applymovement MOUNTMOONSQUARE_FAIRY1, ClefairyDanceStep3
-	cry CLEFAIRY
-	applymovement MOUNTMOONSQUARE_FAIRY1, ClefairyDanceStep4
-	cry CLEFAIRY
-	applymovement MOUNTMOONSQUARE_FAIRY1, ClefairyDanceStep5
+	cry LUNAROCK
+	applymovement MOUNTMOONSQUARE_FAIRY1, LunarockDanceStep1
+	cry LUNAROCK
+	applymovement MOUNTMOONSQUARE_FAIRY1, LunarockDanceStep2
+	cry LUNAROCK
+	applymovement MOUNTMOONSQUARE_FAIRY1, LunarockDanceStep3
+	cry LUNAROCK
+	applymovement MOUNTMOONSQUARE_FAIRY1, LunarockDanceStep4
+	cry LUNAROCK
+	applymovement MOUNTMOONSQUARE_FAIRY1, LunarockDanceStep5
 	stopfollow
-	applymovement MOUNTMOONSQUARE_FAIRY2, ClefairyDanceStep6
+	applymovement MOUNTMOONSQUARE_FAIRY2, LunarockDanceStep6
 	follow MOUNTMOONSQUARE_FAIRY1, MOUNTMOONSQUARE_FAIRY2
-	applymovement MOUNTMOONSQUARE_FAIRY1, ClefairyDanceStep7
+	applymovement MOUNTMOONSQUARE_FAIRY1, LunarockDanceStep7
 	stopfollow
 	turnobject MOUNTMOONSQUARE_FAIRY1, DOWN
 	pause 10
 	showemote EMOTE_SHOCK, MOUNTMOONSQUARE_FAIRY1, 15
 	turnobject MOUNTMOONSQUARE_FAIRY1, DOWN
-	cry CLEFAIRY
+	cry LUNAROCK
 	pause 15
 	follow MOUNTMOONSQUARE_FAIRY1, MOUNTMOONSQUARE_FAIRY2
-	applymovement MOUNTMOONSQUARE_FAIRY1, ClefairyFleeMovement
+	applymovement MOUNTMOONSQUARE_FAIRY1, LunarockFleeMovement
 	disappear MOUNTMOONSQUARE_FAIRY1
 	disappear MOUNTMOONSQUARE_FAIRY2
 	stopfollow
 	clearevent EVENT_MOUNT_MOON_SQUARE_HIDDEN_MOON_STONE
-	setflag ENGINE_MT_MOON_SQUARE_CLEFAIRY
+	setflag ENGINE_MT_MOON_SQUARE_LUNAROCK
 	end
 
 .NoDancing:
@@ -85,38 +85,38 @@ PlayerWalksUpToDancingClefairies:
 	step UP
 	step_end
 
-ClefairyDanceStep1:
+LunarockDanceStep1:
 	slow_step DOWN
 	slow_jump_step DOWN
 	step_end
 
-ClefairyDanceStep2:
+LunarockDanceStep2:
 	slow_jump_step RIGHT
 	step_end
 
-ClefairyDanceStep3:
+LunarockDanceStep3:
 	slow_step UP
 	slow_jump_step UP
 	step_end
 
-ClefairyDanceStep4:
+LunarockDanceStep4:
 	slow_jump_step LEFT
 	step_end
 
-ClefairyDanceStep5:
+LunarockDanceStep5:
 	slow_step DOWN
 	slow_jump_step DOWN
 	step_end
 
-ClefairyDanceStep6:
+LunarockDanceStep6:
 	slow_step DOWN
 	step_end
 
-ClefairyDanceStep7:
+LunarockDanceStep7:
 	slow_step RIGHT
 	step_end
 
-ClefairyFleeMovement:
+LunarockFleeMovement:
 	step RIGHT
 	step RIGHT
 	step RIGHT
@@ -139,13 +139,13 @@ MountMoonSquare_MapEvents:
 	warp_event 13,  7, MOUNT_MOON_GIFT_SHOP, 1
 
 	def_coord_events
-	coord_event  7, 11, SCENE_MOUNTMOONSQUARE_CLEFAIRY_DANCE, ClefairyDance
+	coord_event  7, 11, SCENE_MOUNTMOONSQUARE_LUNAROCK_DANCE, LunarockDance
 
 	def_bg_events
 	bg_event  7,  7, BGEVENT_ITEM, MountMoonSquareHiddenMoonStone
 	bg_event 17,  7, BGEVENT_READ, DontLitterSign
 
 	def_object_events
-	object_event  6,  6, SPRITE_FAIRY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MT_MOON_SQUARE_CLEFAIRY
-	object_event  7,  6, SPRITE_FAIRY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MT_MOON_SQUARE_CLEFAIRY
+	object_event  6,  6, SPRITE_FAIRY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MT_MOON_SQUARE_LUNAROCK
+	object_event  7,  6, SPRITE_FAIRY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MT_MOON_SQUARE_LUNAROCK
 	object_event  7,  7, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MtMoonSquareRock, EVENT_MT_MOON_SQUARE_ROCK
