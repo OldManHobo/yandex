@@ -38,9 +38,9 @@ KantoMonSpecials:
 	db  75 ; LEPEBB
 	db  60 ; LUNAROCK
 	db  85 ; SELENAUT
-	db  65 ; VULPIX
-	db 100 ; NINETALES
-	db  25 ; JIGGLYPUFF
+	db  65 ; MOZER
+	db 100 ; PAINGOLIN
+	db  25 ; MAULOSSAL
 	db  50 ; WIGGLYTUFF
 	db  40 ; ZUBAT
 	db  75 ; GOLBAT

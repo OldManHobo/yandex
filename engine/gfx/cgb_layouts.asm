@@ -451,7 +451,7 @@ _CGB_GSIntro:
 
 .Jumptable:
 	dw .ShellderLaprasScene
-	dw .JigglypuffPekachoScene
+	dw .MaulossalPekachoScene
 	dw .StartersUrsolScene
 
 .ShellderLaprasScene:
@@ -472,14 +472,14 @@ INCLUDE "gfx/intro/gs_shellder_lapras_bg.pal"
 .ShellderLaprasOBPals:
 INCLUDE "gfx/intro/gs_shellder_lapras_ob.pal"
 
-.JigglypuffPekachoScene:
+.MaulossalPekachoScene:
 	ld de, wBGPals1
-	ld a, PREDEFPAL_GS_INTRO_JIGGLYPUFF_PEKACHO_BG
+	ld a, PREDEFPAL_GS_INTRO_MAULOSSAL_PEKACHO_BG
 	call GetPredefPal
 	call LoadHLPaletteIntoDE
 
 	ld de, wOBPals1
-	ld a, PREDEFPAL_GS_INTRO_JIGGLYPUFF_PEKACHO_OB
+	ld a, PREDEFPAL_GS_INTRO_MAULOSSAL_PEKACHO_OB
 	call GetPredefPal
 	call LoadHLPaletteIntoDE
 	call WipeAttrmap

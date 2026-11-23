@@ -88,18 +88,18 @@ INCBIN "gfx/footprints/sporlock.1bpp",   footprint_top
 INCBIN "gfx/footprints/lepebb.1bpp",   footprint_top
 INCBIN "gfx/footprints/lunarock.1bpp",   footprint_top
 INCBIN "gfx/footprints/selenaut.1bpp",   footprint_top
-INCBIN "gfx/footprints/vulpix.1bpp",     footprint_top
-INCBIN "gfx/footprints/ninetales.1bpp",  footprint_top
-INCBIN "gfx/footprints/jigglypuff.1bpp", footprint_top
+INCBIN "gfx/footprints/mozer.1bpp",     footprint_top
+INCBIN "gfx/footprints/paingolin.1bpp",  footprint_top
+INCBIN "gfx/footprints/maulossal.1bpp", footprint_top
 INCBIN "gfx/footprints/wigglytuff.1bpp", footprint_top
 ; 033-040 bottom halves
 INCBIN "gfx/footprints/sporlock.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/lepebb.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/lunarock.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/selenaut.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/vulpix.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/ninetales.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/jigglypuff.1bpp", footprint_bottom
+INCBIN "gfx/footprints/mozer.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/paingolin.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/maulossal.1bpp", footprint_bottom
 INCBIN "gfx/footprints/wigglytuff.1bpp", footprint_bottom
 ; 041-048 top halves
 INCBIN "gfx/footprints/zubat.1bpp",      footprint_top

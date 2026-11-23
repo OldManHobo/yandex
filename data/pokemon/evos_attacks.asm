@@ -485,8 +485,8 @@ SelenautEvosAttacks:
 	db 1, MOONLIGHT
 	db 0 ; no more level-up moves
 
-VulpixEvosAttacks:
-	db EVOLVE_ITEM, FIRE_STONE, NINETALES
+MozerEvosAttacks:
+	db EVOLVE_ITEM, FIRE_STONE, PAINGOLIN
 	db 0 ; no more evolutions
 	db 1, EMBER
 	db 1, TAIL_WHIP
@@ -498,7 +498,7 @@ VulpixEvosAttacks:
 	db 37, FIRE_SPIN
 	db 0 ; no more level-up moves
 
-NinetalesEvosAttacks:
+PaingolinEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, EMBER
 	db 1, QUICK_ATTACK
@@ -507,7 +507,7 @@ NinetalesEvosAttacks:
 	db 43, FIRE_SPIN
 	db 0 ; no more level-up moves
 
-JigglypuffEvosAttacks:
+MaulossalEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, WIGGLYTUFF
 	db 0 ; no more evolutions
 	db 1, SING
@@ -2365,7 +2365,7 @@ CleffaEvosAttacks:
 	db 0 ; no more level-up moves
 
 IgglybuffEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, JIGGLYPUFF
+	db EVOLVE_HAPPINESS, TR_ANYTIME, MAULOSSAL
 	db 0 ; no more evolutions
 	db 1, SING
 	db 1, CHARM

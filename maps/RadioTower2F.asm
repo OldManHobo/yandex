@@ -9,7 +9,7 @@ DEF BLUE_CARD_POINT_CAP EQU 30
 	const RADIOTOWER2F_ROCKET_GIRL
 	const RADIOTOWER2F_BLACK_BELT1
 	const RADIOTOWER2F_BLACK_BELT2
-	const RADIOTOWER2F_JIGGLYPUFF
+	const RADIOTOWER2F_MAULOSSAL
 	const RADIOTOWER2F_BUENA
 	const RADIOTOWER2F_RECEPTIONIST
 
@@ -40,10 +40,10 @@ RadioTower2FTeacherScript:
 	closetext
 	end
 
-RadioTowerJigglypuff:
+RadioTowerMaulossal:
 	opentext
-	writetext RadioTowerJigglypuffText
-	cry JIGGLYPUFF
+	writetext RadioTowerMaulossalText
+	cry MAULOSSAL
 	waitbutton
 	closetext
 	end
@@ -361,8 +361,8 @@ RadioTower2FTeacherText_Rockets:
 	cont "the RADIO TOWER?"
 	done
 
-RadioTowerJigglypuffText:
-	text "JIGGLYPUFF:"
+RadioTowerMaulossalText:
+	text "MAULOSSAL:"
 	line "Jiggly…"
 	done
 
@@ -736,6 +736,6 @@ RadioTower2F_MapEvents:
 	object_event 10,  5, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerGruntF2, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event  0,  1, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RadioTower2FBlackBelt1Script, EVENT_RADIO_TOWER_BLACKBELT_BLOCKS_STAIRS
 	object_event  1,  1, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RadioTower2FBlackBelt2Script, EVENT_RADIO_TOWER_CIVILIANS_AFTER
-	object_event 12,  1, SPRITE_JIGGLYPUFF, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RadioTowerJigglypuff, -1
+	object_event 12,  1, SPRITE_MAULOSSAL, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RadioTowerMaulossal, -1
 	object_event 14,  5, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Buena, -1
 	object_event 12,  7, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, RadioTowerBuenaPrizeReceptionist, EVENT_GOLDENROD_CITY_CIVILIANS

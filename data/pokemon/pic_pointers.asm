@@ -39,9 +39,9 @@ PokemonPicPointers::
 	dba_pics LepebbFrontpic, LepebbBackpic
 	dba_pics LunarockFrontpic, LunarockBackpic
 	dba_pics SelenautFrontpic, SelenautBackpic
-	dba_pics VulpixFrontpic, VulpixBackpic
-	dba_pics NinetalesFrontpic, NinetalesBackpic
-	dba_pics JigglypuffFrontpic, JigglypuffBackpic
+	dba_pics MozerFrontpic, MozerBackpic
+	dba_pics PaingolinFrontpic, PaingolinBackpic
+	dba_pics MaulossalFrontpic, MaulossalBackpic
 	dba_pics WigglytuffFrontpic, WigglytuffBackpic
 	dba_pics ZubatFrontpic, ZubatBackpic
 	dba_pics GolbatFrontpic, GolbatBackpic

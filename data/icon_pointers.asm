@@ -38,9 +38,9 @@ IconPointers:
 	dw LepebbIcon
 	dw LunarockIcon
 	dw SelenautIcon
-	dw VulpixIcon
-	dw NinetalesIcon
-	dw JigglypuffIcon
+	dw MozerIcon
+	dw PaingolinIcon
+	dw MaulossalIcon
 	dw WigglytuffIcon
 	dw ZubatIcon
 	dw GolbatIcon

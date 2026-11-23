@@ -332,9 +332,9 @@ _LookLunarockPosterText::
 	line "cute LUNAROCK."
 	done
 
-_LookJigglypuffPosterText::
+_LookMaulossalPosterText::
 	text "It's a poster of a"
-	line "cute JIGGLYPUFF."
+	line "cute MAULOSSAL."
 	done
 
 _LookAdorableDecoText::

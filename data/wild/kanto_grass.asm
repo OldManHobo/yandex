@@ -289,7 +289,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 13, SNUBBULL
 	db 15, CATHENA
 	db 12, ABRA
-	db 14, JIGGLYPUFF
+	db 14, MAULOSSAL
 	db 14, ABRA
 	db 14, ABRA
 	; day
@@ -297,7 +297,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 13, SNUBBULL
 	db 15, CATHENA
 	db 12, ABRA
-	db 14, JIGGLYPUFF
+	db 14, MAULOSSAL
 	db 14, ABRA
 	db 14, ABRA
 	; nite
@@ -305,7 +305,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 13, MEOWTH
 	db 15, NOCTOWL
 	db 12, ABRA
-	db 14, JIGGLYPUFF
+	db 14, MAULOSSAL
 	db 14, ABRA
 	db 14, ABRA
 	end_grass_wildmons
@@ -317,7 +317,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 13, SNUBBULL
 	db 14, MAGNEMITE
 	db 15, RHINOCEREX
-	db 12, JIGGLYPUFF
+	db 12, MAULOSSAL
 	db 15, GRANBULL
 	db 15, GRANBULL
 	; day
@@ -325,7 +325,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 13, SNUBBULL
 	db 14, MAGNEMITE
 	db 15, RHINOCEREX
-	db 12, JIGGLYPUFF
+	db 12, MAULOSSAL
 	db 15, GRANBULL
 	db 15, GRANBULL
 	; nite
@@ -333,7 +333,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 13, DROWZEE
 	db 14, MAGNEMITE
 	db 15, PSYDUCK
-	db 12, JIGGLYPUFF
+	db 12, MAULOSSAL
 	db 15, RHINOCEREX
 	db 15, RHINOCEREX
 	end_grass_wildmons
@@ -345,7 +345,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 17, GRUBASTION
 	db 18, SNUBBULL
 	db 18, RHINOCEREX
-	db 18, JIGGLYPUFF
+	db 18, MAULOSSAL
 	db 16, ABRA
 	db 16, ABRA
 	; day
@@ -353,7 +353,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 17, GRUBASTION
 	db 18, SNUBBULL
 	db 18, RHINOCEREX
-	db 18, JIGGLYPUFF
+	db 18, MAULOSSAL
 	db 16, ABRA
 	db 16, ABRA
 	; nite
@@ -361,7 +361,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 17, MURKROW
 	db 18, HOUNDOUR
 	db 18, PERSIAN
-	db 18, JIGGLYPUFF
+	db 18, MAULOSSAL
 	db 16, ABRA
 	db 16, ABRA
 	end_grass_wildmons
@@ -373,7 +373,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 19, CATHENA
 	db 16, ABRA
 	db 17, GROWLITHE
-	db 16, JIGGLYPUFF
+	db 16, MAULOSSAL
 	db 18, KADABRA
 	db 18, KADABRA
 	; day
@@ -381,7 +381,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 19, CATHENA
 	db 16, ABRA
 	db 17, GROWLITHE
-	db 16, JIGGLYPUFF
+	db 16, MAULOSSAL
 	db 18, KADABRA
 	db 18, KADABRA
 	; nite
@@ -389,7 +389,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 20, NOCTOWL
 	db 16, ABRA
 	db 17, HAUNTER
-	db 16, JIGGLYPUFF
+	db 16, MAULOSSAL
 	db 18, KADABRA
 	db 18, KADABRA
 	end_grass_wildmons

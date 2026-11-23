@@ -793,7 +793,7 @@ CardFlip_CheckWinCondition:
 	dw .Impossible
 	dw .Impossible
 	dw .Pekacho
-	dw .Jigglypuff
+	dw .Maulossal
 	dw .Poliwag
 	dw .Oddish
 
@@ -890,7 +890,7 @@ CardFlip_CheckWinCondition:
 	jr z, .WinTwelve
 	jp .Lose
 
-.Jigglypuff:
+.Maulossal:
 	ld a, [wCardFlipFaceUpCard]
 	and $3
 	cp $1

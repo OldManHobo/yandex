@@ -21,8 +21,8 @@ BillsGrandpa:
 .MetGrandpa:
 	checkevent EVENT_SHOWED_PICHU_TO_BILLS_GRANDPA
 	iftrue .ShowedPichu
-	checkevent EVENT_SHOWED_GROWLITHE_VULPIX_TO_BILLS_GRANDPA
-	iftrue .ShowedGrowlitheVulpix
+	checkevent EVENT_SHOWED_GROWLITHE_MOZER_TO_BILLS_GRANDPA
+	iftrue .ShowedGrowlitheMozer
 	checkevent EVENT_SHOWED_STARYU_TO_BILLS_GRANDPA
 	iftrue .ShowedStaryu
 	checkevent EVENT_SHOWED_ODDISH_TO_BILLS_GRANDPA
@@ -72,7 +72,7 @@ BillsGrandpa:
 
 .GotWaterStone:
 	checkver
-	iftrue .AskVulpix
+	iftrue .AskMozer
 	writetext BillsGrandpaGrowlitheText
 	promptbutton
 	writetext BillsGrandpaAskToSeeMonText
@@ -83,11 +83,11 @@ BillsGrandpa:
 	iffalse .SaidNo
 	ifnotequal GROWLITHE, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_GROWLITHE_VULPIX_TO_BILLS_GRANDPA
-	sjump .ShowedGrowlitheVulpix
+	setevent EVENT_SHOWED_GROWLITHE_MOZER_TO_BILLS_GRANDPA
+	sjump .ShowedGrowlitheMozer
 
-.AskVulpix:
-	writetext BillsGrandpaVulpixText
+.AskMozer:
+	writetext BillsGrandpaMozerText
 	promptbutton
 	writetext BillsGrandpaAskToSeeMonText
 	yesorno
@@ -95,10 +95,10 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special BillsGrandfather
 	iffalse .SaidNo
-	ifnotequal VULPIX, .WrongPokemon
+	ifnotequal MOZER, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_GROWLITHE_VULPIX_TO_BILLS_GRANDPA
-	sjump .ShowedGrowlitheVulpix
+	setevent EVENT_SHOWED_GROWLITHE_MOZER_TO_BILLS_GRANDPA
+	sjump .ShowedGrowlitheMozer
 
 .GotFireStone:
 	writetext BillsGrandpaPichuText
@@ -147,7 +147,7 @@ BillsGrandpa:
 	closetext
 	end
 
-.ShowedGrowlitheVulpix:
+.ShowedGrowlitheMozer:
 	checkevent EVENT_GOT_FIRE_STONE_FROM_BILLS_GRANDPA
 	iftrue .GotFireStone
 	scall .ReceiveItem
@@ -325,7 +325,7 @@ BillsGrandpaGrowlitheText:
 	line "ROAR well."
 	done
 
-BillsGrandpaVulpixText:
+BillsGrandpaMozerText:
 	text "I heard about a"
 	line "cute #MON that"
 	cont "has six tails."

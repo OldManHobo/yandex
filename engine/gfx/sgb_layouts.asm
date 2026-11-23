@@ -314,7 +314,7 @@ endr
 
 .BlkPacketTable_GSIntro:
 	dw BlkPacket_AllPal0, PalPacket_GSIntroShellderLapras
-	dw BlkPacket_GSIntroJigglypuffPekacho, PalPacket_GSIntroJigglypuffPekacho
+	dw BlkPacket_GSIntroMaulossalPekacho, PalPacket_GSIntroMaulossalPekacho
 	dw BlkPacket_AllPal0, PalPacket_GSIntroStartersTransition
 
 .SGB_GSTitleScreen:

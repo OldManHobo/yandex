@@ -37,9 +37,9 @@ PokedexDataPointerTable:
 	dw LepebbPokedexEntry
 	dw LunarockPokedexEntry
 	dw SelenautPokedexEntry
-	dw VulpixPokedexEntry
-	dw NinetalesPokedexEntry
-	dw JigglypuffPokedexEntry
+	dw MozerPokedexEntry
+	dw PaingolinPokedexEntry
+	dw MaulossalPokedexEntry
 	dw WigglytuffPokedexEntry
 	dw ZubatPokedexEntry
 	dw GolbatPokedexEntry

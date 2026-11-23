@@ -41,10 +41,10 @@ PokemonCries::
 	mon_cry CRY_METAPOD,   -1016,  314 ; SPORLOCK
 	mon_cry CRY_VENONAT,     144,  112 ; LEPEBB
 	mon_cry CRY_PARAS,      -192,  160 ; LUNAROCK
-	mon_cry CRY_PARAS,       -48,  416 ; CLEFABLE
-	mon_cry CRY_VULPIX,       79,  144 ; VULPIX
-	mon_cry CRY_VULPIX,      136,  224 ; NINETALES
-	mon_cry CRY_PIDGEY,      255,  181 ; JIGGLYPUFF
+	mon_cry CRY_PARAS,       -48,  416 ; SELENAUT
+	mon_cry CRY_SUNFLORA,   -144,   96 ; MOZER
+	mon_cry CRY_SUNFLORA,   -768,  288 ; PAINGOLIN
+	mon_cry CRY_RAICHU,     -512,  304 ; MAULOSSAL
 	mon_cry CRY_PIDGEY,      104,  224 ; WIGGLYTUFF
 	mon_cry CRY_SQUIRTLE,    224,  256 ; ZUBAT
 	mon_cry CRY_SQUIRTLE,    250,  256 ; GOLBAT

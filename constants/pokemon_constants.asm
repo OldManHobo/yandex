@@ -55,9 +55,9 @@
 	const LEPEBB   ; 22
 	const LUNAROCK   ; 23
 	const SELENAUT   ; 24
-	const VULPIX     ; 25
-	const NINETALES  ; 26
-	const JIGGLYPUFF ; 27
+	const MOZER     ; 25
+	const PAINGOLIN  ; 26
+	const MAULOSSAL ; 27
 	const WIGGLYTUFF ; 28
 	const ZUBAT      ; 29
 	const GOLBAT     ; 2a

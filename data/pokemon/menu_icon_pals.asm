@@ -41,9 +41,9 @@ MonMenuIconPals:
 	icon_pals PURPLE, BLUE  ; LEPEBB
 	icon_pals PINK, GREEN   ; LUNAROCK
 	icon_pals PINK, GREEN   ; SELENAUT
-	icon_pals RED, BROWN    ; VULPIX
-	icon_pals BROWN, GRAY   ; NINETALES
-	icon_pals PINK, GREEN   ; JIGGLYPUFF
+	icon_pals RED, BROWN    ; MOZER
+	icon_pals BROWN, GRAY   ; PAINGOLIN
+	icon_pals PINK, GREEN   ; MAULOSSAL
 	icon_pals PINK, GREEN   ; WIGGLYTUFF
 	icon_pals BLUE, GREEN   ; ZUBAT
 	icon_pals BLUE, GREEN   ; GOLBAT

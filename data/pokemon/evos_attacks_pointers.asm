@@ -38,9 +38,9 @@ EvosAttacksPointers::
 	dw LepebbEvosAttacks
 	dw LunarockEvosAttacks
 	dw SelenautEvosAttacks
-	dw VulpixEvosAttacks
-	dw NinetalesEvosAttacks
-	dw JigglypuffEvosAttacks
+	dw MozerEvosAttacks
+	dw PaingolinEvosAttacks
+	dw MaulossalEvosAttacks
 	dw WigglytuffEvosAttacks
 	dw ZubatEvosAttacks
 	dw GolbatEvosAttacks

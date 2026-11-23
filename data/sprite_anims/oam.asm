@@ -21,13 +21,13 @@ SpriteAnimOAMData:
 	spriteanimoam $06, .OAMData_GSIntroLapras            ; SPRITE_ANIM_OAMSET_GS_INTRO_LAPRAS_3
 	spriteanimoam $0c, .OAMData_GSIntroNote              ; SPRITE_ANIM_OAMSET_GS_INTRO_NOTE
 	spriteanimoam $0d, .OAMData_1x1_Palette0             ; SPRITE_ANIM_OAMSET_GS_INTRO_INVISIBLE_NOTE
-	spriteanimoam $00, .OAMData_GSIntroJigglypuffPekacho ; SPRITE_ANIM_OAMSET_GS_INTRO_JIGGLYPUFF_1
-	spriteanimoam $04, .OAMData_GSIntroJigglypuffPekacho ; SPRITE_ANIM_OAMSET_GS_INTRO_JIGGLYPUFF_2
-	spriteanimoam $08, .OAMData_GSIntroJigglypuffPekacho ; SPRITE_ANIM_OAMSET_GS_INTRO_JIGGLYPUFF_3
-	spriteanimoam $40, .OAMData_GSIntroJigglypuffPekacho ; SPRITE_ANIM_OAMSET_GS_INTRO_PEKACHO_1
-	spriteanimoam $44, .OAMData_GSIntroJigglypuffPekacho ; SPRITE_ANIM_OAMSET_GS_INTRO_PEKACHO_2
-	spriteanimoam $48, .OAMData_GSIntroJigglypuffPekacho ; SPRITE_ANIM_OAMSET_GS_INTRO_PEKACHO_3
-	spriteanimoam $4c, .OAMData_GSIntroJigglypuffPekacho ; SPRITE_ANIM_OAMSET_GS_INTRO_PEKACHO_4
+	spriteanimoam $00, .OAMData_GSIntroMaulossalPekacho ; SPRITE_ANIM_OAMSET_GS_INTRO_MAULOSSAL_1
+	spriteanimoam $04, .OAMData_GSIntroMaulossalPekacho ; SPRITE_ANIM_OAMSET_GS_INTRO_MAULOSSAL_2
+	spriteanimoam $08, .OAMData_GSIntroMaulossalPekacho ; SPRITE_ANIM_OAMSET_GS_INTRO_MAULOSSAL_3
+	spriteanimoam $40, .OAMData_GSIntroMaulossalPekacho ; SPRITE_ANIM_OAMSET_GS_INTRO_PEKACHO_1
+	spriteanimoam $44, .OAMData_GSIntroMaulossalPekacho ; SPRITE_ANIM_OAMSET_GS_INTRO_PEKACHO_2
+	spriteanimoam $48, .OAMData_GSIntroMaulossalPekacho ; SPRITE_ANIM_OAMSET_GS_INTRO_PEKACHO_3
+	spriteanimoam $4c, .OAMData_GSIntroMaulossalPekacho ; SPRITE_ANIM_OAMSET_GS_INTRO_PEKACHO_4
 	spriteanimoam $80, .OAMData_GSIntroPekachoTail       ; SPRITE_ANIM_OAMSET_GS_INTRO_PEKACHO_TAIL_1
 	spriteanimoam $85, .OAMData_GSIntroPekachoTail       ; SPRITE_ANIM_OAMSET_GS_INTRO_PEKACHO_TAIL_2
 	spriteanimoam $8a, .OAMData_GSIntroPekachoTail       ; SPRITE_ANIM_OAMSET_GS_INTRO_PEKACHO_TAIL_3
@@ -267,7 +267,7 @@ SpriteAnimOAMData:
 	dbsprite -1,  0,  4,  4, $21, 0
 	dbsprite  0,  0,  4,  4, $22, 0
 
-.OAMData_GSIntroJigglypuffPekacho:
+.OAMData_GSIntroMaulossalPekacho:
 	db 16
 	dbsprite -2, -2,  0,  0, $00, 0
 	dbsprite -1, -2,  0,  0, $01, 0

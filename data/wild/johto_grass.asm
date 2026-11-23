@@ -1381,7 +1381,7 @@ JohtoGrassWildMons:
 	db 11, BEETYKE
 	db 12, STRYNX
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, MAULOSSAL
 	db 10, DITTO
 	db 10, DITTO
 	; day
@@ -1389,7 +1389,7 @@ JohtoGrassWildMons:
 	db 11, BEETYKE
 	db 12, STRYNX
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, MAULOSSAL
 	db 10, DITTO
 	db 10, DITTO
 	; nite
@@ -1397,7 +1397,7 @@ JohtoGrassWildMons:
 	db 11, BEETYKE
 	db 12, HOOTHOOT
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, MAULOSSAL
 	db 10, DITTO
 	db 10, DITTO
 	end_grass_wildmons
@@ -1409,7 +1409,7 @@ JohtoGrassWildMons:
 	db 14, STRYNX
 	db 13, GROWLITHE
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, MAULOSSAL
 	db 10, DITTO
 	db 12, YANMA
 	; day
@@ -1417,7 +1417,7 @@ JohtoGrassWildMons:
 	db 14, STRYNX
 	db 13, GROWLITHE
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, MAULOSSAL
 	db 10, DITTO
 	db 12, YANMA
 	; nite
@@ -1425,7 +1425,7 @@ JohtoGrassWildMons:
 	db 14, HOOTHOOT
 	db 13, PSYDUCK
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, MAULOSSAL
 	db 10, DITTO
 	db 12, YANMA
 	end_grass_wildmons

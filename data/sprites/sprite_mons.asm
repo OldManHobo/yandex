@@ -21,7 +21,7 @@ SpriteMons:
 	db JYNX
 	db STARMIE
 	db SAUROBUD
-	db JIGGLYPUFF
+	db MAULOSSAL
 	db GRIMER
 	db YOKOKOON
 	db PARAS

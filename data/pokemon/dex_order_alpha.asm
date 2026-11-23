@@ -95,7 +95,7 @@ AlphabeticalPokedexOrder:
 	db HYPNO
 	db IGGLYBUFF
 	db FOESETTE
-	db JIGGLYPUFF
+	db MAULOSSAL
 	db JOLTEON
 	db JUMPLUFF
 	db JYNX
@@ -147,7 +147,7 @@ AlphabeticalPokedexOrder:
 	db ENOKUS
 	db OOHOOHOOH
 	db SPORLOCK
-	db NINETALES
+	db PAINGOLIN
 	db NOCTOWL
 	db OCTILLERY
 	db ODDISH
@@ -241,7 +241,7 @@ AlphabeticalPokedexOrder:
 	db VICTREEBEL
 	db VILEPLUME
 	db VOLTORB
-	db VULPIX
+	db MOZER
 	db FWOPPER
 	db CHICKEEN
 	db WEEPINBELL
