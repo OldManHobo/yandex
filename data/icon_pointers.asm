@@ -41,12 +41,12 @@ IconPointers:
 	dw MozerIcon
 	dw PaingolinIcon
 	dw MaulossalIcon
-	dw WigglytuffIcon
-	dw ZubatIcon
-	dw GolbatIcon
-	dw OddishIcon
-	dw GloomIcon
-	dw VileplumeIcon
+	dw CalvoriIcon
+	dw SilicerosIcon
+	dw KobaltatIcon
+	dw PigflyIcon
+	dw BatrilIcon
+	dw MixoptixIcon
 	dw ParasIcon
 	dw ParasectIcon
 	dw VenonatIcon

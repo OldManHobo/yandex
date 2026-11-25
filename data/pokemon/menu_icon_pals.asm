@@ -44,12 +44,12 @@ MonMenuIconPals:
 	icon_pals RED, BROWN    ; MOZER
 	icon_pals BROWN, GRAY   ; PAINGOLIN
 	icon_pals PINK, GREEN   ; MAULOSSAL
-	icon_pals PINK, GREEN   ; WIGGLYTUFF
-	icon_pals BLUE, GREEN   ; ZUBAT
-	icon_pals BLUE, GREEN   ; GOLBAT
-	icon_pals GREEN, BROWN  ; ODDISH
-	icon_pals RED, BROWN    ; GLOOM
-	icon_pals RED, BROWN    ; VILEPLUME
+	icon_pals PINK, GREEN   ; CALVORI
+	icon_pals BLUE, GREEN   ; SILICEROS
+	icon_pals BLUE, GREEN   ; KOBALTAT
+	icon_pals GREEN, BROWN  ; PIGFLY
+	icon_pals RED, BROWN    ; BATRIL
+	icon_pals RED, BROWN    ; MIXOPTIX
 	icon_pals RED, GREEN    ; PARAS
 	icon_pals RED, GREEN    ; PARASECT
 	icon_pals PURPLE, BLUE  ; VENONAT

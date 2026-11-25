@@ -103,7 +103,7 @@ MozerEggMoves:
 	db DISABLE
 	db -1 ; end
 
-ZubatEggMoves:
+SilicerosEggMoves:
 	db QUICK_ATTACK
 	db PURSUIT
 	db FAINT_ATTACK
@@ -111,7 +111,7 @@ ZubatEggMoves:
 	db WHIRLWIND
 	db -1 ; end
 
-OddishEggMoves:
+PigflyEggMoves:
 	db SWORDS_DANCE
 	db RAZOR_LEAF
 	db FLAIL

@@ -71,8 +71,8 @@ AlphabeticalPokedexOrder:
 	db GEODUDE
 	db GIRAFARIG
 	db GLIGAR
-	db GLOOM
-	db GOLBAT
+	db BATRIL
+	db KOBALTAT
 	db GOLDEEN
 	db GOLDUCK
 	db GOLEM
@@ -150,7 +150,7 @@ AlphabeticalPokedexOrder:
 	db PAINGOLIN
 	db NOCTOWL
 	db OCTILLERY
-	db ODDISH
+	db PIGFLY
 	db OMANYTE
 	db OMASTAR
 	db ONIX
@@ -239,18 +239,18 @@ AlphabeticalPokedexOrder:
 	db VENONAT
 	db GOREMELIAD
 	db VICTREEBEL
-	db VILEPLUME
+	db MIXOPTIX
 	db VOLTORB
 	db MOZER
 	db FWOPPER
 	db CHICKEEN
 	db WEEPINBELL
 	db WEEZING
-	db WIGGLYTUFF
+	db CALVORI
 	db WOBBUFFET
 	db WOOPER
 	db XATU
 	db YANMA
 	db ZAPDOS
-	db ZUBAT
+	db SILICEROS
 	assert_table_length NUM_POKEMON

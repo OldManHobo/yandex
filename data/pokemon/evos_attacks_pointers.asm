@@ -41,12 +41,12 @@ EvosAttacksPointers::
 	dw MozerEvosAttacks
 	dw PaingolinEvosAttacks
 	dw MaulossalEvosAttacks
-	dw WigglytuffEvosAttacks
-	dw ZubatEvosAttacks
-	dw GolbatEvosAttacks
-	dw OddishEvosAttacks
-	dw GloomEvosAttacks
-	dw VileplumeEvosAttacks
+	dw CalvoriEvosAttacks
+	dw SilicerosEvosAttacks
+	dw KobaltatEvosAttacks
+	dw PigflyEvosAttacks
+	dw BatrilEvosAttacks
+	dw MixoptixEvosAttacks
 	dw ParasEvosAttacks
 	dw ParasectEvosAttacks
 	dw VenonatEvosAttacks

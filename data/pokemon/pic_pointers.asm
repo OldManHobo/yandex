@@ -42,12 +42,12 @@ PokemonPicPointers::
 	dba_pics MozerFrontpic, MozerBackpic
 	dba_pics PaingolinFrontpic, PaingolinBackpic
 	dba_pics MaulossalFrontpic, MaulossalBackpic
-	dba_pics WigglytuffFrontpic, WigglytuffBackpic
-	dba_pics ZubatFrontpic, ZubatBackpic
-	dba_pics GolbatFrontpic, GolbatBackpic
-	dba_pics OddishFrontpic, OddishBackpic
-	dba_pics GloomFrontpic, GloomBackpic
-	dba_pics VileplumeFrontpic, VileplumeBackpic
+	dba_pics CalvoriFrontpic, CalvoriBackpic
+	dba_pics SilicerosFrontpic, SilicerosBackpic
+	dba_pics KobaltatFrontpic, KobaltatBackpic
+	dba_pics PigflyFrontpic, PigflyBackpic
+	dba_pics BatrilFrontpic, BatrilBackpic
+	dba_pics MixoptixFrontpic, MixoptixBackpic
 	dba_pics ParasFrontpic, ParasBackpic
 	dba_pics ParasectFrontpic, ParasectBackpic
 	dba_pics VenonatFrontpic, VenonatBackpic

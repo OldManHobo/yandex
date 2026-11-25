@@ -995,7 +995,7 @@ BattleTowerMons:
 	bigdw 48 ; SDef
 	dname "MIRUTANKU", MON_NAME_LENGTH
 
-	db WIGGLYTUFF
+	db CALVORI
 	db GOLD_BERRY
 	db HYPER_BEAM, BLIZZARD, FIRE_BLAST, ATTRACT
 	dw 0 ; OT ID
@@ -1021,7 +1021,7 @@ BattleTowerMons:
 	bigdw 40 ; SDef
 	dname "PUKURIN", MON_NAME_LENGTH
 
-	db WIGGLYTUFF
+	db CALVORI
 	db PINK_BOW
 	db PSYCHIC_M, SWAGGER, PSYCH_UP, HEADBUTT
 	dw 0 ; OT ID

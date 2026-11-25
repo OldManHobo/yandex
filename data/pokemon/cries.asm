@@ -45,12 +45,12 @@ PokemonCries::
 	mon_cry CRY_SUNFLORA,   -144,   96 ; MOZER
 	mon_cry CRY_SUNFLORA,   -768,  288 ; PAINGOLIN
 	mon_cry CRY_RAICHU,     -512,  304 ; MAULOSSAL
-	mon_cry CRY_PIDGEY,      104,  224 ; WIGGLYTUFF
-	mon_cry CRY_SQUIRTLE,    224,  256 ; ZUBAT
-	mon_cry CRY_SQUIRTLE,    250,  256 ; GOLBAT
-	mon_cry CRY_ODDISH,      221,  129 ; ODDISH
-	mon_cry CRY_ODDISH,      170,  192 ; GLOOM
-	mon_cry CRY_VILEPLUME,    34,  383 ; VILEPLUME
+	mon_cry CRY_GLIGAR,     -546,  176 ; CALVORI
+	mon_cry CRY_TYPHLOSION, -739,  359 ; SILICEROS
+	mon_cry CRY_SWINUB,      615,  166 ; KOBALTAT
+	mon_cry CRY_SWINUB,      150,  374 ; PIGFLY
+	mon_cry CRY_WOOPER,       51,  303 ; BATRIL
+	mon_cry CRY_SQUIRTLE,    442,  208 ; MIXOPTIX
 	mon_cry CRY_PARAS,        32,  352 ; PARAS
 	mon_cry CRY_PARAS,        66,  383 ; PARASECT
 	mon_cry CRY_VENONAT,      68,  192 ; VENONAT

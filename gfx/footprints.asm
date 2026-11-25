@@ -91,7 +91,7 @@ INCBIN "gfx/footprints/selenaut.1bpp",   footprint_top
 INCBIN "gfx/footprints/mozer.1bpp",     footprint_top
 INCBIN "gfx/footprints/paingolin.1bpp",  footprint_top
 INCBIN "gfx/footprints/maulossal.1bpp", footprint_top
-INCBIN "gfx/footprints/wigglytuff.1bpp", footprint_top
+INCBIN "gfx/footprints/calvori.1bpp", footprint_top
 ; 033-040 bottom halves
 INCBIN "gfx/footprints/sporlock.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/lepebb.1bpp",   footprint_bottom
@@ -100,22 +100,22 @@ INCBIN "gfx/footprints/selenaut.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/mozer.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/paingolin.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/maulossal.1bpp", footprint_bottom
-INCBIN "gfx/footprints/wigglytuff.1bpp", footprint_bottom
+INCBIN "gfx/footprints/calvori.1bpp", footprint_bottom
 ; 041-048 top halves
-INCBIN "gfx/footprints/zubat.1bpp",      footprint_top
-INCBIN "gfx/footprints/golbat.1bpp",     footprint_top
-INCBIN "gfx/footprints/oddish.1bpp",     footprint_top
-INCBIN "gfx/footprints/gloom.1bpp",      footprint_top
-INCBIN "gfx/footprints/vileplume.1bpp",  footprint_top
+INCBIN "gfx/footprints/siliceros.1bpp",      footprint_top
+INCBIN "gfx/footprints/kobaltat.1bpp",     footprint_top
+INCBIN "gfx/footprints/pigfly.1bpp",     footprint_top
+INCBIN "gfx/footprints/batril.1bpp",      footprint_top
+INCBIN "gfx/footprints/mixoptix.1bpp",  footprint_top
 INCBIN "gfx/footprints/paras.1bpp",      footprint_top
 INCBIN "gfx/footprints/parasect.1bpp",   footprint_top
 INCBIN "gfx/footprints/venonat.1bpp",    footprint_top
 ; 041-048 bottom halves
-INCBIN "gfx/footprints/zubat.1bpp",      footprint_bottom
-INCBIN "gfx/footprints/golbat.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/oddish.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/gloom.1bpp",      footprint_bottom
-INCBIN "gfx/footprints/vileplume.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/siliceros.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/kobaltat.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/pigfly.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/batril.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/mixoptix.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/paras.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/parasect.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/venonat.1bpp",    footprint_bottom

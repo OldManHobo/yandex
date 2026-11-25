@@ -6,9 +6,9 @@ SpriteMons:
 	db GROWLITHE
 	db CHICKEEN
 	db SHELLDER
-	db ODDISH
+	db PIGFLY
 	db GENGAR
-	db ZUBAT
+	db SILICEROS
 	db MAGIKARP
 	db FWIB
 	db TOGEPI

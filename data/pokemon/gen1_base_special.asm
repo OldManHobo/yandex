@@ -41,12 +41,12 @@ KantoMonSpecials:
 	db  65 ; MOZER
 	db 100 ; PAINGOLIN
 	db  25 ; MAULOSSAL
-	db  50 ; WIGGLYTUFF
-	db  40 ; ZUBAT
-	db  75 ; GOLBAT
-	db  75 ; ODDISH
-	db  85 ; GLOOM
-	db 100 ; VILEPLUME
+	db  50 ; CALVORI
+	db  40 ; SILICEROS
+	db  75 ; KOBALTAT
+	db  75 ; PIGFLY
+	db  85 ; BATRIL
+	db 100 ; MIXOPTIX
 	db  55 ; PARAS
 	db  80 ; PARASECT
 	db  40 ; VENONAT

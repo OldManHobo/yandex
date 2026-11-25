@@ -25,8 +25,8 @@ BillsGrandpa:
 	iftrue .ShowedGrowlitheMozer
 	checkevent EVENT_SHOWED_STARYU_TO_BILLS_GRANDPA
 	iftrue .ShowedStaryu
-	checkevent EVENT_SHOWED_ODDISH_TO_BILLS_GRANDPA
-	iftrue .ShowedOddish
+	checkevent EVENT_SHOWED_PIGFLY_TO_BILLS_GRANDPA
+	iftrue .ShowedPigfly
 	checkevent EVENT_SHOWED_LICKITUNG_TO_BILLS_GRANDPA
 	iftrue .ShowedLickitung
 	writetext BillsGrandpaLickitungText
@@ -43,7 +43,7 @@ BillsGrandpa:
 	sjump .ShowedLickitung
 
 .GotEverstone:
-	writetext BillsGrandpaOddishText
+	writetext BillsGrandpaPigflyText
 	promptbutton
 	writetext BillsGrandpaAskToSeeMonText
 	yesorno
@@ -51,10 +51,10 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special BillsGrandfather
 	iffalse .SaidNo
-	ifnotequal ODDISH, .WrongPokemon
+	ifnotequal PIGFLY, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_ODDISH_TO_BILLS_GRANDPA
-	sjump .ShowedOddish
+	setevent EVENT_SHOWED_PIGFLY_TO_BILLS_GRANDPA
+	sjump .ShowedPigfly
 
 .GotLeafStone:
 	writetext BillsGrandpaStaryuText
@@ -125,7 +125,7 @@ BillsGrandpa:
 	closetext
 	end
 
-.ShowedOddish:
+.ShowedPigfly:
 	checkevent EVENT_GOT_LEAF_STONE_FROM_BILLS_GRANDPA
 	iftrue .GotLeafStone
 	scall .ReceiveItem
@@ -287,7 +287,7 @@ BillsGrandpaLickitungText:
 	line "long tongue."
 	done
 
-BillsGrandpaOddishText:
+BillsGrandpaPigflyText:
 	text "Ah, my grandson"
 	line "mentioned a round,"
 

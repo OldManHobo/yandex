@@ -40,12 +40,12 @@ PokedexDataPointerTable:
 	dw MozerPokedexEntry
 	dw PaingolinPokedexEntry
 	dw MaulossalPokedexEntry
-	dw WigglytuffPokedexEntry
-	dw ZubatPokedexEntry
-	dw GolbatPokedexEntry
-	dw OddishPokedexEntry
-	dw GloomPokedexEntry
-	dw VileplumePokedexEntry
+	dw CalvoriPokedexEntry
+	dw SilicerosPokedexEntry
+	dw KobaltatPokedexEntry
+	dw PigflyPokedexEntry
+	dw BatrilPokedexEntry
+	dw MixoptixPokedexEntry
 	dw ParasPokedexEntry
 	dw ParasectPokedexEntry
 	dw VenonatPokedexEntry

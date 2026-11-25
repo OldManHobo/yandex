@@ -58,12 +58,12 @@
 	const MOZER     ; 25
 	const PAINGOLIN  ; 26
 	const MAULOSSAL ; 27
-	const WIGGLYTUFF ; 28
-	const ZUBAT      ; 29
-	const GOLBAT     ; 2a
-	const ODDISH     ; 2b
-	const GLOOM      ; 2c
-	const VILEPLUME  ; 2d
+	const CALVORI ; 28
+	const SILICEROS      ; 29
+	const KOBALTAT     ; 2a
+	const PIGFLY     ; 2b
+	const BATRIL      ; 2c
+	const MIXOPTIX  ; 2d
 	const PARAS      ; 2e
 	const PARASECT   ; 2f
 	const VENONAT    ; 30

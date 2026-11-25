@@ -33,7 +33,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	def_grass_wildmons MOUNT_MOON
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 6, ZUBAT
+	db 6, SILICEROS
 	db 8, GEODUDE
 	db 8, RUNSTALK
 	db 12, PARAS
@@ -41,7 +41,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 8, LUNAROCK
 	db 8, LUNAROCK
 	; day
-	db 6, ZUBAT
+	db 6, SILICEROS
 	db 8, GEODUDE
 	db 8, RUNSTALK
 	db 12, PARAS
@@ -49,7 +49,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 8, LUNAROCK
 	db 8, LUNAROCK
 	; nite
-	db 6, ZUBAT
+	db 6, SILICEROS
 	db 8, GEODUDE
 	db 8, LUNAROCK
 	db 12, PARAS
@@ -64,7 +64,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 10, CUBONE
 	db 11, GEODUDE
 	db 12, MACHOP
-	db 12, ZUBAT
+	db 12, SILICEROS
 	db 15, MACHOKE
 	db 12, MAROWAK
 	db 12, MAROWAK
@@ -72,18 +72,18 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 10, CUBONE
 	db 11, GEODUDE
 	db 12, MACHOP
-	db 12, ZUBAT
+	db 12, SILICEROS
 	db 15, MACHOKE
 	db 12, MAROWAK
 	db 12, MAROWAK
 	; nite
-	db 12, ZUBAT
+	db 12, SILICEROS
 	db 11, GEODUDE
 	db 12, GEODUDE
 	db 17, HAUNTER
-	db 15, ZUBAT
-	db 15, ZUBAT
-	db 15, ZUBAT
+	db 15, SILICEROS
+	db 15, SILICEROS
+	db 15, SILICEROS
 	end_grass_wildmons
 
 	def_grass_wildmons ROCK_TUNNEL_B1F
@@ -92,7 +92,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 12, CUBONE
 	db 14, GEODUDE
 	db 16, ONIX
-	db 12, ZUBAT
+	db 12, SILICEROS
 	db 15, MAROWAK
 	db 15, KANGASKHAN
 	db 15, KANGASKHAN
@@ -100,18 +100,18 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 12, CUBONE
 	db 14, GEODUDE
 	db 16, ONIX
-	db 12, ZUBAT
+	db 12, SILICEROS
 	db 15, MAROWAK
 	db 15, KANGASKHAN
 	db 15, KANGASKHAN
 	; nite
-	db 12, ZUBAT
+	db 12, SILICEROS
 	db 14, GEODUDE
 	db 16, ONIX
-	db 15, ZUBAT
+	db 15, SILICEROS
 	db 15, HAUNTER
-	db 15, GOLBAT
-	db 15, GOLBAT
+	db 15, KOBALTAT
+	db 15, KOBALTAT
 	end_grass_wildmons
 
 	def_grass_wildmons VICTORY_ROAD
@@ -120,7 +120,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 34, GRAVELER
 	db 32, RHYHORN
 	db 33, ONIX
-	db 34, GOLBAT
+	db 34, KOBALTAT
 	db 35, FUNFLOWER
 	db 35, RHYDON
 	db 35, RHYDON
@@ -128,12 +128,12 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 34, GRAVELER
 	db 32, RHYHORN
 	db 33, ONIX
-	db 34, GOLBAT
+	db 34, KOBALTAT
 	db 35, FUNFLOWER
 	db 35, RHYDON
 	db 35, RHYDON
 	; nite
-	db 34, GOLBAT
+	db 34, KOBALTAT
 	db 34, GRAVELER
 	db 32, ONIX
 	db 36, GRAVELER
@@ -145,25 +145,25 @@ def_grass_wildmons DIGLETTS_CAVE
 	def_grass_wildmons TOHJO_FALLS
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, ZUBAT
+	db 22, SILICEROS
 	db 22, RHINOCEREX
-	db 24, GOLBAT
+	db 24, KOBALTAT
 	db 21, SLOWPOKE
 	db 20, BEETYKE
 	db 23, SLOWPOKE
 	db 23, SLOWPOKE
 	; day
-	db 22, ZUBAT
+	db 22, SILICEROS
 	db 22, RHINOCEREX
-	db 24, GOLBAT
+	db 24, KOBALTAT
 	db 21, SLOWPOKE
 	db 20, BEETYKE
 	db 23, SLOWPOKE
 	db 23, SLOWPOKE
 	; nite
-	db 22, ZUBAT
+	db 22, SILICEROS
 	db 22, RHINOCEREX
-	db 24, GOLBAT
+	db 24, KOBALTAT
 	db 21, SLOWPOKE
 	db 20, BEETYKE
 	db 23, SLOWPOKE
@@ -248,7 +248,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 5, BEETYKE
 	db 10, BEETYKE
 	db 10, RHINOCEREX
-	db 6, ZUBAT
+	db 6, SILICEROS
 	db 5, BEETYKE
 	db 6, LUNAROCK
 	db 6, LUNAROCK
@@ -276,7 +276,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 5, BEETYKE
 	db 10, BEETYKE
 	db 10, RHINOCEREX
-	db 6, ZUBAT
+	db 6, SILICEROS
 	db 5, BEETYKE
 	db 6, LUNAROCK
 	db 6, LUNAROCK
@@ -417,7 +417,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 15, VENONAT
 	db 15, RHINOCEREX
 	db 15, VENOMOTH
-	db 15, ZUBAT
+	db 15, SILICEROS
 	db 18, RHINOCEREX
 	db 18, RHINOCEREX
 	end_grass_wildmons
@@ -445,7 +445,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 17, VOLTORB
 	db 15, RHINOCEREX
 	db 15, VENOMOTH
-	db 15, ZUBAT
+	db 15, SILICEROS
 	db 16, ELECTABUZZ
 	db 16, ELECTABUZZ
 	end_grass_wildmons
@@ -722,12 +722,12 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 14, NUGGLET
 	; nite
 	db 10, VENONAT
-	db 10, ODDISH
-	db 12, ODDISH
+	db 10, PIGFLY
+	db 12, PIGFLY
 	db 12, ABRA
 	db 10, BELLSPROUT
-	db 14, GLOOM
-	db 14, GLOOM
+	db 14, BATRIL
+	db 14, BATRIL
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_25
@@ -749,7 +749,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 14, NUGGLET
 	db 14, NUGGLET
 	; nite
-	db 10, ODDISH
+	db 10, PIGFLY
 	db 10, HOOTHOOT
 	db 10, VENONAT
 	db 12, NOCTOWL
@@ -835,11 +835,11 @@ def_grass_wildmons DIGLETTS_CAVE
 	; nite
 	db 39, TANGELA
 	db 40, POLIWHIRL
-	db 40, GOLBAT
+	db 40, KOBALTAT
 	db 40, POLIWHIRL
-	db 42, GOLBAT
-	db 42, GOLBAT
-	db 42, GOLBAT
+	db 42, KOBALTAT
+	db 42, KOBALTAT
+	db 42, KOBALTAT
 	end_grass_wildmons
 
 	db -1 ; end

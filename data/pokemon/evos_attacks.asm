@@ -508,7 +508,7 @@ PaingolinEvosAttacks:
 	db 0 ; no more level-up moves
 
 MaulossalEvosAttacks:
-	db EVOLVE_ITEM, MOON_STONE, WIGGLYTUFF
+	db EVOLVE_ITEM, MOON_STONE, CALVORI
 	db 0 ; no more evolutions
 	db 1, SING
 	db 4, DEFENSE_CURL
@@ -521,7 +521,7 @@ MaulossalEvosAttacks:
 	db 39, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
-WigglytuffEvosAttacks:
+CalvoriEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SING
 	db 1, DISABLE
@@ -529,8 +529,8 @@ WigglytuffEvosAttacks:
 	db 1, DOUBLESLAP
 	db 0 ; no more level-up moves
 
-ZubatEvosAttacks:
-	db EVOLVE_LEVEL, 22, GOLBAT
+SilicerosEvosAttacks:
+	db EVOLVE_LEVEL, 22, KOBALTAT
 	db 0 ; no more evolutions
 	db 1, LEECH_LIFE
 	db 6, SUPERSONIC
@@ -541,7 +541,7 @@ ZubatEvosAttacks:
 	db 46, HAZE
 	db 0 ; no more level-up moves
 
-GolbatEvosAttacks:
+KobaltatEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, CROBAT
 	db 0 ; no more evolutions
 	db 1, SCREECH
@@ -555,8 +555,8 @@ GolbatEvosAttacks:
 	db 55, HAZE
 	db 0 ; no more level-up moves
 
-OddishEvosAttacks:
-	db EVOLVE_LEVEL, 21, GLOOM
+PigflyEvosAttacks:
+	db EVOLVE_LEVEL, 21, BATRIL
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 7, SWEET_SCENT
@@ -568,8 +568,8 @@ OddishEvosAttacks:
 	db 39, PETAL_DANCE
 	db 0 ; no more level-up moves
 
-GloomEvosAttacks:
-	db EVOLVE_ITEM, LEAF_STONE, VILEPLUME
+BatrilEvosAttacks:
+	db EVOLVE_ITEM, LEAF_STONE, MIXOPTIX
 	db EVOLVE_ITEM, SUN_STONE, BELLOSSOM
 	db 0 ; no more evolutions
 	db 1, ABSORB
@@ -584,7 +584,7 @@ GloomEvosAttacks:
 	db 44, PETAL_DANCE
 	db 0 ; no more level-up moves
 
-VileplumeEvosAttacks:
+MixoptixEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 1, SWEET_SCENT

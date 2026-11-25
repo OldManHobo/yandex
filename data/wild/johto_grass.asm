@@ -288,7 +288,7 @@ JohtoGrassWildMons:
 	db 13, BEETYKE
 	db 14, KOFFING
 	db 15, BEETYKE
-	db 14, ZUBAT
+	db 14, SILICEROS
 	db 15, BEETYKE
 	db 15, RHINOCEREX
 	db 15, RHINOCEREX
@@ -296,7 +296,7 @@ JohtoGrassWildMons:
 	db 13, BEETYKE
 	db 14, KOFFING
 	db 15, BEETYKE
-	db 14, ZUBAT
+	db 14, SILICEROS
 	db 15, BEETYKE
 	db 15, RHINOCEREX
 	db 15, RHINOCEREX
@@ -304,7 +304,7 @@ JohtoGrassWildMons:
 	db 13, BEETYKE
 	db 14, KOFFING
 	db 15, BEETYKE
-	db 14, ZUBAT
+	db 14, SILICEROS
 	db 15, BEETYKE
 	db 15, RHINOCEREX
 	db 15, RHINOCEREX
@@ -316,7 +316,7 @@ JohtoGrassWildMons:
 	db 14, BEETYKE
 	db 14, KOFFING
 	db 16, KOFFING
-	db 15, ZUBAT
+	db 15, SILICEROS
 	db 12, KOFFING
 	db 16, KOFFING
 	db 16, WEEZING
@@ -324,7 +324,7 @@ JohtoGrassWildMons:
 	db 14, BEETYKE
 	db 14, KOFFING
 	db 16, KOFFING
-	db 15, ZUBAT
+	db 15, SILICEROS
 	db 12, KOFFING
 	db 16, KOFFING
 	db 16, WEEZING
@@ -332,7 +332,7 @@ JohtoGrassWildMons:
 	db 14, BEETYKE
 	db 14, KOFFING
 	db 16, KOFFING
-	db 15, ZUBAT
+	db 15, SILICEROS
 	db 12, KOFFING
 	db 16, KOFFING
 	db 16, WEEZING
@@ -427,17 +427,17 @@ JohtoGrassWildMons:
 	; morn
 	db 6, GEODUDE
 	db 6, RUNSTALK
-	db 5, ZUBAT
+	db 5, SILICEROS
 	db 4, BEETYKE
-	db 7, ZUBAT
+	db 7, SILICEROS
 	db 6, ONIX
 	db 6, ONIX
 	; day
 	db 6, GEODUDE
 	db 6, RUNSTALK
-	db 5, ZUBAT
+	db 5, SILICEROS
 	db 4, BEETYKE
-	db 7, ZUBAT
+	db 7, SILICEROS
 	db 6, ONIX
 	db 6, ONIX
 	; nite
@@ -445,7 +445,7 @@ JohtoGrassWildMons:
 	db 6, BEETYKE
 	db 5, WOOPER
 	db 4, BEETYKE
-	db 7, ZUBAT
+	db 7, SILICEROS
 	db 6, ONIX
 	db 6, ONIX
 	end_grass_wildmons
@@ -454,23 +454,23 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 8, GEODUDE
-	db 6, ZUBAT
-	db 8, ZUBAT
+	db 6, SILICEROS
+	db 8, SILICEROS
 	db 8, ONIX
 	db 6, BEETYKE
 	db 8, BEETYKE
 	db 8, BEETYKE
 	; day
 	db 8, GEODUDE
-	db 6, ZUBAT
-	db 8, ZUBAT
+	db 6, SILICEROS
+	db 8, SILICEROS
 	db 8, ONIX
 	db 6, BEETYKE
 	db 8, BEETYKE
 	db 8, BEETYKE
 	; nite
 	db 8, GEODUDE
-	db 6, ZUBAT
+	db 6, SILICEROS
 	db 8, WOOPER
 	db 8, ONIX
 	db 6, BEETYKE
@@ -481,24 +481,24 @@ JohtoGrassWildMons:
 	def_grass_wildmons UNION_CAVE_B2F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, ZUBAT
-	db 22, GOLBAT
-	db 22, ZUBAT
+	db 22, SILICEROS
+	db 22, KOBALTAT
+	db 22, SILICEROS
 	db 21, RHINOCEREX
 	db 20, GEODUDE
 	db 23, ONIX
 	db 23, ONIX
 	; day
-	db 22, ZUBAT
-	db 22, GOLBAT
-	db 22, ZUBAT
+	db 22, SILICEROS
+	db 22, KOBALTAT
+	db 22, SILICEROS
 	db 21, RHINOCEREX
 	db 20, GEODUDE
 	db 23, ONIX
 	db 23, ONIX
 	; nite
-	db 22, ZUBAT
-	db 22, GOLBAT
+	db 22, SILICEROS
+	db 22, KOBALTAT
 	db 22, QUAGSIRE
 	db 21, RHINOCEREX
 	db 20, GEODUDE
@@ -509,27 +509,27 @@ JohtoGrassWildMons:
 	def_grass_wildmons SLOWPOKE_WELL_B1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, ZUBAT
-	db 6, ZUBAT
-	db 7, ZUBAT
+	db 5, SILICEROS
+	db 6, SILICEROS
+	db 7, SILICEROS
 	db 6, SLOWPOKE
-	db 8, ZUBAT
+	db 8, SILICEROS
 	db 8, SLOWPOKE
 	db 8, SLOWPOKE
 	; day
-	db 5, ZUBAT
-	db 6, ZUBAT
-	db 7, ZUBAT
+	db 5, SILICEROS
+	db 6, SILICEROS
+	db 7, SILICEROS
 	db 6, SLOWPOKE
-	db 8, ZUBAT
+	db 8, SILICEROS
 	db 8, SLOWPOKE
 	db 8, SLOWPOKE
 	; nite
-	db 5, ZUBAT
-	db 6, ZUBAT
-	db 7, ZUBAT
+	db 5, SILICEROS
+	db 6, SILICEROS
+	db 7, SILICEROS
 	db 6, SLOWPOKE
-	db 8, ZUBAT
+	db 8, SILICEROS
 	db 8, SLOWPOKE
 	db 8, SLOWPOKE
 	end_grass_wildmons
@@ -537,27 +537,27 @@ JohtoGrassWildMons:
 	def_grass_wildmons SLOWPOKE_WELL_B2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 21, ZUBAT
-	db 23, ZUBAT
-	db 19, ZUBAT
+	db 21, SILICEROS
+	db 23, SILICEROS
+	db 19, SILICEROS
 	db 21, SLOWPOKE
-	db 23, GOLBAT
+	db 23, KOBALTAT
 	db 23, SLOWPOKE
 	db 23, SLOWPOKE
 	; day
-	db 21, ZUBAT
-	db 23, ZUBAT
-	db 19, ZUBAT
+	db 21, SILICEROS
+	db 23, SILICEROS
+	db 19, SILICEROS
 	db 21, SLOWPOKE
-	db 23, GOLBAT
+	db 23, KOBALTAT
 	db 23, SLOWPOKE
 	db 23, SLOWPOKE
 	; nite
-	db 21, ZUBAT
-	db 23, ZUBAT
-	db 19, ZUBAT
+	db 21, SILICEROS
+	db 23, SILICEROS
+	db 19, SILICEROS
 	db 21, SLOWPOKE
-	db 23, GOLBAT
+	db 23, KOBALTAT
 	db 23, SLOWPOKE
 	db 23, SLOWPOKE
 	end_grass_wildmons
@@ -581,9 +581,9 @@ JohtoGrassWildMons:
 	db 6, PARAS
 	db 6, PARAS
 	; nite
-	db 5, ODDISH
+	db 5, PIGFLY
 	db 5, VENONAT
-	db 7, ODDISH
+	db 7, PIGFLY
 	db 7, PSYDUCK
 	db 7, HOOTHOOT
 	db 6, PARAS
@@ -594,25 +594,25 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 14, BEETYKE
-	db 13, ZUBAT
+	db 13, SILICEROS
 	db 14, MACHOP
-	db 13, GOLBAT
+	db 13, KOBALTAT
 	db 14, GEODUDE
 	db 16, RHINOCEREX
 	db 16, RHINOCEREX
 	; day
 	db 14, BEETYKE
-	db 13, ZUBAT
+	db 13, SILICEROS
 	db 14, MACHOP
-	db 13, GOLBAT
+	db 13, KOBALTAT
 	db 14, GEODUDE
 	db 16, RHINOCEREX
 	db 16, RHINOCEREX
 	; nite
 	db 14, BEETYKE
-	db 13, ZUBAT
+	db 13, SILICEROS
 	db 14, MARILL
-	db 13, GOLBAT
+	db 13, KOBALTAT
 	db 14, GEODUDE
 	db 16, RHINOCEREX
 	db 16, RHINOCEREX
@@ -625,25 +625,25 @@ JohtoGrassWildMons:
 	db 14, BEETYKE
 	db 15, MACHOP
 	db 14, RHINOCEREX
-	db 15, ZUBAT
-	db 15, GOLBAT
-	db 15, GOLBAT
+	db 15, SILICEROS
+	db 15, KOBALTAT
+	db 15, KOBALTAT
 	; day
 	db 13, GEODUDE
 	db 14, BEETYKE
 	db 15, MACHOP
 	db 14, RHINOCEREX
-	db 15, ZUBAT
-	db 15, GOLBAT
-	db 15, GOLBAT
+	db 15, SILICEROS
+	db 15, KOBALTAT
+	db 15, KOBALTAT
 	; nite
 	db 13, GEODUDE
 	db 14, BEETYKE
 	db 15, RHINOCEREX
-	db 14, ZUBAT
+	db 14, SILICEROS
 	db 15, MARILL
-	db 15, GOLBAT
-	db 15, GOLBAT
+	db 15, KOBALTAT
+	db 15, KOBALTAT
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_2F_INSIDE
@@ -654,48 +654,48 @@ JohtoGrassWildMons:
 	db 31, GEODUDE
 	db 30, RHINOCEREX
 	db 28, MACHOP
-	db 30, GOLBAT
-	db 30, GOLBAT
+	db 30, KOBALTAT
+	db 30, KOBALTAT
 	; day
 	db 31, GRAVELER
 	db 32, MACHOKE
 	db 31, GEODUDE
 	db 30, RHINOCEREX
 	db 28, MACHOP
-	db 30, GOLBAT
-	db 30, GOLBAT
+	db 30, KOBALTAT
+	db 30, KOBALTAT
 	; nite
 	db 31, GRAVELER
 	db 31, GEODUDE
 	db 30, RHINOCEREX
-	db 30, GOLBAT
+	db 30, KOBALTAT
 	db 28, MARILL
-	db 32, GOLBAT
-	db 32, GOLBAT
+	db 32, KOBALTAT
+	db 32, KOBALTAT
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 15, ZUBAT
-	db 17, ZUBAT
-	db 17, GOLBAT
+	db 15, SILICEROS
+	db 17, SILICEROS
+	db 17, KOBALTAT
 	db 16, MACHOP
 	db 16, GEODUDE
 	db 18, RHINOCEREX
 	db 18, RHINOCEREX
 	; day
-	db 15, ZUBAT
-	db 17, ZUBAT
-	db 17, GOLBAT
+	db 15, SILICEROS
+	db 17, SILICEROS
+	db 17, KOBALTAT
 	db 16, MACHOP
 	db 16, GEODUDE
 	db 18, RHINOCEREX
 	db 18, RHINOCEREX
 	; nite
-	db 15, ZUBAT
-	db 17, ZUBAT
-	db 17, GOLBAT
+	db 15, SILICEROS
+	db 17, SILICEROS
+	db 17, KOBALTAT
 	db 16, MARILL
 	db 16, GEODUDE
 	db 18, RHINOCEREX
@@ -706,55 +706,55 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	db 21, SWINUB
-	db 22, ZUBAT
-	db 22, GOLBAT
+	db 22, SILICEROS
+	db 22, KOBALTAT
 	db 23, SWINUB
-	db 24, GOLBAT
-	db 22, GOLBAT
-	db 22, GOLBAT
+	db 24, KOBALTAT
+	db 22, KOBALTAT
+	db 22, KOBALTAT
 	; day
 	db 21, SWINUB
-	db 22, ZUBAT
-	db 22, GOLBAT
+	db 22, SILICEROS
+	db 22, KOBALTAT
 	db 23, SWINUB
-	db 24, GOLBAT
-	db 22, GOLBAT
-	db 22, GOLBAT
+	db 24, KOBALTAT
+	db 22, KOBALTAT
+	db 22, KOBALTAT
 	; nite
 	db 21, DELIBIRD
-	db 22, ZUBAT
-	db 22, GOLBAT
+	db 22, SILICEROS
+	db 22, KOBALTAT
 	db 23, DELIBIRD
-	db 24, GOLBAT
-	db 22, GOLBAT
-	db 22, GOLBAT
+	db 24, KOBALTAT
+	db 22, KOBALTAT
+	db 22, KOBALTAT
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_B1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	db 22, SWINUB
-	db 23, ZUBAT
-	db 23, GOLBAT
+	db 23, SILICEROS
+	db 23, KOBALTAT
 	db 24, SWINUB
-	db 25, GOLBAT
-	db 23, GOLBAT
+	db 25, KOBALTAT
+	db 23, KOBALTAT
 	db 22, JYNX
 	; day
 	db 22, SWINUB
-	db 23, ZUBAT
-	db 23, GOLBAT
+	db 23, SILICEROS
+	db 23, KOBALTAT
 	db 24, SWINUB
-	db 25, GOLBAT
-	db 23, GOLBAT
+	db 25, KOBALTAT
+	db 23, KOBALTAT
 	db 22, JYNX
 	; nite
 	db 22, DELIBIRD
-	db 23, ZUBAT
-	db 23, GOLBAT
+	db 23, SILICEROS
+	db 23, KOBALTAT
 	db 24, DELIBIRD
-	db 25, GOLBAT
-	db 23, GOLBAT
+	db 25, KOBALTAT
+	db 23, KOBALTAT
 	db 22, SNEASEL
 	end_grass_wildmons
 
@@ -762,26 +762,26 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
+	db 24, SILICEROS
+	db 24, KOBALTAT
 	db 25, SWINUB
-	db 26, GOLBAT
+	db 26, KOBALTAT
 	db 22, JYNX
 	db 24, JYNX
 	; day
 	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
+	db 24, SILICEROS
+	db 24, KOBALTAT
 	db 25, SWINUB
-	db 26, GOLBAT
+	db 26, KOBALTAT
 	db 22, JYNX
 	db 24, JYNX
 	; nite
 	db 23, DELIBIRD
-	db 24, ZUBAT
-	db 24, GOLBAT
+	db 24, SILICEROS
+	db 24, KOBALTAT
 	db 25, DELIBIRD
-	db 26, GOLBAT
+	db 26, KOBALTAT
 	db 22, SNEASEL
 	db 24, SNEASEL
 	end_grass_wildmons
@@ -790,26 +790,26 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
+	db 24, SILICEROS
+	db 24, KOBALTAT
 	db 25, SWINUB
-	db 26, GOLBAT
+	db 26, KOBALTAT
 	db 22, JYNX
 	db 24, JYNX
 	; day
 	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
+	db 24, SILICEROS
+	db 24, KOBALTAT
 	db 25, SWINUB
-	db 26, GOLBAT
+	db 26, KOBALTAT
 	db 22, JYNX
 	db 24, JYNX
 	; nite
 	db 23, DELIBIRD
-	db 24, ZUBAT
-	db 24, GOLBAT
+	db 24, SILICEROS
+	db 24, KOBALTAT
 	db 25, DELIBIRD
-	db 26, GOLBAT
+	db 26, KOBALTAT
 	db 22, SNEASEL
 	db 24, SNEASEL
 	end_grass_wildmons
@@ -818,24 +818,24 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	db 24, SWINUB
-	db 25, ZUBAT
-	db 25, GOLBAT
+	db 25, SILICEROS
+	db 25, KOBALTAT
 	db 26, SWINUB
 	db 22, JYNX
 	db 24, JYNX
 	db 26, JYNX
 	; day
 	db 24, SWINUB
-	db 25, ZUBAT
-	db 25, GOLBAT
+	db 25, SILICEROS
+	db 25, KOBALTAT
 	db 26, SWINUB
 	db 22, JYNX
 	db 24, JYNX
 	db 26, JYNX
 	; nite
 	db 24, DELIBIRD
-	db 25, ZUBAT
-	db 25, GOLBAT
+	db 25, SILICEROS
+	db 25, KOBALTAT
 	db 26, DELIBIRD
 	db 22, SNEASEL
 	db 24, SNEASEL
@@ -846,224 +846,224 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 22, KRABBY
-	db 23, ZUBAT
+	db 23, SILICEROS
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, KOBALTAT
 	db 24, SEEL
 	db 24, SEEL
 	; day
 	db 22, KRABBY
-	db 23, ZUBAT
+	db 23, SILICEROS
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, KOBALTAT
 	db 24, SEEL
 	db 24, SEEL
 	; nite
 	db 22, KRABBY
-	db 23, ZUBAT
+	db 23, SILICEROS
 	db 22, KRABBY
 	db 24, KRABBY
-	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	db 25, KOBALTAT
+	db 24, KOBALTAT
+	db 24, KOBALTAT
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_NE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 22, KRABBY
-	db 23, ZUBAT
+	db 23, SILICEROS
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, KOBALTAT
 	db 24, SEEL
 	db 24, SEEL
 	; day
 	db 22, KRABBY
-	db 23, ZUBAT
+	db 23, SILICEROS
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, KOBALTAT
 	db 24, SEEL
 	db 24, SEEL
 	; nite
 	db 22, KRABBY
-	db 23, ZUBAT
+	db 23, SILICEROS
 	db 22, KRABBY
 	db 24, KRABBY
-	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	db 25, KOBALTAT
+	db 24, KOBALTAT
+	db 24, KOBALTAT
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_SW
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 22, KRABBY
-	db 23, ZUBAT
+	db 23, SILICEROS
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, KOBALTAT
 	db 24, SEEL
 	db 24, SEEL
 	; day
 	db 22, KRABBY
-	db 23, ZUBAT
+	db 23, SILICEROS
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, KOBALTAT
 	db 24, SEEL
 	db 24, SEEL
 	; nite
 	db 22, KRABBY
-	db 23, ZUBAT
+	db 23, SILICEROS
 	db 22, KRABBY
 	db 24, KRABBY
-	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	db 25, KOBALTAT
+	db 24, KOBALTAT
+	db 24, KOBALTAT
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_CAVE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 22, KRABBY
-	db 23, ZUBAT
+	db 23, SILICEROS
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, KOBALTAT
 	db 24, SEEL
 	db 24, SEEL
 	; day
 	db 22, KRABBY
-	db 23, ZUBAT
+	db 23, SILICEROS
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, KOBALTAT
 	db 24, SEEL
 	db 24, SEEL
 	; nite
 	db 22, KRABBY
-	db 23, ZUBAT
+	db 23, SILICEROS
 	db 22, KRABBY
 	db 24, KRABBY
-	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	db 25, KOBALTAT
+	db 24, KOBALTAT
+	db 24, KOBALTAT
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_SE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 22, KRABBY
-	db 23, ZUBAT
+	db 23, SILICEROS
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, KOBALTAT
 	db 24, SEEL
 	db 24, SEEL
 	; day
 	db 22, KRABBY
-	db 23, ZUBAT
+	db 23, SILICEROS
 	db 22, SEEL
 	db 24, KRABBY
-	db 25, GOLBAT
+	db 25, KOBALTAT
 	db 24, SEEL
 	db 24, SEEL
 	; nite
 	db 22, KRABBY
-	db 23, ZUBAT
+	db 23, SILICEROS
 	db 22, KRABBY
 	db 24, KRABBY
-	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	db 25, KOBALTAT
+	db 24, KOBALTAT
+	db 24, KOBALTAT
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 23, KRABBY
-	db 24, ZUBAT
+	db 24, SILICEROS
 	db 23, SEEL
 	db 25, KRABBY
-	db 26, GOLBAT
+	db 26, KOBALTAT
 	db 25, SEEL
 	db 25, SEEL
 	; day
 	db 23, KRABBY
-	db 24, ZUBAT
+	db 24, SILICEROS
 	db 23, SEEL
 	db 25, KRABBY
-	db 26, GOLBAT
+	db 26, KOBALTAT
 	db 25, SEEL
 	db 25, SEEL
 	; nite
 	db 23, KRABBY
-	db 24, ZUBAT
+	db 24, SILICEROS
 	db 23, KRABBY
 	db 25, KRABBY
-	db 26, GOLBAT
-	db 25, GOLBAT
-	db 25, GOLBAT
+	db 26, KOBALTAT
+	db 25, KOBALTAT
+	db 25, KOBALTAT
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_B2F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 24, KRABBY
-	db 25, ZUBAT
+	db 25, SILICEROS
 	db 24, SEEL
 	db 26, KRABBY
-	db 27, GOLBAT
+	db 27, KOBALTAT
 	db 26, SEEL
 	db 26, SEEL
 	; day
 	db 24, KRABBY
-	db 25, ZUBAT
+	db 25, SILICEROS
 	db 24, SEEL
 	db 26, KRABBY
-	db 27, GOLBAT
+	db 27, KOBALTAT
 	db 26, SEEL
 	db 26, SEEL
 	; nite
 	db 24, KRABBY
-	db 25, ZUBAT
+	db 25, SILICEROS
 	db 24, KRABBY
 	db 26, KRABBY
-	db 27, GOLBAT
-	db 26, GOLBAT
-	db 26, GOLBAT
+	db 27, KOBALTAT
+	db 26, KOBALTAT
+	db 26, KOBALTAT
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_LUGIA_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 25, KRABBY
-	db 26, ZUBAT
+	db 26, SILICEROS
 	db 25, SEEL
 	db 27, KRABBY
-	db 28, GOLBAT
+	db 28, KOBALTAT
 	db 27, SEEL
 	db 27, SEEL
 	; day
 	db 25, KRABBY
-	db 26, ZUBAT
+	db 26, SILICEROS
 	db 25, SEEL
 	db 27, KRABBY
-	db 28, GOLBAT
+	db 28, KOBALTAT
 	db 27, SEEL
 	db 27, SEEL
 	; nite
 	db 25, KRABBY
-	db 26, ZUBAT
+	db 26, SILICEROS
 	db 25, KRABBY
 	db 27, KRABBY
-	db 28, GOLBAT
-	db 27, GOLBAT
-	db 27, GOLBAT
+	db 28, KOBALTAT
+	db 27, KOBALTAT
+	db 27, KOBALTAT
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_ROOM_1
@@ -1073,7 +1073,7 @@ JohtoGrassWildMons:
 	db 44, URSARING
 	db 42, ONIX
 	db 45, MAGMAR
-	db 45, GOLBAT
+	db 45, KOBALTAT
 	db 20, LARVITAR
 	db 15, LARVITAR
 	; day
@@ -1081,23 +1081,23 @@ JohtoGrassWildMons:
 	db 44, URSARING
 	db 42, ONIX
 	db 45, MAGMAR
-	db 45, GOLBAT
+	db 45, KOBALTAT
 	db 20, LARVITAR
 	db 15, LARVITAR
 	; nite
 	db 43, GRAVELER
-	db 44, GOLBAT
+	db 44, KOBALTAT
 	db 42, ONIX
-	db 42, GOLBAT
+	db 42, KOBALTAT
 	db 45, GOLDUCK
-	db 46, GOLBAT
-	db 46, GOLBAT
+	db 46, KOBALTAT
+	db 46, KOBALTAT
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_ROOM_2
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 48, GOLBAT
+	db 48, KOBALTAT
 	db 48, MACHOKE
 	db 47, URSARING
 	db 46, PARASECT
@@ -1105,7 +1105,7 @@ JohtoGrassWildMons:
 	db 15, LARVITAR
 	db 20, LARVITAR
 	; day
-	db 48, GOLBAT
+	db 48, KOBALTAT
 	db 48, MACHOKE
 	db 47, URSARING
 	db 46, PARASECT
@@ -1113,9 +1113,9 @@ JohtoGrassWildMons:
 	db 15, LARVITAR
 	db 20, LARVITAR
 	; nite
-	db 48, GOLBAT
+	db 48, KOBALTAT
 	db 48, GOLDUCK
-	db 46, GOLBAT
+	db 46, KOBALTAT
 	db 46, PARASECT
 	db 48, PARASECT
 	db 45, MISDREAVUS
@@ -1125,7 +1125,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons SILVER_CAVE_ROOM_3
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 51, GOLBAT
+	db 51, KOBALTAT
 	db 48, ONIX
 	db 48, GRAVELER
 	db 50, URSARING
@@ -1133,7 +1133,7 @@ JohtoGrassWildMons:
 	db 15, LARVITAR
 	db 20, PUPITAR
 	; day
-	db 51, GOLBAT
+	db 51, KOBALTAT
 	db 48, ONIX
 	db 48, GRAVELER
 	db 50, URSARING
@@ -1141,37 +1141,37 @@ JohtoGrassWildMons:
 	db 15, LARVITAR
 	db 20, PUPITAR
 	; nite
-	db 51, GOLBAT
+	db 51, KOBALTAT
 	db 48, ONIX
 	db 48, GRAVELER
-	db 49, GOLBAT
+	db 49, KOBALTAT
 	db 45, GOLDUCK
-	db 53, GOLBAT
-	db 53, GOLBAT
+	db 53, KOBALTAT
+	db 53, KOBALTAT
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_ITEM_ROOMS
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 48, GOLBAT
-	db 46, GOLBAT
-	db 50, GOLBAT
+	db 48, KOBALTAT
+	db 46, KOBALTAT
+	db 50, KOBALTAT
 	db 46, PARASECT
 	db 48, PARASECT
 	db 50, PARASECT
 	db 52, PARASECT
 	; day
-	db 48, GOLBAT
-	db 46, GOLBAT
-	db 50, GOLBAT
+	db 48, KOBALTAT
+	db 46, KOBALTAT
+	db 50, KOBALTAT
 	db 46, PARASECT
 	db 48, PARASECT
 	db 50, PARASECT
 	db 52, PARASECT
 	; nite
 	db 45, MISDREAVUS
-	db 48, GOLBAT
-	db 50, GOLBAT
+	db 48, KOBALTAT
+	db 50, KOBALTAT
 	db 46, PARASECT
 	db 48, PARASECT
 	db 50, PARASECT
@@ -1182,27 +1182,27 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 3, GEODUDE
-	db 2, ZUBAT
+	db 2, SILICEROS
 	db 2, GEODUDE
 	db 4, GEODUDE
 	db 2, TEDDIURSA
-	db 4, ZUBAT
+	db 4, SILICEROS
 	db 4, DUNSPARCE
 	; day
 	db 3, GEODUDE
-	db 2, ZUBAT
+	db 2, SILICEROS
 	db 2, GEODUDE
 	db 4, GEODUDE
-	db 2, ZUBAT
-	db 4, ZUBAT
+	db 2, SILICEROS
+	db 4, SILICEROS
 	db 4, DUNSPARCE
 	; nite
 	db 3, GEODUDE
-	db 2, ZUBAT
+	db 2, SILICEROS
 	db 2, GEODUDE
 	db 4, GEODUDE
-	db 2, ZUBAT
-	db 4, ZUBAT
+	db 2, SILICEROS
+	db 4, SILICEROS
 	db 4, DUNSPARCE
 	end_grass_wildmons
 
@@ -1210,28 +1210,28 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 23, GEODUDE
-	db 23, ZUBAT
+	db 23, SILICEROS
 	db 25, GRAVELER
 	db 25, URSARING
 	db 20, TEDDIURSA
-	db 23, GOLBAT
-	db 23, GOLBAT
+	db 23, KOBALTAT
+	db 23, KOBALTAT
 	; day
 	db 23, GEODUDE
-	db 23, ZUBAT
+	db 23, SILICEROS
 	db 25, GRAVELER
 	db 25, URSARING
 	db 30, URSARING
-	db 23, GOLBAT
-	db 23, GOLBAT
+	db 23, KOBALTAT
+	db 23, KOBALTAT
 	; nite
 	db 23, GEODUDE
-	db 23, ZUBAT
+	db 23, SILICEROS
 	db 25, GRAVELER
 	db 20, WOBBUFFET
 	db 25, WOBBUFFET
-	db 23, GOLBAT
-	db 23, GOLBAT
+	db 23, KOBALTAT
+	db 23, KOBALTAT
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_29
@@ -1285,7 +1285,7 @@ JohtoGrassWildMons:
 	db 3, HOOTHOOT
 	db 4, POLIWAG
 	db 4, HOOTHOOT
-	db 3, ZUBAT
+	db 3, SILICEROS
 	db 4, HOOTHOOT
 	db 4, HOOTHOOT
 	end_grass_wildmons
@@ -1313,7 +1313,7 @@ JohtoGrassWildMons:
 	db 4, POLIWAG
 	db 5, BELLSPROUT
 	db 5, HOOTHOOT
-	db 4, ZUBAT
+	db 4, SILICEROS
 	db 5, GASTLY
 	db 5, GASTLY
 	end_grass_wildmons
@@ -1340,7 +1340,7 @@ JohtoGrassWildMons:
 	db 4, WOOPER
 	db 5, BEETYKE
 	db 7, BELLSPROUT
-	db 6, ZUBAT
+	db 6, SILICEROS
 	db 7, HOOTHOOT
 	db 7, GASTLY
 	db 7, GASTLY
@@ -1366,9 +1366,9 @@ JohtoGrassWildMons:
 	db 7, HOPPIP
 	; nite
 	db 6, BEETYKE
-	db 6, ZUBAT
+	db 6, SILICEROS
 	db 6, GEODUDE
-	db 6, ZUBAT
+	db 6, SILICEROS
 	db 7, BEETYKE
 	db 7, BEETYKE
 	db 7, BEETYKE
@@ -1562,12 +1562,12 @@ JohtoGrassWildMons:
 	db 16, PINGGLER
 	; nite
 	db 13, BEETYKE
-	db 14, ZUBAT
+	db 14, SILICEROS
 	db 15, RHINOCEREX
-	db 16, GOLBAT
+	db 16, KOBALTAT
 	db 15, MARILL
-	db 16, GOLBAT
-	db 16, GOLBAT
+	db 16, KOBALTAT
+	db 16, KOBALTAT
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_43
@@ -1703,11 +1703,11 @@ JohtoGrassWildMons:
 	; nite
 	db 41, TANGELA
 	db 42, POLIWHIRL
-	db 42, GOLBAT
+	db 42, KOBALTAT
 	db 44, POLIWHIRL
-	db 40, GOLBAT
-	db 44, GOLBAT
-	db 44, GOLBAT
+	db 40, KOBALTAT
+	db 44, KOBALTAT
+	db 44, KOBALTAT
 	end_grass_wildmons
 
 	db -1 ; end
