@@ -49,8 +49,8 @@ KantoMonSpecials:
 	db 100 ; MIXOPTIX
 	db  55 ; PYNEZANT
 	db  80 ; PYNEBARRON
-	db  40 ; VENONAT
-	db  90 ; VENOMOTH
+	db  40 ; BICHANO
+	db  90 ; CUSCO
 	db  45 ; DIGLETT
 	db  70 ; DUGTRIO
 	db  40 ; MEOWTH

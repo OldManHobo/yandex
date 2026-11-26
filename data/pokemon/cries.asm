@@ -53,8 +53,8 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,    442,  208 ; MIXOPTIX
 	mon_cry CRY_SEEL,        190,  112 ; PYNEZANT
 	mon_cry CRY_DROWZEE,    -208,  272 ; PYNEBARRON
-	mon_cry CRY_VENONAT,      68,  192 ; VENONAT
-	mon_cry CRY_VENONAT,      41,  256 ; VENOMOTH
+	mon_cry CRY_SENTRET,      80,  304 ; BICHANO
+	mon_cry CRY_CYNDAQUIL,   457,  176 ; CUSCO
 	mon_cry CRY_DIGLETT,     170,  129 ; DIGLETT
 	mon_cry CRY_DIGLETT,      42,  144 ; DUGTRIO
 	mon_cry CRY_CLEFAIRY,    119,  144 ; MEOWTH

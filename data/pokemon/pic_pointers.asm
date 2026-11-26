@@ -50,8 +50,8 @@ PokemonPicPointers::
 	dba_pics MixoptixFrontpic, MixoptixBackpic
 	dba_pics PynezantFrontpic, PynezantBackpic
 	dba_pics PynebarronFrontpic, PynebarronBackpic
-	dba_pics VenonatFrontpic, VenonatBackpic
-	dba_pics VenomothFrontpic, VenomothBackpic
+	dba_pics BichanoFrontpic, BichanoBackpic
+	dba_pics CuscoFrontpic, CuscoBackpic
 	dba_pics DiglettFrontpic, DiglettBackpic
 	dba_pics DugtrioFrontpic, DugtrioBackpic
 	dba_pics MeowthFrontpic, MeowthBackpic

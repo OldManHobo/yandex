@@ -414,9 +414,9 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 18, MAROWAK
 	; nite
 	db 15, BEETYKE
-	db 15, VENONAT
+	db 15, BICHANO
 	db 15, RHINOCEREX
-	db 15, VENOMOTH
+	db 15, CUSCO
 	db 15, SILICEROS
 	db 18, RHINOCEREX
 	db 18, RHINOCEREX
@@ -441,10 +441,10 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 18, ELECTABUZZ
 	db 18, ELECTABUZZ
 	; nite
-	db 15, VENONAT
+	db 15, BICHANO
 	db 17, VOLTORB
 	db 15, RHINOCEREX
-	db 15, VENOMOTH
+	db 15, CUSCO
 	db 15, SILICEROS
 	db 16, ELECTABUZZ
 	db 16, ELECTABUZZ
@@ -497,10 +497,10 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 27, HOPPIP
 	db 25, CHANSEY
 	; nite
-	db 23, VENONAT
+	db 23, BICHANO
 	db 23, QUAGSIRE
 	db 25, NOCTOWL
-	db 25, VENOMOTH
+	db 25, CUSCO
 	db 25, QUAGSIRE
 	db 25, QUAGSIRE
 	db 25, CHANSEY
@@ -525,10 +525,10 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 30, SKIPLOOM
 	db 28, CHANSEY
 	; nite
-	db 26, VENONAT
+	db 26, BICHANO
 	db 26, QUAGSIRE
 	db 28, NOCTOWL
-	db 28, VENOMOTH
+	db 28, CUSCO
 	db 28, QUAGSIRE
 	db 28, QUAGSIRE
 	db 28, CHANSEY
@@ -553,10 +553,10 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 27, HOPPIP
 	db 25, CHANSEY
 	; nite
-	db 23, VENONAT
+	db 23, BICHANO
 	db 23, QUAGSIRE
 	db 25, NOCTOWL
-	db 25, VENOMOTH
+	db 25, CUSCO
 	db 25, QUAGSIRE
 	db 25, QUAGSIRE
 	db 25, CHANSEY
@@ -721,7 +721,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 14, NUGGLET
 	db 14, NUGGLET
 	; nite
-	db 10, VENONAT
+	db 10, BICHANO
 	db 10, PIGFLY
 	db 12, PIGFLY
 	db 12, ABRA
@@ -751,7 +751,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	; nite
 	db 10, PIGFLY
 	db 10, HOOTHOOT
-	db 10, VENONAT
+	db 10, BICHANO
 	db 12, NOCTOWL
 	db 10, BELLSPROUT
 	db 14, NOCTOWL

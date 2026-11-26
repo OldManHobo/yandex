@@ -49,8 +49,8 @@ EvosAttacksPointers::
 	dw MixoptixEvosAttacks
 	dw PynezantEvosAttacks
 	dw PynebarronEvosAttacks
-	dw VenonatEvosAttacks
-	dw VenomothEvosAttacks
+	dw BichanoEvosAttacks
+	dw CuscoEvosAttacks
 	dw DiglettEvosAttacks
 	dw DugtrioEvosAttacks
 	dw MeowthEvosAttacks

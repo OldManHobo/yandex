@@ -52,8 +52,8 @@ MonMenuIconPals:
 	icon_pals RED, BROWN    ; MIXOPTIX
 	icon_pals RED, GREEN    ; PYNEZANT
 	icon_pals RED, GREEN    ; PYNEBARRON
-	icon_pals PURPLE, BLUE  ; VENONAT
-	icon_pals PURPLE, BLUE  ; VENOMOTH
+	icon_pals PURPLE, BLUE  ; BICHANO
+	icon_pals PURPLE, BLUE  ; CUSCO
 	icon_pals BROWN, BLUE   ; DIGLETT
 	icon_pals BROWN, BLUE   ; DUGTRIO
 	icon_pals BROWN, PINK   ; MEOWTH

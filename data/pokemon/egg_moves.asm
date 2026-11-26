@@ -128,7 +128,7 @@ PynezantEggMoves:
 	db PURSUIT
 	db -1 ; end
 
-VenonatEggMoves:
+BichanoEggMoves:
 	db BATON_PASS
 	db SCREECH
 	db GIGA_DRAIN

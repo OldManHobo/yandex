@@ -48,8 +48,8 @@ PokedexDataPointerTable:
 	dw MixoptixPokedexEntry
 	dw PynezantPokedexEntry
 	dw PynebarronPokedexEntry
-	dw VenonatPokedexEntry
-	dw VenomothPokedexEntry
+	dw BichanoPokedexEntry
+	dw CuscoPokedexEntry
 	dw DiglettPokedexEntry
 	dw DugtrioPokedexEntry
 	dw MeowthPokedexEntry

@@ -619,8 +619,8 @@ PynebarronEvosAttacks:
 	db 55, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
-VenonatEvosAttacks:
-	db EVOLVE_LEVEL, 31, VENOMOTH
+BichanoEvosAttacks:
+	db EVOLVE_LEVEL, 31, CUSCO
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DISABLE
@@ -635,7 +635,7 @@ VenonatEvosAttacks:
 	db 41, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-VenomothEvosAttacks:
+CuscoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DISABLE

@@ -235,8 +235,8 @@ AlphabeticalPokedexOrder:
 	db UNOWN
 	db URSARING
 	db VAPOREON
-	db VENOMOTH
-	db VENONAT
+	db CUSCO
+	db BICHANO
 	db GOREMELIAD
 	db VICTREEBEL
 	db MIXOPTIX

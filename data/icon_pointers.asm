@@ -49,8 +49,8 @@ IconPointers:
 	dw MixoptixIcon
 	dw PynezantIcon
 	dw PynebarronIcon
-	dw VenonatIcon
-	dw VenomothIcon
+	dw BichanoIcon
+	dw CuscoIcon
 	dw DiglettIcon
 	dw DugtrioIcon
 	dw MeowthIcon
