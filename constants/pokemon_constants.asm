@@ -68,8 +68,8 @@
 	const PYNEBARRON   ; 2f
 	const BICHANO    ; 30
 	const CUSCO   ; 31
-	const DIGLETT    ; 32
-	const DUGTRIO    ; 33
+	const SCREAMI    ; 32
+	const SCREAMUS    ; 33
 	const MEOWTH     ; 34
 	const PERSIAN    ; 35
 	const PSYDUCK    ; 36

@@ -133,8 +133,8 @@ NewPokedexOrder:
 	db STANTLER
 	db MARILL
 	db AZUMARILL
-	db DIGLETT
-	db DUGTRIO
+	db SCREAMI
+	db SCREAMUS
 	db MANKEY
 	db PRIMEAPE
 	db MEOWTH

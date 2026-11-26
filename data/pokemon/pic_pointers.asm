@@ -52,8 +52,8 @@ PokemonPicPointers::
 	dba_pics PynebarronFrontpic, PynebarronBackpic
 	dba_pics BichanoFrontpic, BichanoBackpic
 	dba_pics CuscoFrontpic, CuscoBackpic
-	dba_pics DiglettFrontpic, DiglettBackpic
-	dba_pics DugtrioFrontpic, DugtrioBackpic
+	dba_pics ScreamiFrontpic, ScreamiBackpic
+	dba_pics ScreamusFrontpic, ScreamusBackpic
 	dba_pics MeowthFrontpic, MeowthBackpic
 	dba_pics PersianFrontpic, PersianBackpic
 	dba_pics PsyduckFrontpic, PsyduckBackpic

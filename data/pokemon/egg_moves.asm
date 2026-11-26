@@ -134,7 +134,7 @@ BichanoEggMoves:
 	db GIGA_DRAIN
 	db -1 ; end
 
-DiglettEggMoves:
+ScreamiEggMoves:
 	db FAINT_ATTACK
 	db SCREECH
 	db ANCIENTPOWER

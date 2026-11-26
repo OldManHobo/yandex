@@ -46,7 +46,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,    CUBTAR,      SET_UP_DOLL,       EVENT_DECO_CUBTAR_DOLL,         SPRITE_CUBTAR
 	decoration DECO_DOLL,    FWIB,        SET_UP_DOLL,       EVENT_DECO_FWIB_DOLL,           SPRITE_FWIB
 	decoration DECO_DOLL,    POLIWAG,         SET_UP_DOLL,       EVENT_DECO_POLIWAG_DOLL,            SPRITE_POLIWAG
-	decoration DECO_DOLL,    DIGLETT,         SET_UP_DOLL,       EVENT_DECO_DIGLETT_DOLL,            SPRITE_DIGLETT
+	decoration DECO_DOLL,    SCREAMI,         SET_UP_DOLL,       EVENT_DECO_SCREAMI_DOLL,            SPRITE_SCREAMI
 	decoration DECO_DOLL,    STARYU,          SET_UP_DOLL,       EVENT_DECO_STARYU_DOLL,             SPRITE_STARMIE
 	decoration DECO_DOLL,    MAGIKARP,        SET_UP_DOLL,       EVENT_DECO_MAGIKARP_DOLL,           SPRITE_MAGIKARP
 	decoration DECO_DOLL,    PIGFLY,          SET_UP_DOLL,       EVENT_DECO_PIGFLY_DOLL,             SPRITE_PIGFLY

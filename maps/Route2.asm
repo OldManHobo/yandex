@@ -49,8 +49,8 @@ TrainerBugCatcherDoug:
 Route2Sign:
 	jumptext Route2SignText
 
-Route2DiglettsCaveSign:
-	jumptext Route2DiglettsCaveSignText
+Route2ScreamisCaveSign:
+	jumptext Route2ScreamisCaveSignText
 
 Route2DireHit:
 	itemball DIRE_HIT
@@ -140,8 +140,8 @@ Route2SignText:
 	line "PEWTER CITY"
 	done
 
-Route2DiglettsCaveSignText:
-	text "DIGLETT'S CAVE"
+Route2ScreamisCaveSignText:
+	text "SCREAMI'S CAVE"
 	done
 
 Route2_MapEvents:
@@ -152,13 +152,13 @@ Route2_MapEvents:
 	warp_event 15, 31, ROUTE_2_GATE, 3
 	warp_event 16, 27, ROUTE_2_GATE, 1
 	warp_event 17, 27, ROUTE_2_GATE, 2
-	warp_event 12,  7, DIGLETTS_CAVE, 3
+	warp_event 12,  7, SCREAMIS_CAVE, 3
 
 	def_coord_events
 
 	def_bg_events
 	bg_event  7, 51, BGEVENT_READ, Route2Sign
-	bg_event 11,  9, BGEVENT_READ, Route2DiglettsCaveSign
+	bg_event 11,  9, BGEVENT_READ, Route2ScreamisCaveSign
 	bg_event  7, 23, BGEVENT_ITEM, Route2HiddenMaxEther
 	bg_event  4, 14, BGEVENT_ITEM, Route2HiddenFullHeal
 	bg_event  4, 27, BGEVENT_ITEM, Route2HiddenFullRestore

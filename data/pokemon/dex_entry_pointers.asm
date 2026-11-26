@@ -50,8 +50,8 @@ PokedexDataPointerTable:
 	dw PynebarronPokedexEntry
 	dw BichanoPokedexEntry
 	dw CuscoPokedexEntry
-	dw DiglettPokedexEntry
-	dw DugtrioPokedexEntry
+	dw ScreamiPokedexEntry
+	dw ScreamusPokedexEntry
 	dw MeowthPokedexEntry
 	dw PersianPokedexEntry
 	dw PsyduckPokedexEntry

@@ -51,8 +51,8 @@ EvosAttacksPointers::
 	dw PynebarronEvosAttacks
 	dw BichanoEvosAttacks
 	dw CuscoEvosAttacks
-	dw DiglettEvosAttacks
-	dw DugtrioEvosAttacks
+	dw ScreamiEvosAttacks
+	dw ScreamusEvosAttacks
 	dw MeowthEvosAttacks
 	dw PersianEvosAttacks
 	dw PsyduckEvosAttacks

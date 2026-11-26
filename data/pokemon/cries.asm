@@ -55,8 +55,8 @@ PokemonCries::
 	mon_cry CRY_DROWZEE,    -208,  272 ; PYNEBARRON
 	mon_cry CRY_SENTRET,      80,  304 ; BICHANO
 	mon_cry CRY_CYNDAQUIL,   457,  176 ; CUSCO
-	mon_cry CRY_DIGLETT,     170,  129 ; DIGLETT
-	mon_cry CRY_DIGLETT,      42,  144 ; DUGTRIO
+	mon_cry CRY_SEEL,        264,  196 ; SCREAMI
+	mon_cry CRY_DIGLETT,      57,  368 ; SCREAMUS
 	mon_cry CRY_CLEFAIRY,    119,  144 ; MEOWTH
 	mon_cry CRY_CLEFAIRY,    153,  383 ; PERSIAN
 	mon_cry CRY_PSYDUCK,      32,  224 ; PSYDUCK

@@ -1,7 +1,7 @@
 	object_const_def
 	const CERULEANPOLICESTATION_FISHING_GURU
 	const CERULEANPOLICESTATION_POKEFAN_F
-	const CERULEANPOLICESTATION_DIGLETT
+	const CERULEANPOLICESTATION_SCREAMI
 
 CeruleanPoliceStation_MapScripts:
 	def_scene_scripts
@@ -14,10 +14,10 @@ CeruleanPoliceStationFishingGuruScript:
 CeruleanPoliceStationPokefanFScript:
 	jumptextfaceplayer CeruleanPoliceStationPokefanFText
 
-CeruleanDiglett:
+CeruleanScreami:
 	opentext
-	writetext CeruleanDiglettText
-	cry DIGLETT
+	writetext CeruleanScreamiText
+	cry SCREAMI
 	waitbutton
 	closetext
 	end
@@ -37,8 +37,8 @@ CeruleanPoliceStationPokefanFText:
 	line "robbers before."
 	done
 
-CeruleanDiglettText:
-	text "DIGLETT: Dug dug."
+CeruleanScreamiText:
+	text "SCREAMI: Dug dug."
 	done
 
 CeruleanPoliceStation_MapEvents:
@@ -55,4 +55,4 @@ CeruleanPoliceStation_MapEvents:
 	def_object_events
 	object_event  5,  1, SPRITE_FISHING_GURU, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CeruleanPoliceStationFishingGuruScript, -1
 	object_event  5,  4, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CeruleanPoliceStationPokefanFScript, -1
-	object_event  3,  5, SPRITE_DIGLETT, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CeruleanDiglett, -1
+	object_event  3,  5, SPRITE_SCREAMI, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CeruleanScreami, -1

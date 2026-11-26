@@ -54,8 +54,8 @@ MonMenuIconPals:
 	icon_pals RED, GREEN    ; PYNEBARRON
 	icon_pals PURPLE, BLUE  ; BICHANO
 	icon_pals PURPLE, BLUE  ; CUSCO
-	icon_pals BROWN, BLUE   ; DIGLETT
-	icon_pals BROWN, BLUE   ; DUGTRIO
+	icon_pals BROWN, BLUE   ; SCREAMI
+	icon_pals BROWN, BLUE   ; SCREAMUS
 	icon_pals BROWN, PINK   ; MEOWTH
 	icon_pals BROWN, PINK   ; PERSIAN
 	icon_pals BROWN, BLUE   ; PSYDUCK

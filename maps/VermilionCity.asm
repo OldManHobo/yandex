@@ -108,8 +108,8 @@ VermilionGymSign:
 PokemonFanClubSign:
 	jumptext PokemonFanClubSignText
 
-VermilionCityDiglettsCaveSign:
-	jumptext VermilionCityDiglettsCaveSignText
+VermilionCityScreamisCaveSign:
+	jumptext VermilionCityScreamisCaveSignText
 
 VermilionCityPortSign:
 	jumptext VermilionCityPortSignText
@@ -256,8 +256,8 @@ PokemonFanClubSignText:
 	line "Welcome!"
 	done
 
-VermilionCityDiglettsCaveSignText:
-	text "DIGLETT'S CAVE"
+VermilionCityScreamisCaveSignText:
+	text "SCREAMI'S CAVE"
 	done
 
 VermilionCityPortSignText:
@@ -274,11 +274,11 @@ VermilionCity_MapEvents:
 	warp_event  7, 13, POKEMON_FAN_CLUB, 1
 	warp_event 13, 13, VERMILION_MAGNET_TRAIN_SPEECH_HOUSE, 1
 	warp_event 21, 13, VERMILION_MART, 2
-	warp_event 21, 17, VERMILION_DIGLETTS_CAVE_SPEECH_HOUSE, 1
+	warp_event 21, 17, VERMILION_SCREAMIS_CAVE_SPEECH_HOUSE, 1
 	warp_event 10, 19, VERMILION_GYM, 1
 	warp_event 19, 31, VERMILION_PORT_PASSAGE, 1
 	warp_event 20, 31, VERMILION_PORT_PASSAGE, 2
-	warp_event 34,  7, DIGLETTS_CAVE, 1
+	warp_event 34,  7, SCREAMIS_CAVE, 1
 
 	def_coord_events
 
@@ -286,7 +286,7 @@ VermilionCity_MapEvents:
 	bg_event 25,  3, BGEVENT_READ, VermilionCitySign
 	bg_event  5, 19, BGEVENT_READ, VermilionGymSign
 	bg_event  5, 13, BGEVENT_READ, PokemonFanClubSign
-	bg_event 33,  9, BGEVENT_READ, VermilionCityDiglettsCaveSign
+	bg_event 33,  9, BGEVENT_READ, VermilionCityScreamisCaveSign
 	bg_event 27, 15, BGEVENT_READ, VermilionCityPortSign
 	bg_event 10,  5, BGEVENT_READ, VermilionCityPokecenterSign
 	bg_event 22, 13, BGEVENT_READ, VermilionCityMartSign

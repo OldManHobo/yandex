@@ -652,8 +652,8 @@ CuscoEvosAttacks:
 	db 52, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-DiglettEvosAttacks:
-	db EVOLVE_LEVEL, 26, DUGTRIO
+ScreamiEvosAttacks:
+	db EVOLVE_LEVEL, 26, SCREAMUS
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 5, GROWL
@@ -665,7 +665,7 @@ DiglettEvosAttacks:
 	db 49, FISSURE
 	db 0 ; no more level-up moves
 
-DugtrioEvosAttacks:
+ScreamusEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TRI_ATTACK
 	db 1, SCRATCH

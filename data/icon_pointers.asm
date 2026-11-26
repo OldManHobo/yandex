@@ -51,8 +51,8 @@ IconPointers:
 	dw PynebarronIcon
 	dw BichanoIcon
 	dw CuscoIcon
-	dw DiglettIcon
-	dw DugtrioIcon
+	dw ScreamiIcon
+	dw ScreamusIcon
 	dw MeowthIcon
 	dw PersianIcon
 	dw PsyduckIcon

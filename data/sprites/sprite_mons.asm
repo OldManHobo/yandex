@@ -13,7 +13,7 @@ SpriteMons:
 	db FWIB
 	db TOGEPI
 	db NUGGLET
-	db DIGLETT
+	db SCREAMI
 	db POLIWAG
 	db PEKACHO
 	db LUNAROCK

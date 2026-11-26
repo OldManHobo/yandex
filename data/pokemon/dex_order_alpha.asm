@@ -39,7 +39,7 @@ AlphabeticalPokedexOrder:
 	db CYNDAQUIL
 	db DELIBIRD
 	db DEWGONG
-	db DIGLETT
+	db SCREAMI
 	db DITTO
 	db DODRIO
 	db DODUO
@@ -48,7 +48,7 @@ AlphabeticalPokedexOrder:
 	db DRAGONITE
 	db DRATINI
 	db DROWZEE
-	db DUGTRIO
+	db SCREAMUS
 	db DUNSPARCE
 	db EEVEE
 	db YOKOKOON

@@ -2,32 +2,32 @@
 
 KantoGrassWildMons:
 
-def_grass_wildmons DIGLETTS_CAVE
+def_grass_wildmons SCREAMIS_CAVE
 	db 4 percent, 2 percent, 8 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, DIGLETT
-	db 6, DIGLETT
-	db 12, DIGLETT
-	db 24, DIGLETT
-	db 24, DUGTRIO
-	db 24, DUGTRIO
-	db 24, DUGTRIO
+	db 3, SCREAMI
+	db 6, SCREAMI
+	db 12, SCREAMI
+	db 24, SCREAMI
+	db 24, SCREAMUS
+	db 24, SCREAMUS
+	db 24, SCREAMUS
 	; day
-	db 2, DIGLETT
-	db 4, DIGLETT
-	db 8, DIGLETT
-	db 16, DIGLETT
-	db 16, DUGTRIO
-	db 16, DUGTRIO
-	db 16, DUGTRIO
+	db 2, SCREAMI
+	db 4, SCREAMI
+	db 8, SCREAMI
+	db 16, SCREAMI
+	db 16, SCREAMUS
+	db 16, SCREAMUS
+	db 16, SCREAMUS
 	; nite
-	db 4, DIGLETT
-	db 8, DIGLETT
-	db 16, DIGLETT
-	db 32, DIGLETT
-	db 32, DUGTRIO
-	db 32, DUGTRIO
-	db 32, DUGTRIO
+	db 4, SCREAMI
+	db 8, SCREAMI
+	db 16, SCREAMI
+	db 32, SCREAMI
+	db 32, SCREAMUS
+	db 32, SCREAMUS
+	db 32, SCREAMUS
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MOON

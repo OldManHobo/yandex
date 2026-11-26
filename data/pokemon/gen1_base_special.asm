@@ -51,8 +51,8 @@ KantoMonSpecials:
 	db  80 ; PYNEBARRON
 	db  40 ; BICHANO
 	db  90 ; CUSCO
-	db  45 ; DIGLETT
-	db  70 ; DUGTRIO
+	db  45 ; SCREAMI
+	db  70 ; SCREAMUS
 	db  40 ; MEOWTH
 	db  65 ; PERSIAN
 	db  50 ; PSYDUCK

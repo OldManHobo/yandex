@@ -121,7 +121,7 @@ DEF SPRITE_POKEMON EQU const_value
 	const SPRITE_FWIB ; 89
 	const SPRITE_TOGEPI ; 8a
 	const SPRITE_NUGGLET ; 8b
-	const SPRITE_DIGLETT ; 8c
+	const SPRITE_SCREAMI ; 8c
 	const SPRITE_POLIWAG ; 8d
 	const SPRITE_PEKACHO ; 8e
 	const SPRITE_LUNAROCK ; 8f
