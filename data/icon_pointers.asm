@@ -47,8 +47,8 @@ IconPointers:
 	dw PigflyIcon
 	dw BatrilIcon
 	dw MixoptixIcon
-	dw ParasIcon
-	dw ParasectIcon
+	dw PynezantIcon
+	dw PynebarronIcon
 	dw VenonatIcon
 	dw VenomothIcon
 	dw DiglettIcon

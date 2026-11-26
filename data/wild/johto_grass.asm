@@ -570,24 +570,24 @@ JohtoGrassWildMons:
 	db 7, LIMBLUMP
 	db 7, CARNEBRANC
 	db 7, STRYNX
-	db 6, PARAS
-	db 6, PARAS
+	db 6, PYNEZANT
+	db 6, PYNEZANT
 	; day
 	db 5, THUMWARD
 	db 5, CHICKEEN
 	db 7, LIMBLUMP
 	db 7, CARNEBRANC
 	db 7, STRYNX
-	db 6, PARAS
-	db 6, PARAS
+	db 6, PYNEZANT
+	db 6, PYNEZANT
 	; nite
 	db 5, PIGFLY
 	db 5, VENONAT
 	db 7, PIGFLY
 	db 7, PSYDUCK
 	db 7, HOOTHOOT
-	db 6, PARAS
-	db 6, PARAS
+	db 6, PYNEZANT
+	db 6, PYNEZANT
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
@@ -1100,24 +1100,24 @@ JohtoGrassWildMons:
 	db 48, KOBALTAT
 	db 48, MACHOKE
 	db 47, URSARING
-	db 46, PARASECT
-	db 48, PARASECT
+	db 46, PYNEBARRON
+	db 48, PYNEBARRON
 	db 15, LARVITAR
 	db 20, LARVITAR
 	; day
 	db 48, KOBALTAT
 	db 48, MACHOKE
 	db 47, URSARING
-	db 46, PARASECT
-	db 48, PARASECT
+	db 46, PYNEBARRON
+	db 48, PYNEBARRON
 	db 15, LARVITAR
 	db 20, LARVITAR
 	; nite
 	db 48, KOBALTAT
 	db 48, GOLDUCK
 	db 46, KOBALTAT
-	db 46, PARASECT
-	db 48, PARASECT
+	db 46, PYNEBARRON
+	db 48, PYNEBARRON
 	db 45, MISDREAVUS
 	db 45, MISDREAVUS
 	end_grass_wildmons
@@ -1156,26 +1156,26 @@ JohtoGrassWildMons:
 	db 48, KOBALTAT
 	db 46, KOBALTAT
 	db 50, KOBALTAT
-	db 46, PARASECT
-	db 48, PARASECT
-	db 50, PARASECT
-	db 52, PARASECT
+	db 46, PYNEBARRON
+	db 48, PYNEBARRON
+	db 50, PYNEBARRON
+	db 52, PYNEBARRON
 	; day
 	db 48, KOBALTAT
 	db 46, KOBALTAT
 	db 50, KOBALTAT
-	db 46, PARASECT
-	db 48, PARASECT
-	db 50, PARASECT
-	db 52, PARASECT
+	db 46, PYNEBARRON
+	db 48, PYNEBARRON
+	db 50, PYNEBARRON
+	db 52, PYNEBARRON
 	; nite
 	db 45, MISDREAVUS
 	db 48, KOBALTAT
 	db 50, KOBALTAT
-	db 46, PARASECT
-	db 48, PARASECT
-	db 50, PARASECT
-	db 52, PARASECT
+	db 46, PYNEBARRON
+	db 48, PYNEBARRON
+	db 50, PYNEBARRON
+	db 52, PYNEBARRON
 	end_grass_wildmons
 
 	def_grass_wildmons DARK_CAVE_VIOLET_ENTRANCE

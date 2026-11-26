@@ -154,8 +154,8 @@ AlphabeticalPokedexOrder:
 	db OMANYTE
 	db OMASTAR
 	db ONIX
-	db PARAS
-	db PARASECT
+	db PYNEZANT
+	db PYNEBARRON
 	db PERSIAN
 	db PHANPY
 	db PICHU

@@ -1,4 +1,4 @@
-	db PARASECT ; 047
+	db PYNEBARRON ; 047
 
 	db  60,  95,  80,  30,  60,  80
 	;   hp  atk  def  spd  sat  sdf
@@ -11,7 +11,7 @@
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch
 	db 5 ; unknown 2
-	INCBIN "gfx/pokemon/parasect/front.dimensions"
+	INCBIN "gfx/pokemon/pynebarron/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_BUG, EGG_PLANT ; egg groups

@@ -64,8 +64,8 @@
 	const PIGFLY     ; 2b
 	const BATRIL      ; 2c
 	const MIXOPTIX  ; 2d
-	const PARAS      ; 2e
-	const PARASECT   ; 2f
+	const PYNEZANT      ; 2e
+	const PYNEBARRON   ; 2f
 	const VENONAT    ; 30
 	const VENOMOTH   ; 31
 	const DIGLETT    ; 32

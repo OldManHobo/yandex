@@ -24,7 +24,7 @@ SpriteMons:
 	db MAULOSSAL
 	db GRIMER
 	db YOKOKOON
-	db PARAS
+	db PYNEZANT
 	db TENTACOOL
 	db TAUROS
 	db MACHOP

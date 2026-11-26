@@ -46,8 +46,8 @@ PokedexDataPointerTable:
 	dw PigflyPokedexEntry
 	dw BatrilPokedexEntry
 	dw MixoptixPokedexEntry
-	dw ParasPokedexEntry
-	dw ParasectPokedexEntry
+	dw PynezantPokedexEntry
+	dw PynebarronPokedexEntry
 	dw VenonatPokedexEntry
 	dw VenomothPokedexEntry
 	dw DiglettPokedexEntry

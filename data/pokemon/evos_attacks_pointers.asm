@@ -47,8 +47,8 @@ EvosAttacksPointers::
 	dw PigflyEvosAttacks
 	dw BatrilEvosAttacks
 	dw MixoptixEvosAttacks
-	dw ParasEvosAttacks
-	dw ParasectEvosAttacks
+	dw PynezantEvosAttacks
+	dw PynebarronEvosAttacks
 	dw VenonatEvosAttacks
 	dw VenomothEvosAttacks
 	dw DiglettEvosAttacks

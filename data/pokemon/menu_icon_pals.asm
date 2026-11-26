@@ -50,8 +50,8 @@ MonMenuIconPals:
 	icon_pals GREEN, BROWN  ; PIGFLY
 	icon_pals RED, BROWN    ; BATRIL
 	icon_pals RED, BROWN    ; MIXOPTIX
-	icon_pals RED, GREEN    ; PARAS
-	icon_pals RED, GREEN    ; PARASECT
+	icon_pals RED, GREEN    ; PYNEZANT
+	icon_pals RED, GREEN    ; PYNEBARRON
 	icon_pals PURPLE, BLUE  ; VENONAT
 	icon_pals PURPLE, BLUE  ; VENOMOTH
 	icon_pals BROWN, BLUE   ; DIGLETT

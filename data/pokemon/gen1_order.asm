@@ -45,7 +45,7 @@ Pokered_MonIndices:
 	db HITMONLEE
 	db HITMONCHAN
 	db TENGU
-	db PARASECT
+	db PYNEBARRON
 	db PSYDUCK
 	db DROWZEE
 	db GOLEM
@@ -108,7 +108,7 @@ Pokered_MonIndices:
 	db MACHOP
 	db SILICEROS
 	db YOKOKOON
-	db PARAS
+	db PYNEZANT
 	db POLIWHIRL
 	db POLIWRATH
 	db CHICKEEN

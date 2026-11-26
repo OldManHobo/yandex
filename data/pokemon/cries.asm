@@ -51,8 +51,8 @@ PokemonCries::
 	mon_cry CRY_CYNDAQUIL,   150,  374 ; PIGFLY
 	mon_cry CRY_WOOPER,       51,  303 ; BATRIL
 	mon_cry CRY_SQUIRTLE,    442,  208 ; MIXOPTIX
-	mon_cry CRY_PARAS,        32,  352 ; PARAS
-	mon_cry CRY_PARAS,        66,  383 ; PARASECT
+	mon_cry CRY_SEEL,        190,  112 ; PYNEZANT
+	mon_cry CRY_DROWZEE,    -208,  272 ; PYNEBARRON
 	mon_cry CRY_VENONAT,      68,  192 ; VENONAT
 	mon_cry CRY_VENONAT,      41,  256 ; VENOMOTH
 	mon_cry CRY_DIGLETT,     170,  129 ; DIGLETT

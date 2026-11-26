@@ -118,7 +118,7 @@ PigflyEggMoves:
 	db SYNTHESIS
 	db -1 ; end
 
-ParasEggMoves:
+PynezantEggMoves:
 	db FALSE_SWIPE
 	db SCREECH
 	db COUNTER

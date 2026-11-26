@@ -36,7 +36,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 6, SILICEROS
 	db 8, GEODUDE
 	db 8, RUNSTALK
-	db 12, PARAS
+	db 12, PYNEZANT
 	db 10, GEODUDE
 	db 8, LUNAROCK
 	db 8, LUNAROCK
@@ -44,7 +44,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 6, SILICEROS
 	db 8, GEODUDE
 	db 8, RUNSTALK
-	db 12, PARAS
+	db 12, PYNEZANT
 	db 10, GEODUDE
 	db 8, LUNAROCK
 	db 8, LUNAROCK
@@ -52,7 +52,7 @@ def_grass_wildmons DIGLETTS_CAVE
 	db 6, SILICEROS
 	db 8, GEODUDE
 	db 8, LUNAROCK
-	db 12, PARAS
+	db 12, PYNEZANT
 	db 10, GEODUDE
 	db 12, LUNAROCK
 	db 12, LUNAROCK

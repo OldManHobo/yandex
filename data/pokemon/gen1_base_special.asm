@@ -47,8 +47,8 @@ KantoMonSpecials:
 	db  75 ; PIGFLY
 	db  85 ; BATRIL
 	db 100 ; MIXOPTIX
-	db  55 ; PARAS
-	db  80 ; PARASECT
+	db  55 ; PYNEZANT
+	db  80 ; PYNEBARRON
 	db  40 ; VENONAT
 	db  90 ; VENOMOTH
 	db  45 ; DIGLETT

@@ -3243,7 +3243,7 @@ BattleTowerMons:
 	bigdw 105 ; SDef
 	dname "SANDOPAN", MON_NAME_LENGTH
 
-	db PARASECT
+	db PYNEBARRON
 	db GOLD_BERRY
 	db SPORE, GIGA_DRAIN, HYPER_BEAM, SLUDGE_BOMB
 	dw 0 ; OT ID
@@ -3267,7 +3267,7 @@ BattleTowerMons:
 	bigdw 72 ; Spd
 	bigdw 120 ; SAtk
 	bigdw 144 ; SDef
-	dname "PARASEKUTO", MON_NAME_LENGTH
+	dname "PYNEKUTO", MON_NAME_LENGTH
 
 	db GOLEM
 	db BRIGHTPOWDER

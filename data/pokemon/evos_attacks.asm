@@ -592,8 +592,8 @@ MixoptixEvosAttacks:
 	db 1, PETAL_DANCE
 	db 0 ; no more level-up moves
 
-ParasEvosAttacks:
-	db EVOLVE_LEVEL, 24, PARASECT
+PynezantEvosAttacks:
+	db EVOLVE_LEVEL, 24, PYNEBARRON
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 7, STUN_SPORE
@@ -605,7 +605,7 @@ ParasEvosAttacks:
 	db 43, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
-ParasectEvosAttacks:
+PynebarronEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, STUN_SPORE
