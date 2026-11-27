@@ -1072,8 +1072,8 @@ BeautyGroup:
 
 	; BEAUTY (2)
 	db "SAMANTHA@", TRAINERTYPE_MOVES
-	db 16, MEOWTH,     SCRATCH, GROWL, BITE, PAY_DAY
-	db 16, MEOWTH,     SCRATCH, GROWL, BITE, SLASH
+	db 16, MUCURA,     SCRATCH, GROWL, BITE, PAY_DAY
+	db 16, MUCURA,     SCRATCH, GROWL, BITE, SLASH
 	db -1 ; end
 
 	; BEAUTY (3)
@@ -1438,7 +1438,7 @@ GentlemanGroup:
 
 	; GENTLEMAN (2)
 	db "EDWARD@", TRAINERTYPE_NORMAL
-	db 33, PERSIAN
+	db 33, MUCHYDRA
 	db -1 ; end
 
 	; GENTLEMAN (3)
@@ -3256,9 +3256,9 @@ PokefanMGroup:
 
 	; POKEFANM (8)
 	db "JEREMY@", TRAINERTYPE_ITEM
-	db 28, MEOWTH,     BERRY
-	db 28, MEOWTH,     BERRY
-	db 28, MEOWTH,     BERRY
+	db 28, MUCURA,     BERRY
+	db 28, MUCURA,     BERRY
+	db 28, MUCURA,     BERRY
 	db -1 ; end
 
 	; POKEFANM (9)
@@ -3419,7 +3419,7 @@ PokefanFGroup:
 
 	; POKEFANF (6)
 	db "JAIME@", TRAINERTYPE_ITEM
-	db 16, MEOWTH,     BERRY
+	db 16, MUCURA,     BERRY
 	db -1 ; end
 
 RedGroup:

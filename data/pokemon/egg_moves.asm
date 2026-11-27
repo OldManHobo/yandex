@@ -142,7 +142,7 @@ ScreamiEggMoves:
 	db BEAT_UP
 	db -1 ; end
 
-MeowthEggMoves:
+MucuraEggMoves:
 	db SPITE
 	db CHARM
 	db HYPNOSIS

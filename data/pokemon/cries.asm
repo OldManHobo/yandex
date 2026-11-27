@@ -57,8 +57,8 @@ PokemonCries::
 	mon_cry CRY_CYNDAQUIL,   457,  176 ; CUSCO
 	mon_cry CRY_SEEL,        264,  196 ; SCREAMI
 	mon_cry CRY_DIGLETT,      57,  368 ; SCREAMUS
-	mon_cry CRY_CLEFAIRY,    119,  144 ; MEOWTH
-	mon_cry CRY_CLEFAIRY,    153,  383 ; PERSIAN
+	mon_cry CRY_TOTODILE,   1136,  128 ; MUCURA
+	mon_cry CRY_TOTODILE,    608,  383 ; MUCHYDRA
 	mon_cry CRY_PSYDUCK,      32,  224 ; PSYDUCK
 	mon_cry CRY_PSYDUCK,     255,  192 ; GOLDUCK
 	mon_cry CRY_NIDOQUEEN,   221,  224 ; MANKEY

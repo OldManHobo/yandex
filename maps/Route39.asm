@@ -295,7 +295,7 @@ PokefanfJaimeBeatenText:
 	done
 
 PokefanfJaimeAfterBattleText:
-	text "I met my MEOWTH at"
+	text "I met my MUCURA at"
 	line "night, right here"
 	cont "on ROUTE 39."
 

@@ -70,8 +70,8 @@
 	const CUSCO   ; 31
 	const SCREAMI    ; 32
 	const SCREAMUS    ; 33
-	const MEOWTH     ; 34
-	const PERSIAN    ; 35
+	const MUCURA     ; 34
+	const MUCHYDRA    ; 35
 	const PSYDUCK    ; 36
 	const GOLDUCK    ; 37
 	const MANKEY     ; 38

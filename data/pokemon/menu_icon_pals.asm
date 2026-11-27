@@ -56,8 +56,8 @@ MonMenuIconPals:
 	icon_pals PURPLE, BLUE  ; CUSCO
 	icon_pals BROWN, BLUE   ; SCREAMI
 	icon_pals BROWN, BLUE   ; SCREAMUS
-	icon_pals BROWN, PINK   ; MEOWTH
-	icon_pals BROWN, PINK   ; PERSIAN
+	icon_pals BROWN, PINK   ; MUCURA
+	icon_pals BROWN, PINK   ; MUCHYDRA
 	icon_pals BROWN, BLUE   ; PSYDUCK
 	icon_pals BLUE, TEAL    ; GOLDUCK
 	icon_pals BROWN, GREEN  ; MANKEY

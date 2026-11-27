@@ -52,8 +52,8 @@ PokedexDataPointerTable:
 	dw CuscoPokedexEntry
 	dw ScreamiPokedexEntry
 	dw ScreamusPokedexEntry
-	dw MeowthPokedexEntry
-	dw PersianPokedexEntry
+	dw MucuraPokedexEntry
+	dw MuchydraPokedexEntry
 	dw PsyduckPokedexEntry
 	dw GolduckPokedexEntry
 	dw MankeyPokedexEntry

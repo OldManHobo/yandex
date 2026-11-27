@@ -1505,13 +1505,13 @@ JohtoGrassWildMons:
 	db 13, MILTANK
 	db 13, MILTANK
 	; nite
-	db 16, MEOWTH
+	db 16, MUCURA
 	db 16, RHINOCEREX
 	db 16, MAGNEMITE
 	db 16, NOCTOWL
-	db 16, MEOWTH
-	db 16, MEOWTH
-	db 16, MEOWTH
+	db 16, MUCURA
+	db 16, MUCURA
+	db 16, MUCURA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_39
@@ -1533,13 +1533,13 @@ JohtoGrassWildMons:
 	db 15, TAUROS
 	db 15, TAUROS
 	; nite
-	db 16, MEOWTH
+	db 16, MUCURA
 	db 16, RHINOCEREX
 	db 16, MAGNEMITE
 	db 16, NOCTOWL
-	db 18, MEOWTH
-	db 18, MEOWTH
-	db 18, MEOWTH
+	db 18, MUCURA
+	db 18, MUCURA
+	db 18, MUCURA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_42

@@ -53,8 +53,8 @@ KantoMonSpecials:
 	db  90 ; CUSCO
 	db  45 ; SCREAMI
 	db  70 ; SCREAMUS
-	db  40 ; MEOWTH
-	db  65 ; PERSIAN
+	db  40 ; MUCURA
+	db  65 ; MUCHYDRA
 	db  50 ; PSYDUCK
 	db  80 ; GOLDUCK
 	db  35 ; MANKEY

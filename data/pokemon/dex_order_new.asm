@@ -137,8 +137,8 @@ NewPokedexOrder:
 	db SCREAMUS
 	db MANKEY
 	db PRIMEAPE
-	db MEOWTH
-	db PERSIAN
+	db MUCURA
+	db MUCHYDRA
 	db PSYDUCK
 	db GOLDUCK
 	db MACHOP

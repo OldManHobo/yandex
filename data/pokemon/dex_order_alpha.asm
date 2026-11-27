@@ -130,7 +130,7 @@ AlphabeticalPokedexOrder:
 	db MARILL
 	db MAROWAK
 	db MEGANIUM
-	db MEOWTH
+	db MUCURA
 	db LIMBLUMP
 	db MEW
 	db MEWTWO
@@ -156,7 +156,7 @@ AlphabeticalPokedexOrder:
 	db ONIX
 	db PYNEZANT
 	db PYNEBARRON
-	db PERSIAN
+	db MUCHYDRA
 	db PHANPY
 	db PICHU
 	db LARVANT

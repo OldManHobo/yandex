@@ -680,8 +680,8 @@ ScreamusEvosAttacks:
 	db 61, FISSURE
 	db 0 ; no more level-up moves
 
-MeowthEvosAttacks:
-	db EVOLVE_LEVEL, 28, PERSIAN
+MucuraEvosAttacks:
+	db EVOLVE_LEVEL, 28, MUCHYDRA
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
@@ -693,7 +693,7 @@ MeowthEvosAttacks:
 	db 46, SLASH
 	db 0 ; no more level-up moves
 
-PersianEvosAttacks:
+MuchydraEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL

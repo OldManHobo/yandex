@@ -53,8 +53,8 @@ IconPointers:
 	dw CuscoIcon
 	dw ScreamiIcon
 	dw ScreamusIcon
-	dw MeowthIcon
-	dw PersianIcon
+	dw MucuraIcon
+	dw MuchydraIcon
 	dw PsyduckIcon
 	dw GolduckIcon
 	dw MankeyIcon

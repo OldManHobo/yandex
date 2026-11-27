@@ -54,8 +54,8 @@ PokemonPicPointers::
 	dba_pics CuscoFrontpic, CuscoBackpic
 	dba_pics ScreamiFrontpic, ScreamiBackpic
 	dba_pics ScreamusFrontpic, ScreamusBackpic
-	dba_pics MeowthFrontpic, MeowthBackpic
-	dba_pics PersianFrontpic, PersianBackpic
+	dba_pics MucuraFrontpic, MucuraBackpic
+	dba_pics MuchydraFrontpic, MuchydraBackpic
 	dba_pics PsyduckFrontpic, PsyduckBackpic
 	dba_pics GolduckFrontpic, GolduckBackpic
 	dba_pics MankeyFrontpic, MankeyBackpic

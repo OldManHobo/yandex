@@ -76,7 +76,7 @@ Pokered_MonIndices:
 	db ARTICUNO
 	db ZAPDOS
 	db DITTO
-	db MEOWTH
+	db MUCURA
 	db KRABBY
 	db CORSOLA ; MISSINGNO.
 	db REMORAID ; MISSINGNO.
@@ -143,7 +143,7 @@ Pokered_MonIndices:
 	db ELECTRODE
 	db SELENAUT
 	db WEEZING
-	db PERSIAN
+	db MUCHYDRA
 	db MAROWAK
 	db HITMONTOP ; MISSINGNO.
 	db HAUNTER

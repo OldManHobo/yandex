@@ -123,8 +123,8 @@ INCBIN "gfx/footprints/bichano.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/cusco.1bpp",   footprint_top
 INCBIN "gfx/footprints/screami.1bpp",    footprint_top
 INCBIN "gfx/footprints/screamus.1bpp",    footprint_top
-INCBIN "gfx/footprints/meowth.1bpp",     footprint_top
-INCBIN "gfx/footprints/persian.1bpp",    footprint_top
+INCBIN "gfx/footprints/mucura.1bpp",     footprint_top
+INCBIN "gfx/footprints/muchydra.1bpp",    footprint_top
 INCBIN "gfx/footprints/psyduck.1bpp",    footprint_top
 INCBIN "gfx/footprints/golduck.1bpp",    footprint_top
 INCBIN "gfx/footprints/mankey.1bpp",     footprint_top
@@ -132,8 +132,8 @@ INCBIN "gfx/footprints/mankey.1bpp",     footprint_top
 INCBIN "gfx/footprints/cusco.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/screami.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/screamus.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/meowth.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/persian.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/mucura.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/muchydra.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/psyduck.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/golduck.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/mankey.1bpp",     footprint_bottom

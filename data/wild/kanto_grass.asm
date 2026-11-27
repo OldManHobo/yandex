@@ -302,7 +302,7 @@ def_grass_wildmons SCREAMIS_CAVE
 	db 14, ABRA
 	; nite
 	db 13, HOOTHOOT
-	db 13, MEOWTH
+	db 13, MUCURA
 	db 15, NOCTOWL
 	db 12, ABRA
 	db 14, MAULOSSAL
@@ -329,7 +329,7 @@ def_grass_wildmons SCREAMIS_CAVE
 	db 15, GRANBULL
 	db 15, GRANBULL
 	; nite
-	db 13, MEOWTH
+	db 13, MUCURA
 	db 13, DROWZEE
 	db 14, MAGNEMITE
 	db 15, PSYDUCK
@@ -357,10 +357,10 @@ def_grass_wildmons SCREAMIS_CAVE
 	db 16, ABRA
 	db 16, ABRA
 	; nite
-	db 17, MEOWTH
+	db 17, MUCURA
 	db 17, MURKROW
 	db 18, HOUNDOUR
-	db 18, PERSIAN
+	db 18, MUCHYDRA
 	db 18, MAULOSSAL
 	db 16, ABRA
 	db 16, ABRA
@@ -385,7 +385,7 @@ def_grass_wildmons SCREAMIS_CAVE
 	db 18, KADABRA
 	db 18, KADABRA
 	; nite
-	db 17, MEOWTH
+	db 17, MUCURA
 	db 20, NOCTOWL
 	db 16, ABRA
 	db 17, HAUNTER
@@ -470,7 +470,7 @@ def_grass_wildmons SCREAMIS_CAVE
 	db 16, HOPPIP
 	; nite
 	db 14, DROWZEE
-	db 13, MEOWTH
+	db 13, MUCURA
 	db 15, MAGNEMITE
 	db 16, NOCTOWL
 	db 16, RHINOCEREX

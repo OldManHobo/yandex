@@ -53,8 +53,8 @@ EvosAttacksPointers::
 	dw CuscoEvosAttacks
 	dw ScreamiEvosAttacks
 	dw ScreamusEvosAttacks
-	dw MeowthEvosAttacks
-	dw PersianEvosAttacks
+	dw MucuraEvosAttacks
+	dw MuchydraEvosAttacks
 	dw PsyduckEvosAttacks
 	dw GolduckEvosAttacks
 	dw MankeyEvosAttacks
